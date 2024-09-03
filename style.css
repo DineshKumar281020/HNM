@@ -1,0 +1,31 @@
+.head{
+  background-color: #ffc527;
+  color: black;
+}
+
+
+
+header .bi {
+  margin-right: 5px;
+}
+
+header span {
+  font-size: 14px;
+}
+
+header a:hover {
+  color: #ddd;
+}
+
+
+
+/* Navbar */
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
