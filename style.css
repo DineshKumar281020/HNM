@@ -204,6 +204,9 @@ header a:hover {
   background-color: #ffc527;
 }
 
+
+
+
 /*ABOUT US*/
 
 .installation-section {
@@ -259,10 +262,25 @@ header a:hover {
   border-radius: 8px;
   font-weight: bold;
 }
+
+.read-more-btn:hover{
+
+  background-color: #ffc527;
+  color: #000;
+
+
+}
+
 .contact-info {
   font-weight: bold;
   font-size: 1.2rem;
   margin-top: 20px;
+  display: inline;
+    padding-left: 40px;
+}
+
+.no:hover{
+  color: #ffc527;
 }
 
 .about-icon{
@@ -272,13 +290,112 @@ header a:hover {
 
 .about-icons{
   padding-top: 70px;
+  padding-left: 50px;
 }
 
 .read-about{
-  padding-top: 80px;
+  padding-top: 110px;
 }
 
-.read-about a:hover{
-  background-color: #ffc527;
-  color: #000;
+
+
+/*SERVICES*/
+
+.services-section {
+  background-color: aliceblue;
+  padding: 60px 0;
 }
+.services-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+.services-section p {
+  margin-bottom: 50px;
+  font-size: 16px;
+  color: #666;
+}
+.service-box {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.service-box:hover {
+  background-color: #ffc527;
+  color: white;
+  transform: scale(1.05);
+}
+.service-box:hover .service-icon {
+  background-color: white;
+  color: #fdd835;
+}
+.service-icon {
+  font-size: 40px;
+  background-color: #ffc527;
+  color: white;
+  border-radius: 50%;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.service-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.service-description {
+  font-size: 14px;
+  color: #666;
+}
+.action-buttons {
+  margin-top: 40px;
+  text-align: center;
+}
+
+/*PRODUCTS*/
+
+.sec-tit {
+  font-weight: bold;
+}
+
+.product-section {
+  padding: 60px 0;
+}
+
+.pro-card{
+  margin-top: 30px;
+}
+
+.product-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+.product-image {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+  height: 250px;
+}
+.product-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.product-desc {
+  font-size: 1rem;
+  color: #777;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
