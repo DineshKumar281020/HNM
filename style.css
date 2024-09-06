@@ -1,5 +1,5 @@
 .head{
-  background-color: #ffc527;
+  background-color: #6c774f;
   color: black;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .icons:hover{
-  color: #f3b201;
+  color: #99b086;
   
 }
 
@@ -92,7 +92,7 @@ header a:hover {
 }
 
 .navbar-logo img {
-  height: 40px;
+  height: 50px;
   margin-right: 10px;
 }
 
@@ -113,7 +113,7 @@ header a:hover {
 }
 
 .navbar-links a:hover{
-  color: #ffc527;
+  color: #99b086;
 }
 
 .navbar-right {
@@ -132,8 +132,8 @@ header a:hover {
 }
 
 .quote-btn {
-  background-color: #f3b201;
-  color: #000;
+  background-color: #6c774f;
+  color: #fff;
   border: none;
   padding: 10px 20px;
   font-size: 1rem;
@@ -181,8 +181,8 @@ header a:hover {
 }
 
 .btn-yellow {
-  background-color: #f3b201;
-  color: #000;
+  background-color: #6c774f;
+  color: #fff;
   border-radius: 25px;
 }
 
@@ -198,10 +198,12 @@ header a:hover {
 
 .btn-yellow:hover{
   background-color: #fff;
+  color: #000;
 }
 
 .btn-white:hover{
-  background-color: #ffc527;
+  background-color: #6c774f;
+  color: #fff;
 }
 
 
@@ -235,7 +237,7 @@ header a:hover {
   position: absolute;
   top: 10px;
   left: 10px;
-  background-color: #fdd835;
+  background-color: #99b086;
   color: #000;
   padding: 15px;
   border-radius: 8px;
@@ -265,10 +267,8 @@ header a:hover {
 
 .read-more-btn:hover{
 
-  background-color: #ffc527;
-  color: #000;
-
-
+  background-color: #6c774f;
+  color: #fff;
 }
 
 .contact-info {
@@ -280,7 +280,7 @@ header a:hover {
 }
 
 .no:hover{
-  color: #ffc527;
+  color: #99b086;
 }
 
 .about-icon{
@@ -298,17 +298,17 @@ header a:hover {
 }
 
 
-
 /*SERVICES*/
 
 .services-section {
-  background-color: aliceblue;
+  background-color: #eaefe6;
   padding: 60px 0;
 }
+
 .services-section h2 {
   font-size: 36px;
   margin-bottom: 20px;
-  color: #333;
+  color: #212529;
   font-weight: bold;
 }
 .services-section p {
@@ -316,6 +316,7 @@ header a:hover {
   font-size: 16px;
   color: #666;
 }
+
 .service-box {
   background-color: white;
   padding: 30px;
@@ -325,17 +326,18 @@ header a:hover {
   transition: all 0.3s ease;
 }
 .service-box:hover {
-  background-color: #ffc527;
+  background-color: #99b086;
   color: white;
   transform: scale(1.05);
 }
 .service-box:hover .service-icon {
   background-color: white;
-  color: #fdd835;
+  color: #6c774f;
 }
+
 .service-icon {
   font-size: 40px;
-  background-color: #ffc527;
+  background-color: #6c774f;
   color: white;
   border-radius: 50%;
   padding: 20px;
@@ -351,6 +353,7 @@ header a:hover {
   font-size: 14px;
   color: #666;
 }
+
 .action-buttons {
   margin-top: 40px;
   text-align: center;
@@ -360,6 +363,11 @@ header a:hover {
 
 .sec-tit {
   font-weight: bold;
+  color: #212529;
+}
+
+.section-subtitle{
+  color: #666;
 }
 
 .product-section {
@@ -379,6 +387,8 @@ header a:hover {
 
 .product-card:hover {
   transform: translateY(-10px);
+  background-color: #99b086;
+  color: #fff;
 }
 .product-image {
   width: 100%;
@@ -398,4 +408,103 @@ header a:hover {
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
+
+
+/*EXPORTS*/
+.exports-section {
+  background-color: #eaefe6;
+  padding: 70px 0;
+}
+
+.exports-title {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 50px;
+  
+}
+.export-card {
+  background-color: #fff;
+  border: none;
+  transition: transform 0.3s ease;
+}
+.export-card:hover {
+  transform: translateY(-10px);
+   background-color: #99b086;
+  color: #fff ; 
+}
+.country-flag {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #212529;
+}
+
+.card-text {
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.export-stats {
+  font-size: 18px;
+  font-weight: bold;
+  color: #212529;
+}
+
+/*FOOTER*/
+.footer {
+  background-color: #282828;
+  color: #fff;
+}
+.footer h5 {
+  color: #99b086;
+  margin-bottom: 20px;
+}
+.footer-logo {
+  width: 110px;
+  margin-right: 10px;
+}
+.footer p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #99b086;
+}
+.footer .store-icon {
+  width: 120px;
+  margin: 10px 5px;
+}
+.footer-bottom {
+  border-top: 1px solid #444;
+  padding-top: 20px;
+}
+.footer-bottom p {
+  margin: 0;
+  font-size: 13px;
+}
+.footer-bottom a {
+  color: #99b086;
+}
+.footer-bottom a:hover {
+  color: #fff;
+}
+
 
