@@ -425,7 +425,6 @@ header a:hover {
   
 }
 .export-card {
-  background-color: #fff;
   border: none;
   transition: transform 0.3s ease;
 }
@@ -450,7 +449,7 @@ header a:hover {
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 15px;
-  color: #212529;
+ 
 }
 
 .card-text {
