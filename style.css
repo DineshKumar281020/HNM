@@ -361,28 +361,34 @@ header a:hover {
 
 /*PRODUCTS*/
 
-.my-5 h2{
+.my-5 .head-title{
   font-size: 36px;
     text-align: center;
     color: #212529;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin: 0 0 25px;
+    
+}
+
+.col-md-4 .section-words{
+ margin: 20px 0; 
 }
 
 .product-card {
   border-radius: 10px;
   padding: 20px;
-  background-color: #f8f9fa;
+  margin: 0 25px;
+  background-color: #eaefe6;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   height: 15rem;
   width: 18rem;
 }
 .product-card img {
-  width: 100%;
-  height: auto;
-  max-width: 120px;
+  width: 250px;
+  height: 115px;
   margin: 0 auto;
   display: block;
+  padding-bottom: 3px;
 }
 .product-card .price {
   color: #ff0000;
@@ -390,16 +396,42 @@ header a:hover {
 }
 .product-card .discounted-price {
   font-weight: bold;
+  color: #666;
 }
 .section-title {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: bolder;
   margin-bottom: 15px;
+  margin-top: 25px;
 }
-.view-all-btn {
-  background-color: #ffc107;
-  color: #fff;
-  font-weight: bold;
+
+.section-para{
+  margin: 25px 0 30px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.img-name{
+  font-weight: 600;
+  
+}
+
+.product-card .icon-bar {
+  top: 10px;
+  right: 10px;
+}
+.product-card .icon-bar i {
+  font-size: 20px;
+  color: #000;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.icon-bar i:hover {
+  color: #6c774f;
+}
+
+.icon-bar .heart:hover{
+  color: red;
 }
 
 
@@ -454,6 +486,58 @@ header a:hover {
   font-weight: bold;
   color: #212529;
 }
+
+
+/*CONTACT US*/
+
+.contact-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+.contact-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.con{
+  margin-left: -150px;
+}
+
+
+
+.contact-section .form-control, 
+.contact-section .btn {
+  border-radius: 0;
+}
+.contact-section .quote-box {
+  background-color: #99b086;
+  padding: 40px;
+  border-radius: 10px;
+}
+.services-icons {
+  margin-top: 40px;
+}
+.services-icons .icon-box {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.services-icons .icon-box i {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.img-fluid{
+  width: 325px;
+    height: 450px;
+    transform: rotatey(180deg);
+    margin-left: 50px;
+}
+
+
 
 /*FOOTER*/
 .footer {
