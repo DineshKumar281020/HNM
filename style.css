@@ -487,6 +487,66 @@ header a:hover {
   color: #212529;
 }
 
+/*APPLICATIONS*/
+
+#applications {
+  position: relative;
+  color: white;
+}
+
+#applications .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+#applications .container {
+  position: relative;
+  z-index: 2;
+}
+
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 10px;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.3);
+}
+
+.card-img-top {
+  border-bottom: 5px solid #ffc107;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.btn-outline-light {
+  border: 2px solid white;
+  color: white;
+  padding: 0.6rem 1.5rem;
+}
+
+.btn-outline-light:hover {
+  background-color: white;
+  color: black;
+}
+
+.text-warning {
+  color: #ffc107 !important;
+}
+
+
 
 /*CONTACT US*/
 
