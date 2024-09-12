@@ -33,7 +33,7 @@
 
   <!-- Navbar Section -->
 
-  <nav class="navbar">
+  <nav class="navbar" id="navbar">
     <div class="navbar-container">
       <div class="navbar-logo">
 
@@ -113,7 +113,7 @@
 
 
   <!--ABOUT-->
-  <div class="container installation-section">
+  <div class="container installation-section" style="margin: 50px 100px;">
 
     <div class="about-head">
       <p>24/7 hassle-free</p>
@@ -143,7 +143,7 @@
           </div>
 
           <div class="col-md-3 d-flex align-items-center justify-content-center">
-            <div class="stats-box text-center bg-warning  p-4">
+            <div class="stats-box text-center p-4">
               <h2 class="pro">+560</h2>
               <p class="prod">Projects Done</p>
               <hr class="my-3">
@@ -266,56 +266,84 @@
 
   <!--PRODUCTS-->
 
-  <section class="products py-5">
+  <section class="product-section py-5">
     <div class="container">
-      <div class="row text-center mb-4">
-        <div class="col">
-          <h2 class="section-title">Ideal Solution For Time Consuming Problems</h2>
-          <p class="section-subtitle">Our Services</p>
+        <div class="text-center mb-5 pro-para">
+            <h3 class="text-uppercase ">Our Products</h3>
+            <h2 class="display-6 font-weight-bold">Ideal Solution For Time Consuming Problems</h2>
+            <p class="lead">Volutpat maecenas volutpat blandit aliquam etiam erat. Enim praesent elementum facilisis leo vel fringilla est.</p>
         </div>
-      </div>
-      <div class="row">
-        <!-- Product 1 -->
-        <div class="col-md-3">
-          <div class="product-card">
-            <img src="assets/Products/product1.jpg" alt="Window Carpentry" class="img-flow">
-            <h5 class="product-title">Window Carpentry</h5>
-            <p class="product-desc">Turpis nunc eget lorem dolor sed viverra ipsum. Pharetra sit amet aliquam id.</p>
-          </div>
+
+        <div class="row">
+            <!-- Window Carpentry Card -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card service-card">
+                    <img src="assets/Products/product1.jpg" class="card-img" alt="Window Carpentry">
+                    <div class="card-body text-center">
+                        <i class="fas fa-hammer fa-3x mb-3 "></i>
+                        <h5 class="card-title">Window Carpentry</h5>
+                        <p class="card-text">Turpis nunc eget lorem dolor sed viverra ipsum. Pharetra sit amet aliquam id diam neque.</p>
+                    </div>
+                    <div class="view-button text-center mb-3">
+                        <a href="#" class="read-more-btn">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cabinet Making Card -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card service-card">
+                    <img src="assets/Products/product2.jpg" class="card-img" alt="Cabinet Making">
+                    <div class="card-body text-center">
+                        <i class="fas fa-tools fa-3x mb-3 "></i>
+                        <h5 class="card-title">Cabinet Making</h5>
+                        <p class="card-text">Fermentum dui faucibus in ornare quam viverra orci. Metus aliquam eleifend mi.</p>
+                    </div>
+                    <div class="view-button text-center mb-3">
+                        <a href="#" class="read-more-btn">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Air Condition Installation Card -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card service-card">
+                    <img src="assets/Products/product3.jpg" class="card-img" alt="Air Condition Installation">
+                    <div class="card-body text-center">
+                        <i class="fas fa-fan fa-3x mb-3 "></i>
+                        <h5 class="card-title">Air Condition Installation</h5>
+                        <p class="card-text">Vel pharetra vel turpis nunc eget lorem. Tortor vitae purus faucibus ornare suspendisse sed.</p>
+                    </div>
+                    <div class="view-button text-center mb-3">
+                        <a href="#" class="read-more-btn">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sanitary Plumbing Card -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card service-card">
+                    <img src="assets/Products/product4.jpg" class="card-img" alt="Sanitary Plumbing">
+                    <div class="card-body text-center">
+                        <i class="fas fa-plug fa-3x mb-3 "></i>
+                        <h5 class="card-title">Sanitary Plumbing</h5>
+                        <p class="card-text">Risus feugiat in ante metus dictum at. Dignissim convallis aenean et tortor at quisque mauris.</p>
+                    </div>
+                    <div class="view-button text-center mb-3">
+                        <a href="#" class="read-more-btn">View</a>
+                    </div>
+                </div>
+                
+            </div>
         </div>
-        <!-- Product 2 -->
-        <div class="col-md-3">
-          <div class="product-card">
-            <img src="assets/Products/product2.jpg" alt="Cabinet Making" class="img-flow">
-            <h5 class="product-title">Cabinet Making</h5>
-            <p class="product-desc">Fermentum dui faucibus in ornare quam viverra orci. Metus aliquam eleifend mi.</p>
-          </div>
+
+        <!-- Call-to-Action Buttons -->
+        <div class="text-center mt-4">
+            <a href="#" class="read-more-btn me-3">View All Services</a>
+            <a href="#" class="read-more-btn">Get A Quote</a>
         </div>
-        <!-- Product 3 -->
-        <div class="col-md-3">
-          <div class="product-card">
-            <img src="assets/Products/product3.jpg" alt="Air Condition Installation" class="img-flow">
-            <h5 class="product-title">Air Condition Installation</h5>
-            <p class="product-desc">Vel pharetra vel turpis nunc eget lorem. Tincidunt purus fusce.</p>
-          </div>
-        </div>
-        <!-- Product 4 -->
-        <div class="col-md-3">
-          <div class="product-card">
-            <img src="assets/Products/product4.jpg" alt="Sanitary Plumbing" class="img-flow">
-            <h5 class="product-title">Sanitary Plumbing</h5>
-            <p class="product-desc">Risus feugiat in ante metus dictum at. Convallis aenean et tortor at.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row text-center mt-4">
-        <div class="col">
-          <a href="#" class="read-more-btn">View All Services</a>
-          <a href="#" class="read-more-btn">Get A Quote</a>
-        </div>
-      </div>
     </div>
-  </section>
+</section>
 
   <!--EXPORTS-->
 
@@ -505,7 +533,7 @@
 
   <!--QUALITY-->
 
-  <section id="quality" class="py-5 bg-white"></section>
+  <section id="quality" class="quality-section bg-white"></section>
   <div class="container">
     <!-- Section Header -->
     <div class="row justify-content-center text-center mb-5">
@@ -564,7 +592,7 @@
               quality rubber products.</p>
           </div>
           <div class="hover-overlay">
-            <img src="assets/Quality/quality1.jpg" alt="Facility" class="img-fluid">
+            <img src="assets/Quality/quality1.jpg" alt="Facility" class="img-fluid-img">
           </div>
         </div>
       </div>
@@ -577,7 +605,7 @@
               excellence.</p>
           </div>
           <div class="hover-overlay">
-            <img src="assets/Quality/quality2.jpg" alt="Team" class="img-fluid">
+            <img src="assets/Quality/quality2.jpg" alt="Team" class="img-fluid-img">
           </div>
         </div>
       </div>
@@ -753,6 +781,20 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
   <script>
+
+
+window.onscroll = function() {
+      var navbar = document.getElementById("navbar");
+      if (window.pageYOffset > 0) {
+        navbar.classList.add("fixed");
+      } else {
+        navbar.classList.remove("fixed");
+      }
+    };
+
+
+
+
     $(document).ready(function () {
       $(".owl-carousel").owlCarousel({
         items: 1,
