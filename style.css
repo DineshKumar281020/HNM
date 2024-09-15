@@ -4,7 +4,7 @@ body{
 
 .head{
   background-color: #6c774f;
-  color: black;
+  color: #fff;
 }
 
 .head-word{
@@ -17,7 +17,7 @@ body{
 }
 
 .icons{
-  color: #000;
+  color: #6c774f;
     background-color: white;
     height: 30px;
     width: 30px;
@@ -102,7 +102,7 @@ header a:hover {
   z-index: 99;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  margin: auto;
   color: #fff;
   
 }
@@ -233,6 +233,8 @@ header a:hover {
 
 /*ABOUT US*/
 
+
+
 .about-head p{
   color: #888;
     font-size: 0.9rem;
@@ -304,6 +306,8 @@ header a:hover {
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
+  margin-top: 10px;
+    display: inline-block;
 }
 
 .read-more-btn:hover{
@@ -732,7 +736,7 @@ p.lead {
 }
 
 .con{
-  margin-left: -150px;
+  padding-left: 40px;
 }
 
 
@@ -762,12 +766,7 @@ p.lead {
   margin-bottom: 10px;
 }
 
-.img-fluid{
-  width: 325px;
-    height: 450px;
-    transform: rotatey(180deg);
-    margin-left: 50px;
-}
+
 
 
 

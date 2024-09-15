@@ -17,9 +17,9 @@
 <body>
   <!-- Header Section -->
   <header class="head py-3">
-    <div class="container">
+    <div class="container-fluid">
       <div>
-        <span class="ms-3 head-word"><i class="fa-solid fa-square-envelope"></i> www.hnmrubber.com</span>
+        <span class=" head-word"><i class="fa-solid fa-square-envelope"></i> www.hnmrubber.com</span>
         <span class="ms-3 head-word"><i class="fa-solid fa-phone"></i> +91-9244402364</span>
         <div class="head-icon">
           <a href="#" class="ms-3"><i class="fa-brands fa-facebook icons "></i></a>
@@ -33,7 +33,7 @@
 
   <!-- Navbar Section -->
 
-  <nav class="navbar" id="navbar">
+  <nav class="navbar container-fluid" id="navbar">
     <div class="navbar-container">
       <div class="navbar-logo">
 
@@ -113,7 +113,7 @@
 
 
   <!--ABOUT-->
-  <div class="container installation-section" style="margin: 50px 100px;">
+  <div class="container installation-section" style="padding: 80px 0;">
 
     <div class="about-head">
       <p>24/7 hassle-free</p>
@@ -283,10 +283,11 @@
                         <i class="fas fa-hammer fa-3x mb-3 "></i>
                         <h5 class="card-title">Window Carpentry</h5>
                         <p class="card-text">Turpis nunc eget lorem dolor sed viverra ipsum. Pharetra sit amet aliquam id diam neque.</p>
+                        <div class="view-button text-center mb-3">
+                          <a href="#" class="read-more-btn">View</a>
+                      </div>
                     </div>
-                    <div class="view-button text-center mb-3">
-                        <a href="#" class="read-more-btn">View</a>
-                    </div>
+                    
                 </div>
             </div>
 
@@ -298,10 +299,11 @@
                         <i class="fas fa-tools fa-3x mb-3 "></i>
                         <h5 class="card-title">Cabinet Making</h5>
                         <p class="card-text">Fermentum dui faucibus in ornare quam viverra orci. Metus aliquam eleifend mi.</p>
+                        <div class="view-button text-center mb-3">
+                          <a href="#" class="read-more-btn">View</a>
+                      </div>
                     </div>
-                    <div class="view-button text-center mb-3">
-                        <a href="#" class="read-more-btn">View</a>
-                    </div>
+                    
                 </div>
             </div>
 
@@ -313,10 +315,11 @@
                         <i class="fas fa-fan fa-3x mb-3 "></i>
                         <h5 class="card-title">Air Condition Installation</h5>
                         <p class="card-text">Vel pharetra vel turpis nunc eget lorem. Tortor vitae purus faucibus ornare suspendisse sed.</p>
+                        <div class="view-button text-center mb-3">
+                          <a href="#" class="read-more-btn">View</a>
+                      </div>
                     </div>
-                    <div class="view-button text-center mb-3">
-                        <a href="#" class="read-more-btn">View</a>
-                    </div>
+                    
                 </div>
             </div>
 
@@ -328,10 +331,11 @@
                         <i class="fas fa-plug fa-3x mb-3 "></i>
                         <h5 class="card-title">Sanitary Plumbing</h5>
                         <p class="card-text">Risus feugiat in ante metus dictum at. Dignissim convallis aenean et tortor at quisque mauris.</p>
+                        <div class="view-button text-center mb-3">
+                          <a href="#" class="read-more-btn">View</a>
+                      </div>
                     </div>
-                    <div class="view-button text-center mb-3">
-                        <a href="#" class="read-more-btn">View</a>
-                    </div>
+                    
                 </div>
                 
             </div>
@@ -630,25 +634,31 @@
 
   <section class="contact-section">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <img src="assets/contactus.png" alt="Worker Image" class="img-fluid">
-        </div>
-        <div class="col-md-6 con">
+      <div class="row">
+        <div class="col-md-12">
           <h2>Contact Us</h2>
           <p>For free estimate</p>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          
+          <img src="assets/Contact-Us.webp" alt="Worker Image" class="img-fluid">
+        </div>
+        <div class="col-md-6 con">
+          
           <form>
             <div class="row">
-              <div class="col-md-4 mb-3">
+              <div class="col-md-12 mb-3">
                 <input type="text" class="form-control" placeholder="Your Name" required>
               </div>
-              <div class="col-md-4 mb-3">
+              <div class="col-md-12 mb-3">
                 <input type="email" class="form-control" placeholder="Email ID" required>
               </div>
-              <div class="col-md-4 mb-3">
+              <div class="col-md-12 mb-3">
                 <input type="text" class="form-control" placeholder="Office Address" required>
               </div>
-              <div class="col-md-4 mb-3">
+              <div class="col-md-12 mb-3">
                 <select class="form-control" required>
                   <option value="" class="form-control-types">Select Your Work Type</option>
                   <option value="Type1" class="form-control-types">Type 1</option>
@@ -657,10 +667,10 @@
                   <option value="Type4" class="form-control-types">Type 4</option>
                 </select>
               </div>
-              <div class="col-md-4 mb-3">
+              <div class="col-md-12 mb-3">
                 <input type="date" class="form-control" required>
               </div>
-              <div class="col-md-4 mb-3">
+              <div class="col-md-12 mb-3">
                 <button type="submit" class="btn btn-success w-100">Get Estimate Quote</button>
               </div>
             </div>
