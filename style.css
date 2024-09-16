@@ -751,20 +751,80 @@ p.lead {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.services-icons {
-  margin-top: 40px;
+
+/* Service Card Styling */
+.service-card-contact {
+  background: linear-gradient(135deg, #99b086, #6c774f);
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s ease-in-out;
 }
-.services-icons .icon-box {
-  text-align: center;
+
+.service-card-contact:hover {
+  background: linear-gradient(135deg, #6c774f, #99b086);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+  transform: translateY(-10px);
+}
+
+.service-card-contact .icon i {
+  color: white;
+  transition: color 0.4s ease;
+}
+
+.service-card-contact:hover .icon i {
+  color: green;
+}
+
+.service-card-contact h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.service-card-contact p {
+  font-size: 1rem;
+  color: #f1f1f1;
+  margin-bottom: 0;
+}
+
+/* Why We Are Best Styling */
+.why-best-card {
+  background-color: #f5f7fa;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  transition: all 0.4s ease-in-out;
+}
+
+.why-best-card:hover {
+  background-color: #eaefe6;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.why-best-card h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.why-best-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.contact-frame{
+  padding-top: 60px;
+}
+
+/* Icon Styling */
+.icon {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
   padding: 20px;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  display: inline-block;
 }
-.services-icons .icon-box i {
-  font-size: 40px;
-  margin-bottom: 10px;
-}
+
 
 
 
