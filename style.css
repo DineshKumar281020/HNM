@@ -230,6 +230,13 @@ header a:hover {
   color: #fff;
 }
 
+.navbar-toggler{
+  background-color:#fff ;
+}
+
+.navbar-toggler:hover{
+  background-color: #99b086;
+}
 
 /*ABOUT US*/
 
@@ -358,7 +365,6 @@ header a:hover {
 
 .services-section h2 {
   font-size: 36px;
-  margin-bottom: 20px;
   color: #212529;
   font-weight: bold;
 }
@@ -406,8 +412,6 @@ header a:hover {
   font-size: 16px;
   
 }
-
-
 
 .action-buttons {
   margin-top: 40px;
@@ -848,4 +852,817 @@ select{
 .footer .fa-paper-plane{
   color: #fff;
 }
+
+/*MEDIA QUERRIES*/
+
+/* Media queries for tablets (768px and below) */
+@media (max-width: 768px) {
+  .head {
+    background-color: #6c774f;
+    color: #fff;
+    text-align: center; /* Aligns text center for smaller screens */
+  }
+
+  .head-word {
+    font-size: 15px; /* Adjust font size for smaller screens */
+  }
+
+  .head-icon {
+    float: none;
+    font-size: 16px;
+  }
+
+  .icons {
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+  }
+
+  header span {
+    font-size: 12px;
+  }
+}
+
+/* Media queries for small laptops (992px and below) */
+
+/*HEADER*/
+
+@media (max-width: 992px) {
+  .head-word {
+    font-size: 16px; /* Adjust font size */
+  }
+
+  .head-icon {
+    font-size: 17px; /* Slightly smaller icon size */
+  }
+
+  .icons {
+    height: 28px;
+    width: 28px;
+    padding: 5px;
+  }
+
+  header span {
+    font-size: 13px;
+  }
+}
+
+/* Media queries for large screens (1200px and below) */
+@media (max-width: 1200px) {
+  .head-word {
+    font-size: 16px;
+  }
+
+  .head-icon {
+    font-size: 17px;
+  }
+
+  .icons {
+    height: 28px;
+    width: 28px;
+  }
+
+  header span {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 576px) {
+  .head {
+    background-color: #6c774f;
+    color: #fff;
+    text-align: center; /* Ensures content is centered on smaller screens */
+  }
+
+  .head-word {
+    font-size: 14px; /* Reducing font size for smaller screens */
+  }
+
+  .head-icon {
+    float: none;
+    font-size: 16px;
+    margin-top: 10px; /* Adds spacing for better layout */
+  }
+
+  .icons {
+    height: 25px;
+    width: 25px;
+    padding: 4px 3px;
+  }
+
+  .icons:hover {
+    color: #99b086;
+  }
+
+  header .bi {
+    margin-right: 2px;
+  }
+
+  header span {
+    font-size: 12px; /* Adjusting the text size for readability */
+  }
+
+  header a:hover {
+    color: black;
+  }
+}
+
+/*NAVBAR*/
+
+
+/* Media queries for large screens (1200px and below) */
+@media (max-width: 1200px) {
+  .content h2 {
+    font-size: 2.5rem; /* Reduce heading size */
+  }
+
+  .content p {
+    font-size: 1.1rem; /* Adjust paragraph text size */
+  }
+
+  .owl-content {
+    padding: 200px 0 180px 20px; /* Adjust padding */
+  }
+
+  .quote-btn {
+    padding: 8px 18px; /* Smaller button */
+    font-size: 0.9rem;
+  }
+}
+
+/* Media queries for small laptops (992px and below) */
+@media (max-width: 992px) {
+  .content h2 {
+    font-size: 2rem; /* Further reduce heading size */
+  }
+
+  .content p {
+    font-size: 1rem; /* Reduce paragraph text size */
+  }
+
+  .owl-content {
+    padding: 150px 0 150px 20px; /* Adjust padding */
+  }
+
+  .quote-btn {
+    padding: 7px 16px;
+    font-size: 0.9rem;
+  }
+
+  .navbar-logo img {
+    height: 40px; /* Reduce logo size */
+  }
+
+  .navbar-container {
+    height: 45px; /* Adjust navbar height */
+  }
+}
+
+/* Media queries for tablets (768px and below) */
+@media (max-width: 768px) {
+  .content {
+    padding: 150px 20px 100px 20px; /* Adjust padding */
+    text-align: center; /* Center align content */
+  }
+
+  .content h2 {
+    font-size: 1.8rem; /* Smaller heading */
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+
+  .btn-yellow, .btn-white {
+    padding: 8px 16px;
+    font-size: 0.9rem; /* Adjust button size */
+  }
+
+  .navbar-links {
+    display: none; /* Hide navbar links on smaller screens */
+  }
+
+  .navbar-logo img {
+    height: 35px; /* Adjust logo size */
+  }
+
+  .quote-btn {
+    padding: 6px 14px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Media queries for mobile screens (576px and below) */
+@media (max-width: 576px) {
+  .content {
+    padding: 120px 10px 80px 10px; /* Adjust padding */
+  }
+
+  .content h2 {
+    font-size: 1.5rem; /* Smaller heading */
+  }
+
+  .content p {
+    font-size: 0.9rem; /* Smaller paragraph text */
+  }
+
+  .btn-yellow, .btn-white {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+
+  .navbar-logo img {
+    height: 30px; /* Adjust logo size */
+  }
+
+  .quote-btn {
+    padding: 5px 12px;
+    font-size: 0.7rem; /* Smaller button */
+  }
+}
+
+/*ABOUT US*/
+
+/* Media queries for large screens (1200px and below) */
+@media (max-width: 1200px) {
+  .about-head h2 {
+    font-size: 2rem; /* Adjust heading size */
+  }
+
+  .stats-box {
+    margin: -20rem -15rem 0px 0; /* Adjust margins */
+  }
+
+  .stats-box h2 {
+    font-size: 40px; /* Adjust font size */
+  }
+
+  .stats-box p {
+    font-size: 14px; /* Adjust font size */
+  }
+
+  .img-fl, .img-flu, .img-flui {
+    width: 250px; /* Adjust image width */
+    height: auto; /* Adjust height */
+  }
+
+  .img-fl {
+    margin: 5rem 0 0 -30px; /* Adjust margins */
+  }
+
+  .img-flu {
+    margin: 0 0 0 100px; /* Adjust margins */
+  }
+
+  .img-flui {
+    margin: -10rem 0 0 60px; /* Adjust margins */
+  }
+
+  .info-list {
+    font-size: 1rem; /* Adjust font size */
+    margin-right: 20px;
+  }
+
+  .read-more-btn {
+    padding: 8px 16px; /* Adjust padding */
+    font-size: 0.9rem; /* Adjust font size */
+  }
+
+  .contact-info {
+    font-size: 1rem; /* Adjust font size */
+    padding-left: 10px; /* Adjust padding */
+  }
+
+  .about-icons {
+    padding-top: 50px; /* Adjust padding */
+    padding-left: 30px; /* Adjust padding */
+  }
+
+  .read-about {
+    padding-top: 80px; /* Adjust padding */
+  }
+}
+
+/* Media queries for small laptops (992px and below) */
+@media (max-width: 992px) {
+  .about-head h2 {
+    font-size: 1.8rem; /* Adjust heading size */
+  }
+
+  .stats-box {
+    margin: -15rem -10rem 0px 0; /* Adjust margins */
+  }
+
+  .stats-box h2 {
+    font-size: 35px; /* Adjust font size */
+  }
+
+  .stats-box p {
+    font-size: 13px; /* Adjust font size */
+  }
+
+  .img-fl, .img-flu, .img-flui {
+    width: 200px; /* Adjust image width */
+    height: auto; /* Adjust height */
+  }
+
+  .img-fl {
+    margin: 4rem 0 0 -20px; /* Adjust margins */
+  }
+
+  .img-flu {
+    margin: 0 0 0 80px; /* Adjust margins */
+  }
+
+  .img-flui {
+    margin: -8rem 0 0 40px; /* Adjust margins */
+  }
+
+  .info-list {
+    font-size: 0.9rem; /* Adjust font size */
+  }
+
+  .read-more-btn {
+    padding: 6px 14px; /* Adjust padding */
+    font-size: 0.8rem; /* Adjust font size */
+  }
+
+  .contact-info {
+    font-size: 0.9rem; /* Adjust font size */
+    padding-left: 10px; /* Adjust padding */
+  }
+
+  .about-icons {
+    padding-top: 40px; /* Adjust padding */
+    padding-left: 20px; /* Adjust padding */
+  }
+
+  .read-about {
+    padding-top: 60px; /* Adjust padding */
+  }
+}
+
+/* Media queries for tablets (768px and below) */
+@media (max-width: 768px) {
+  .about-head p {
+    font-size: 0.8rem; /* Adjust font size */
+  }
+
+  .about-head h2 {
+    font-size: 1.5rem; /* Adjust heading size */
+  }
+
+  .stats-box {
+    margin: -10rem -5rem 0px 0; /* Adjust margins */
+    padding: 10px; /* Add padding */
+  }
+
+  .stats-box h2 {
+    font-size: 30px; /* Adjust font size */
+  }
+
+  .stats-box p {
+    font-size: 12px; /* Adjust font size */
+  }
+
+  .img-fl, .img-flu, .img-flui {
+    width: 100%; /* Full width images */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .img-fl, .img-flu, .img-flui {
+    margin: 0; /* Remove margins */
+  }
+
+  .info-list {
+    font-size: 0.9rem; /* Adjust font size */
+  }
+
+  .read-more-btn {
+    padding: 6px 12px; /* Adjust padding */
+    font-size: 0.8rem; /* Adjust font size */
+  }
+
+  .contact-info {
+    font-size: 0.8rem; /* Adjust font size */
+    padding-left: 0; /* Remove padding */
+  }
+
+  .about-icons {
+    padding-top: 20px; /* Adjust padding */
+    padding-left: 10px; /* Adjust padding */
+  }
+
+  .read-about {
+    padding-top: 40px; /* Adjust padding */
+  }
+}
+
+/* Media queries for mobile screens (576px and below) */
+@media (max-width: 576px) {
+  .about-head p {
+    font-size: 0.7rem; /* Adjust font size */
+  }
+
+  .about-head h2 {
+    font-size: 1.2rem; /* Adjust heading size */
+  }
+
+  .stats-box {
+    margin: -8rem 0 0 0; /* Adjust margins */
+    padding: 10px; /* Add padding */
+  }
+
+  .stats-box h2 {
+    font-size: 25px; /* Adjust font size */
+  }
+
+  .stats-box p {
+    font-size: 11px; /* Adjust font size */
+  }
+
+  .img-fl, .img-flu, .img-flui {
+    width: 100%; /* Full width images */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .img-fl, .img-flu, .img-flui {
+    margin: 0; /* Remove margins */
+  }
+
+  .info-list {
+    font-size: 0.8rem; /* Adjust font size */
+  }
+
+  .read-more-btn {
+    padding: 5px 10px; /* Adjust padding */
+    font-size: 0.7rem; /* Adjust font size */
+  }
+
+  .contact-info {
+    font-size: 0.7rem; /* Adjust font size */
+    padding-left: 0; /* Remove padding */
+  }
+
+  .about-icons {
+    padding-top: 10px; /* Adjust padding */
+    padding-left: 5px; /* Adjust padding */
+  }
+
+  .read-about {
+    padding-top: 20px; /* Adjust padding */
+  }
+}
+
+/*SERVICES*/
+
+/* Media queries for large screens (1200px and below) */
+@media (max-width: 1200px) {
+  .services-section h2 {
+    font-size: 32px; /* Adjust heading size */
+  }
+
+  .services-section p {
+    margin-bottom: 40px; /* Adjust bottom margin */
+  }
+
+  .service-box {
+    padding: 25px; /* Adjust padding */
+  }
+
+  .service-icon {
+    font-size: 35px; /* Adjust icon size */
+    height: 90px;
+    width: 90px;
+  }
+
+  .service-title {
+    font-size: 18px; /* Adjust title size */
+  }
+
+  .service-description {
+    font-size: 14px; /* Adjust description size */
+  }
+}
+
+/* Media queries for small laptops (992px and below) */
+@media (max-width: 992px) {
+  .services-section h2 {
+    font-size: 28px; /* Adjust heading size */
+  }
+
+  .services-section p {
+    margin-bottom: 30px; /* Adjust bottom margin */
+  }
+
+  .service-box {
+    padding: 20px; /* Adjust padding */
+  }
+
+  .service-icon {
+    font-size: 30px; /* Adjust icon size */
+    height: 80px;
+    width: 80px;
+  }
+
+  .service-title {
+    font-size: 16px; /* Adjust title size */
+  }
+
+  .service-description {
+    font-size: 13px; /* Adjust description size */
+  }
+}
+
+/* Media queries for tablets (768px and below) */
+@media (max-width: 768px) {
+  .services-section {
+    padding: 40px 0; /* Adjust padding */
+  }
+
+  .services-section h2 {
+    font-size: 24px; /* Adjust heading size */
+  }
+
+  .services-section p {
+    margin-bottom: 20px; /* Adjust bottom margin */
+  }
+
+  .service-box {
+    padding: 15px; /* Adjust padding */
+  }
+
+  .service-icon {
+    font-size: 25px; /* Adjust icon size */
+    padding: 13px 0 0 0;
+    height: 60px;
+    width: 60px;
+  }
+
+  .service-title {
+    font-size: 14px; /* Adjust title size */
+  }
+
+  .service-description {
+    font-size: 12px; /* Adjust description size */
+  }
+
+  .action-buttons {
+    margin-top: 30px; /* Adjust margin */
+  }
+}
+
+/* Media queries for mobile screens (576px and below) */
+@media (max-width: 576px) {
+  .services-section {
+    padding: 20px 0; /* Adjust padding */
+    max-width: 100%;
+  }
+
+  .services-section h2 {
+    font-size: 20px; /* Adjust heading size */
+    text-align: center; /* Center align heading */
+  }
+
+  .services-section p {
+    margin-bottom: 15px; /* Adjust bottom margin */
+    text-align: center; /* Center align paragraph */
+  }
+
+  .service-box {
+    padding: 10px; /* Adjust padding */
+  }
+
+  .service-icon {
+    font-size: 20px; /* Adjust icon size */
+    height: 50px;
+    width: 50px;
+  }
+
+  .service-title {
+    font-size: 12px; /* Adjust title size */
+  }
+
+  .service-description {
+    font-size: 10px; /* Adjust description size */
+  }
+
+  .action-buttons {
+    margin-top: 20px; /* Adjust margin */
+  }
+}
+
+/*PRODUCTS*/
+
+/* Media queries for large screens (1200px and below) */
+@media (max-width: 1200px) {
+  .service-card img {
+    height: 250px; /* Adjust image height */
+  }
+
+  .pro-box {
+    width: 300px; /* Adjust box width */
+  }
+
+  .card-title {
+    font-size: 16px; /* Adjust title size */
+  }
+
+  .card-text {
+    font-size: 14px; /* Adjust text size */
+  }
+
+  .pro-para h2 {
+    font-size: 30px;
+  }
+  
+  p.lead {
+    font-size: 16px;
+  }
+}
+
+/* Media queries for small laptops (992px and below) */
+@media (max-width: 992px) {
+  .service-card img {
+    height: 220px; /* Adjust image height */
+  }
+
+  .pro-box {
+    width: 280px; /* Adjust box width */
+  }
+
+  .card-title {
+    font-size: 15px; /* Adjust title size */
+  }
+
+  .card-text {
+    font-size: 13px; /* Adjust text size */
+  }
+
+  .pro-para h2 {
+    font-size: 25px;
+  }
+  
+  p.lead {
+    font-size: 14px;
+  }
+}
+
+/* Media queries for tablets (768px and below) */
+@media (max-width: 768px) {
+  .product-section {
+    padding: 40px 0; /* Adjust padding */
+  }
+
+  .pro-para h2 {
+    font-size: 20px; /* Adjust heading size */
+  }
+
+  p.lead{
+    font-size: 12px;
+  }
+
+  .service-card img {
+    height: 200px; /* Adjust image height */
+  }
+
+  .pro-box {
+    width: 260px; /* Adjust box width */
+  }
+
+  .card-title {
+    font-size: 14px; /* Adjust title size */
+  }
+
+  .card-text {
+    font-size: 12px; /* Adjust text size */
+  }
+}
+
+/* Media queries for mobile screens (576px and below) */
+@media (max-width: 576px) {
+  .product-section {
+    padding: 20px 0; /* Adjust padding */
+  }
+
+  .pro-para h2 {
+    font-size: 12px; /* Adjust heading size */
+    text-align: center; /* Center heading */
+  }
+
+  p.lead{
+    font-size: 10px;
+  }
+
+  .service-card img {
+    height: 180px; /* Adjust image height */
+  }
+
+  .pro-box {
+    width: 100%; /* Full width for mobile */
+    padding: 0 10px; /* Adjust padding */
+  }
+
+  .card-title {
+    font-size: 13px; /* Adjust title size */
+  }
+
+  .card-text {
+    font-size: 11px; /* Adjust text size */
+  }
+}
+
+/*EXPORTS*/
+
+/* Media queries for large screens (1200px and below) */
+@media (max-width: 1200px) {
+  .exports-title {
+    font-size: 36px; /* Adjust title size */
+  }
+
+  .country-flag {
+    height: 160px; /* Adjust flag image height */
+  }
+
+  .card-title {
+    font-size: 20px; /* Adjust card title size */
+  }
+
+  .export-stats {
+    font-size: 16px; /* Adjust stats font size */
+  }
+}
+
+/* Media queries for small laptops (992px and below) */
+@media (max-width: 992px) {
+  .exports-title {
+    font-size: 32px; /* Adjust title size */
+  }
+
+  .country-flag {
+    height: 140px; /* Adjust flag image height */
+  }
+
+  .card-title {
+    font-size: 18px; /* Adjust card title size */
+  }
+
+  .export-stats {
+    font-size: 15px; /* Adjust stats font size */
+  }
+}
+
+/* Media queries for tablets (768px and below) */
+@media (max-width: 768px) {
+  .exports-section {
+    padding: 50px 0; /* Adjust padding */
+  }
+
+  .exports-title {
+    font-size: 28px; /* Adjust title size */
+  }
+
+  .country-flag {
+    height: 120px; /* Adjust flag image height */
+  }
+
+  .card-title {
+    font-size: 16px; /* Adjust card title size */
+  }
+
+  .export-stats {
+    font-size: 14px; /* Adjust stats font size */
+  }
+}
+
+/* Media queries for mobile screens (576px and below) */
+@media (max-width: 576px) {
+  .exports-section {
+    padding: 30px 0; /* Adjust padding */
+  }
+
+  .exports-title {
+    font-size: 24px; /* Adjust title size */
+    text-align: center; /* Center align title */
+  }
+
+  .country-flag {
+    height: 100px; /* Adjust flag image height */
+  }
+
+  .card-body {
+    padding: 15px; /* Adjust card body padding */
+  }
+
+  .card-title {
+    font-size: 14px; /* Adjust card title size */
+  }
+
+  .export-stats {
+    font-size: 12px; /* Adjust stats font size */
+  }
+}
+
+
+
 
