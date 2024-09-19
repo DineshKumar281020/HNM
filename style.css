@@ -364,7 +364,7 @@ header a:hover {
 }
 
 .services-section h2 {
-  font-size: 36px;
+  font-size: 40px;
   color: #212529;
   font-weight: bold;
 }
@@ -419,6 +419,11 @@ header a:hover {
 }
 
 /*PRODUCTS*/
+
+.pro-title{
+  font-size: 40px;
+  font-weight: bold;
+}
 
 .product-section {
   background-color: #99b086;
@@ -485,7 +490,7 @@ p.lead {
 .exports-title {
   font-size: 40px;
   text-align: center;
-  font-weight: 700;
+  font-weight: bold;
   margin-bottom: 50px;
   
 }
@@ -532,6 +537,17 @@ p.lead {
 #applications {
   position: relative;
   color: white;
+}
+
+.app-head{
+
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+.app-sub{
+  font-size: 20px;
 }
 
 #applications .overlay {
@@ -595,7 +611,7 @@ p.lead {
 }
 
 .timeline-title h2{
-  font-weight: 700;
+  font-weight: bold;
   font-size: 2.5rem;
 }
 
@@ -691,7 +707,7 @@ p.lead {
   padding: 60px 0;
 }
 .contact-section h2 {
-  font-size: 36px;
+  font-size: 40px;
  font-weight: bold;
 }
 
@@ -860,12 +876,12 @@ select{
   .head {
     background-color: #6c774f;
     color: #fff;
-    text-align: center; /* Aligns text center for smaller screens */
+    text-align: center; 
   }
 
   .head-word {
-    font-size: 15px; /* Adjust font size for smaller screens */
-  }
+    font-size: 15px; 
+    }
 
   .head-icon {
     float: none;
@@ -889,11 +905,11 @@ select{
 
 @media (max-width: 992px) {
   .head-word {
-    font-size: 16px; /* Adjust font size */
+    font-size: 16px; 
   }
 
   .head-icon {
-    font-size: 17px; /* Slightly smaller icon size */
+    font-size: 17px; 
   }
 
   .icons {
@@ -931,17 +947,17 @@ select{
   .head {
     background-color: #6c774f;
     color: #fff;
-    text-align: center; /* Ensures content is centered on smaller screens */
+    text-align: center; 
   }
 
   .head-word {
-    font-size: 14px; /* Reducing font size for smaller screens */
+    font-size: 14px; 
   }
 
   .head-icon {
     float: none;
     font-size: 16px;
-    margin-top: 10px; /* Adds spacing for better layout */
+    margin-top: 10px; 
   }
 
   .icons {
@@ -959,7 +975,7 @@ select{
   }
 
   header span {
-    font-size: 12px; /* Adjusting the text size for readability */
+    font-size: 12px; 
   }
 
   header a:hover {
@@ -973,19 +989,19 @@ select{
 /* Media queries for large screens (1200px and below) */
 @media (max-width: 1200px) {
   .content h2 {
-    font-size: 2.5rem; /* Reduce heading size */
+    font-size: 2.5rem; 
   }
 
   .content p {
-    font-size: 1.1rem; /* Adjust paragraph text size */
+    font-size: 1.1rem; 
   }
 
   .owl-content {
-    padding: 200px 0 180px 20px; /* Adjust padding */
+    padding: 200px 0 180px 20px; 
   }
 
   .quote-btn {
-    padding: 8px 18px; /* Smaller button */
+    padding: 8px 18px; 
     font-size: 0.9rem;
   }
 }
@@ -993,15 +1009,15 @@ select{
 /* Media queries for small laptops (992px and below) */
 @media (max-width: 992px) {
   .content h2 {
-    font-size: 2rem; /* Further reduce heading size */
+    font-size: 2rem; 
   }
 
   .content p {
-    font-size: 1rem; /* Reduce paragraph text size */
+    font-size: 1rem; 
   }
 
   .owl-content {
-    padding: 150px 0 150px 20px; /* Adjust padding */
+    padding: 150px 0 150px 20px; 
   }
 
   .quote-btn {
@@ -1010,23 +1026,23 @@ select{
   }
 
   .navbar-logo img {
-    height: 40px; /* Reduce logo size */
+    height: 40px; 
   }
 
   .navbar-container {
-    height: 45px; /* Adjust navbar height */
+    height: 45px; 
   }
 }
 
 /* Media queries for tablets (768px and below) */
 @media (max-width: 768px) {
   .content {
-    padding: 150px 20px 100px 20px; /* Adjust padding */
-    text-align: center; /* Center align content */
+    padding: 150px 20px 100px 20px; 
+    text-align: center; 
   }
 
   .content h2 {
-    font-size: 1.8rem; /* Smaller heading */
+    font-size: 1.8rem; 
   }
 
   .content p {
@@ -1035,15 +1051,15 @@ select{
 
   .btn-yellow, .btn-white {
     padding: 8px 16px;
-    font-size: 0.9rem; /* Adjust button size */
+    font-size: 0.9rem; 
   }
 
   .navbar-links {
-    display: none; /* Hide navbar links on smaller screens */
+    display: none; 
   }
 
   .navbar-logo img {
-    height: 35px; /* Adjust logo size */
+    height: 35px; 
   }
 
   .quote-btn {
@@ -1055,15 +1071,15 @@ select{
 /* Media queries for mobile screens (576px and below) */
 @media (max-width: 576px) {
   .content {
-    padding: 120px 10px 80px 10px; /* Adjust padding */
+    padding: 120px 10px 80px 10px; 
   }
 
   .content h2 {
-    font-size: 1.5rem; /* Smaller heading */
+    font-size: 1.5rem; 
   }
 
   .content p {
-    font-size: 0.9rem; /* Smaller paragraph text */
+    font-size: 0.9rem; 
   }
 
   .btn-yellow, .btn-white {
@@ -1072,12 +1088,12 @@ select{
   }
 
   .navbar-logo img {
-    height: 30px; /* Adjust logo size */
+    height: 30px; 
   }
 
   .quote-btn {
     padding: 5px 12px;
-    font-size: 0.7rem; /* Smaller button */
+    font-size: 0.7rem; 
   }
 }
 
@@ -1086,24 +1102,24 @@ select{
 /* Media queries for large screens (1200px and below) */
 @media (max-width: 1200px) {
   .about-head h2 {
-    font-size: 2rem; /* Adjust heading size */
+    font-size: 2rem; 
   }
 
   .stats-box {
-    margin: -20rem -15rem 0px 0; /* Adjust margins */
+    margin: -20rem -15rem 0px 0; 
   }
 
   .stats-box h2 {
-    font-size: 40px; /* Adjust font size */
+    font-size: 40px; 
   }
 
   .stats-box p {
-    font-size: 14px; /* Adjust font size */
+    font-size: 14px; 
   }
 
   .img-fl, .img-flu, .img-flui {
-    width: 250px; /* Adjust image width */
-    height: auto; /* Adjust height */
+    width: 250px; 
+    height: auto; 
   }
 
   .img-fl {
@@ -1488,7 +1504,8 @@ select{
   }
 
   .pro-box {
-    width: 280px; /* Adjust box width */
+    
+    margin-left: 35px;
   }
 
   .card-title {
@@ -1662,6 +1679,540 @@ select{
     font-size: 12px; /* Adjust stats font size */
   }
 }
+
+
+/*APPLICATIONS*/
+
+/* Media queries for large screens (1200px and below) */
+@media (max-width: 1200px) {
+  .app-head {
+    font-size: 36px; /* Adjust heading size */
+  }
+
+  .app-sub {
+    font-size: 18px; /* Adjust subtitle size */
+  }
+
+  .card-img-top {
+    height: 200px; /* Adjust image height */
+  }
+
+  .card-title {
+    font-size: 1.2rem; /* Adjust title size */
+  }
+
+  .btn-outline-light {
+    padding: 0.5rem 1.3rem; /* Adjust button padding */
+  }
+}
+
+/* Media queries for small laptops (992px and below) */
+@media (max-width: 992px) {
+  .app-head {
+    font-size: 32px; /* Adjust heading size */
+  }
+
+  .app-sub {
+    font-size: 16px; /* Adjust subtitle size */
+  }
+
+  .card-img-top {
+    height: 180px; /* Adjust image height */
+  }
+
+  .card-title {
+    font-size: 1.1rem; /* Adjust title size */
+  }
+
+  .btn-outline-light {
+    padding: 0.5rem 1.2rem; /* Adjust button padding */
+  }
+}
+
+/* Media queries for tablets (768px and below) */
+@media (max-width: 768px) {
+  .app-head {
+    font-size: 28px; /* Adjust heading size */
+  }
+
+  .app-sub {
+    font-size: 16px; /* Adjust subtitle size */
+  }
+
+  .card-img-top {
+    height: 160px; /* Adjust image height */
+  }
+
+  .card-title {
+    font-size: 1rem; /* Adjust title size */
+  }
+
+  .btn-outline-light {
+    padding: 0.4rem 1rem; /* Adjust button padding */
+  }
+}
+
+/* Media queries for mobile screens (576px and below) */
+@media (max-width: 576px) {
+  #applications {
+    padding: 20px 0; /* Adjust padding */
+  }
+
+  .app-head {
+    font-size: 24px; /* Adjust heading size */
+    text-align: center; /* Center heading */
+  }
+
+  .app-sub {
+    font-size: 14px; /* Adjust subtitle size */
+    text-align: center; /* Center subtitle */
+  }
+
+  .card-img-top {
+    height: 140px; /* Adjust image height */
+  }
+
+  .card-title {
+    font-size: 0.9rem; /* Adjust title size */
+  }
+
+  .btn-outline-light {
+    padding: 0.3rem 0.8rem; /* Adjust button padding */
+  }
+}
+
+
+/*INFRASTRUCTURE*/
+
+/* Media queries for large screens (1200px and below) */
+@media (max-width: 1200px) {
+  .timeline-title h2 {
+    font-size: 2.2rem; /* Reduce title size */
+  }
+
+  .timeline-content {
+    padding: 25px; /* Reduce padding */
+  }
+
+  .timeline-content h4 {
+    font-size: 1.25rem; /* Adjust heading size */
+  }
+
+  .timeline-content p {
+    font-size: 14px; /* Adjust paragraph size */
+  }
+}
+
+/* Media queries for tablets (992px and below) */
+@media (max-width: 992px) {
+  .timeline-title h2 {
+    font-size: 2rem; /* Reduce title size */
+  }
+
+  .timeline {
+    padding-left: 30px; /* Adjust timeline padding */
+  }
+
+  .timeline::before {
+    left: 14px; /* Adjust timeline line position */
+    width: 3px; /* Reduce line thickness */
+  }
+
+  .timeline-item::before {
+    left: -8px; /* Adjust marker position */
+    width: 18px; /* Adjust marker size */
+    height: 18px;
+  }
+
+  .timeline-content {
+    margin-left: 30px; /* Adjust content margin */
+    padding: 20px; /* Reduce padding */
+  }
+}
+
+/* Media queries for small tablets (768px and below) */
+@media (max-width: 768px) {
+  .timeline-title h2 {
+    font-size: 1.8rem; /* Reduce title size */
+  }
+
+  .timeline {
+    padding-left: 25px; /* Reduce padding for smaller screens */
+  }
+
+  .timeline::before {
+    left: 10px; /* Adjust line position */
+    width: 2px; /* Further reduce line thickness */
+  }
+
+  .timeline-item::before {
+    left: -10px; /* Adjust marker position */
+    width: 16px; /* Adjust marker size */
+    height: 16px;
+  }
+
+  .timeline-content {
+    margin-left: 20px; /* Further reduce content margin */
+    padding: 15px; /* Reduce padding */
+  }
+}
+
+/* Media queries for mobile screens (576px and below) */
+@media (max-width: 576px) {
+  .timeline-title h2 {
+    font-size: 1.5rem; /* Adjust title size for mobile */
+    text-align: center; /* Center-align title */
+  }
+
+  .timeline {
+    padding-left: 10px; /* Further reduce timeline padding */
+  }
+
+  .timeline::before {
+    left: 8px; /* Adjust line position */
+    width: 2px; /* Keep line thin */
+  }
+
+  .timeline-item {
+    margin-bottom: 30px; /* Reduce spacing between items */
+  }
+
+  .timeline-item::before {
+    left: -12px; /* Adjust marker position */
+    width: 14px; /* Reduce marker size */
+    height: 14px;
+  }
+
+  .timeline-content {
+    margin-left: 10px; /* Reduce margin for mobile */
+    padding: 10px; /* Minimize padding */
+  }
+
+  .timeline-content h4 {
+    font-size: 1rem; /* Adjust content heading size */
+  }
+
+  .timeline-content p {
+    font-size: 13px; /* Reduce paragraph size */
+  }
+}
+
+/*QUALITY*/
+
+/* Media queries for large screens (1200px and below) */
+@media (max-width: 1200px) {
+  .section-title {
+    font-size: 2.2rem; /* Reduce title size */
+  }
+
+  .section-subtitle {
+    font-size: 1.1rem; /* Reduce subtitle size */
+  }
+
+  .img-fluid-quality {
+    max-width: 70%;
+        margin-left: 70px;
+        margin-top: 100px;
+  }
+}
+
+/* Media queries for tablets (992px and below) */
+@media (max-width: 992px) {
+  .section-title {
+    font-size: 2rem; /* Further reduce title size */
+  }
+
+  .section-subtitle {
+    font-size: 1rem; /* Further reduce subtitle size */
+  }
+
+  .progress {
+    height: 1.25rem; /* Adjust progress bar height */
+  }
+
+  .progress-bar {
+    font-size: 0.85rem; /* Adjust progress bar text size */
+  }
+
+  .img-fluid-quality {
+    max-width: 80%;
+        margin-left: 110px;
+        margin-top: 110px;
+  }
+}
+
+/* Media queries for small tablets (768px and below) */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.8rem; /* Further reduce title size for smaller screens */
+  }
+
+  .section-subtitle {
+    font-size: 0.95rem; /* Reduce subtitle size */
+  }
+
+  .progress {
+    height: 1.2rem; /* Further reduce progress bar height */
+  }
+
+  .progress-bar {
+    font-size: 0.8rem; /* Further reduce progress bar text size */
+  }
+
+  .img-fluid-quality {
+    max-width: 80%;
+        margin-left: 50px; /* Adjust margin for smaller screens */
+  }
+}
+
+/* Media queries for mobile screens (576px and below) */
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 1.5rem; /* Adjust title size for mobile */
+    text-align: center; /* Center the title */
+  }
+
+  .section-subtitle {
+    font-size: 0.9rem; /* Adjust subtitle size */
+    text-align: center; /* Center the subtitle */
+  }
+
+  .quality-detail {
+    margin-bottom: 20px; /* Reduce spacing between details */
+  }
+
+  .progress {
+    height: 1rem; /* Further reduce progress bar height */
+  }
+
+  .progress-bar {
+    font-size: 0.75rem; /* Further reduce progress bar text */
+  }
+
+  .img-fluid-quality {
+    max-width: 80%; /* Adjust image size for mobile */
+    margin-left: 60px; /* Reduce left margin */
+  }
+}
+
+/*CONTACT US*/
+
+/* Media queries for large screens (1200px and below) */
+@media (max-width: 1200px) {
+  .contact-section h2 {
+    font-size: 36px; /* Reduce heading size */
+  }
+
+  .service-card-contact h5, 
+  .why-best-card h5 {
+    font-size: 1.4rem; /* Adjust heading size */
+  }
+
+  .contact-frame {
+    padding-top: 50px; /* Adjust padding for better spacing */
+  }
+}
+
+/* Media queries for tablets (992px and below) */
+@media (max-width: 992px) {
+  .contact-section h2 {
+    font-size: 32px; /* Reduce heading size further */
+  }
+
+  .service-card-contact h5, 
+  .why-best-card h5 {
+    font-size: 1.3rem; /* Adjust heading size for tablets */
+  }
+
+  .contact-frame {
+    padding-top: 40px; /* Reduce padding */
+  }
+
+  .con {
+    padding-left: 20px; /* Adjust padding for contact form */
+  }
+
+  .service-card-contact, 
+  .why-best-card {
+    padding: 25px; /* Reduce padding in cards */
+  }
+}
+
+/* Media queries for small tablets (768px and below) */
+@media (max-width: 768px) {
+  .contact-section h2 {
+    font-size: 28px; /* Reduce heading size for smaller screens */
+  }
+
+  .service-card-contact h5, 
+  .why-best-card h5 {
+    font-size: 1.2rem; /* Adjust heading size for small tablets */
+  }
+
+  .service-card-contact p, 
+  .why-best-card p {
+    font-size: 0.9rem; /* Adjust paragraph text size */
+  }
+
+  .con {
+    padding-top: 20px; /* Further adjust padding */
+  }
+
+  .contact-frame {
+    padding-top: 30px; /* Reduce padding */
+  }
+
+  .service-card-contact, 
+  .why-best-card {
+    padding: 20px; /* Reduce card padding */
+  }
+}
+
+/* Media queries for mobile screens (576px and below) */
+@media (max-width: 576px) {
+  .contact-section h2 {
+    font-size: 24px; /* Reduce heading size for mobile */
+    text-align: center; /* Center the heading */
+  }
+
+  .service-card-contact h5, 
+  .why-best-card h5 {
+    font-size: 1.1rem; /* Adjust heading size for mobile */
+    text-align: center; /* Center card headings */
+  }
+
+  .service-card-contact p, 
+  .why-best-card p {
+    font-size: 0.85rem; /* Reduce paragraph text size */
+  }
+
+  .service-card-contact {
+    margin-bottom: 20px; /* Add spacing between cards */
+  }
+
+  .con {
+    padding-left: 10px; /* Remove padding for small screens */
+  }
+
+  .contact-frame {
+    padding-top: 20px; /* Further reduce padding */
+  }
+
+  .service-card-contact, 
+  .why-best-card {
+    padding: 15px; /* Adjust padding for mobile */
+  }
+}
+
+/*FOOTER*/
+
+/* Media queries for large screens (1200px and below) */
+@media (max-width: 1200px) {
+  .footer p {
+    font-size: 13px; /* Slightly reduce paragraph text size */
+  }
+
+  .footer h5 {
+    margin-bottom: 15px; /* Reduce margin for headings */
+  }
+
+  .footer .store-icon {
+    width: 100px; /* Reduce store icon size */
+  }
+
+  .footer-bottom p {
+    font-size: 12px; /* Adjust text size in footer bottom */
+  }
+}
+
+/* Media queries for tablets (992px and below) */
+@media (max-width: 992px) {
+  .footer p {
+    font-size: 12px; /* Further reduce paragraph text size */
+  }
+
+  .footer .store-icon {
+    width: 90px; /* Adjust store icon size for tablets */
+  }
+
+  .footer h5 {
+    font-size: 16px; /* Adjust heading font size */
+  }
+
+  .footer-logo {
+    width: 90px; /* Reduce logo size */
+  }
+
+  .footer-bottom p {
+    font-size: 11px; /* Reduce text size in footer bottom */
+  }
+}
+
+/* Media queries for small tablets (768px and below) */
+@media (max-width: 768px) {
+  .footer p {
+    font-size: 11px; /* Reduce paragraph text size for small tablets */
+  }
+
+  .footer h5 {
+    font-size: 15px; /* Reduce heading size for smaller screens */
+    margin-bottom: 10px; /* Adjust spacing */
+  }
+
+  .footer-logo {
+    width: 80px; /* Further reduce logo size */
+  }
+
+  .footer .store-icon {
+    width: 80px; /* Adjust store icon size */
+    margin: 5px 3px; /* Adjust margins for spacing */
+  }
+
+  .footer-bottom p {
+    font-size: 10px; /* Reduce footer bottom text size */
+  }
+}
+
+/* Media queries for mobile screens (576px and below) */
+@media (max-width: 576px) {
+  .footer h5 {
+    font-size: 14px; /* Reduce heading size for mobile */
+    text-align: center; /* Center the headings */
+  }
+
+  .list-unstyled{
+    text-align: center;
+  }
+
+  .footer p {
+    font-size: 10px; /* Further reduce paragraph text size */
+    text-align: center; /* Center paragraph text */
+  }
+
+  .footer-logo {
+    width: 70px; /* Adjust logo size for mobile */
+    display: block; /* Ensure the logo is centered */
+    margin: 0 auto 10px auto; /* Center the logo */
+  }
+
+  .footer .store-icon {
+    width: 70px; /* Reduce store icon size for mobile */
+    display: block;
+    margin: 5px auto; /* Center the store icons */
+  }
+
+  .footer-bottom p {
+    font-size: 9px; /* Adjust footer bottom text size */
+    text-align: center; /* Center footer bottom text */
+  }
+
+  .footer-bottom a {
+    font-size: 10px; /* Adjust link font size */
+  }
+}
+
+
+
 
 
 
