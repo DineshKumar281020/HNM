@@ -159,7 +159,7 @@ header a:hover {
   background-color: #6c774f;
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 7px 15px;
   font-size: 1rem;
   cursor: pointer;
   border-radius: 25px;
@@ -230,13 +230,7 @@ header a:hover {
   color: #fff;
 }
 
-.navbar-toggler{
-  background-color:#fff ;
-}
 
-.navbar-toggler:hover{
-  background-color: #99b086;
-}
 
 /*ABOUT US*/
 
@@ -603,7 +597,7 @@ p.lead {
 
 .timeline-section {
   background-color: #f9f9f9;
-  padding: 70px 0;
+  padding: 60px 0;
 }
 .timeline-title {
   text-align: center;
@@ -886,6 +880,7 @@ select{
   .head-icon {
     float: none;
     font-size: 16px;
+    margin-top: 10px;
   }
 
   .icons {
@@ -927,6 +922,7 @@ select{
 @media (max-width: 1200px) {
   .head-word {
     font-size: 16px;
+    margin-left: 35px;
   }
 
   .head-icon {
@@ -944,6 +940,12 @@ select{
 }
 
 @media (max-width: 576px) {
+  
+
+  body{
+    overflow-x: hidden;
+  }
+
   .head {
     background-color: #6c774f;
     color: #fff;
@@ -1004,6 +1006,9 @@ select{
     padding: 8px 18px; 
     font-size: 0.9rem;
   }
+
+  
+
 }
 
 /* Media queries for small laptops (992px and below) */
@@ -1050,7 +1055,7 @@ select{
   }
 
   .btn-yellow, .btn-white {
-    padding: 8px 16px;
+    padding: 6px 14px;
     font-size: 0.9rem; 
   }
 
@@ -1065,6 +1070,7 @@ select{
   .quote-btn {
     padding: 6px 14px;
     font-size: 0.8rem;
+    margin-right: 15px;
   }
 }
 
@@ -1093,8 +1099,11 @@ select{
 
   .quote-btn {
     padding: 5px 12px;
-    font-size: 0.7rem; 
+    font-size: 0.7rem;
+    margin-right: 12px; 
   }
+
+  
 }
 
 /*ABOUT US*/
@@ -1271,6 +1280,7 @@ select{
 
   .read-about {
     padding-top: 40px; /* Adjust padding */
+    padding-left: 100px;
   }
 }
 
@@ -1282,6 +1292,7 @@ select{
 
   .about-head h2 {
     font-size: 1.2rem; /* Adjust heading size */
+    margin-top: 5px;
   }
 
   .stats-box {
@@ -1321,12 +1332,13 @@ select{
   }
 
   .about-icons {
-    padding-top: 10px; /* Adjust padding */
-    padding-left: 5px; /* Adjust padding */
+    padding-top: 20px;
+        padding-left: 50px;
   }
 
   .read-about {
-    padding-top: 20px; /* Adjust padding */
+    padding-top: 20px;
+        padding-left: 100px; /* Adjust padding */
   }
 }
 
@@ -1443,6 +1455,7 @@ select{
   .services-section p {
     margin-bottom: 15px; /* Adjust bottom margin */
     text-align: center; /* Center align paragraph */
+    font-size: 12px;
   }
 
   .service-box {
@@ -1456,7 +1469,7 @@ select{
   }
 
   .service-title {
-    font-size: 12px; /* Adjust title size */
+    font-size: 14px; /* Adjust title size */
   }
 
   .service-description {
@@ -1503,9 +1516,8 @@ select{
     height: 220px; /* Adjust image height */
   }
 
-  .pro-box {
-    
-    margin-left: 35px;
+  .pro-row{
+    margin-left: 50px;
   }
 
   .card-title {
@@ -1544,7 +1556,7 @@ select{
   }
 
   .pro-box {
-    width: 260px; /* Adjust box width */
+    width: 220px; /* Adjust box width */
   }
 
   .card-title {
@@ -1563,12 +1575,12 @@ select{
   }
 
   .pro-para h2 {
-    font-size: 12px; /* Adjust heading size */
+    font-size: 14px; /* Adjust heading size */
     text-align: center; /* Center heading */
   }
 
   p.lead{
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .service-card img {
@@ -1578,6 +1590,7 @@ select{
   .pro-box {
     width: 100%; /* Full width for mobile */
     padding: 0 10px; /* Adjust padding */
+    margin-left: 0;
   }
 
   .card-title {
@@ -1585,7 +1598,7 @@ select{
   }
 
   .card-text {
-    font-size: 11px; /* Adjust text size */
+    font-size: 14px; /* Adjust text size */
   }
 }
 
@@ -1936,8 +1949,8 @@ select{
 
   .img-fluid-quality {
     max-width: 80%;
-        margin-left: 110px;
-        margin-top: 110px;
+        margin-left: 50px;
+        margin-top: 90px;
   }
 }
 
@@ -2151,12 +2164,24 @@ select{
 /* Media queries for small tablets (768px and below) */
 @media (max-width: 768px) {
   .footer p {
-    font-size: 11px; /* Reduce paragraph text size for small tablets */
+    font-size: 14px; /* Reduce paragraph text size for small tablets */
+    text-align: center;
+  }
+
+  .list-unstyled{
+    text-align: center;
+  }
+
+  .footer-div{
+    margin-left: 165px;
+    margin-bottom: 10px;
+    
   }
 
   .footer h5 {
     font-size: 15px; /* Reduce heading size for smaller screens */
     margin-bottom: 10px; /* Adjust spacing */
+    text-align: center;
   }
 
   .footer-logo {
@@ -2169,7 +2194,7 @@ select{
   }
 
   .footer-bottom p {
-    font-size: 10px; /* Reduce footer bottom text size */
+    font-size: 13px; /* Reduce footer bottom text size */
   }
 }
 
@@ -2185,7 +2210,7 @@ select{
   }
 
   .footer p {
-    font-size: 10px; /* Further reduce paragraph text size */
+    font-size: 14px; /* Further reduce paragraph text size */
     text-align: center; /* Center paragraph text */
   }
 
@@ -2202,12 +2227,12 @@ select{
   }
 
   .footer-bottom p {
-    font-size: 9px; /* Adjust footer bottom text size */
+    font-size: 12px; /* Adjust footer bottom text size */
     text-align: center; /* Center footer bottom text */
   }
 
   .footer-bottom a {
-    font-size: 10px; /* Adjust link font size */
+    font-size: 12px; /* Adjust link font size */
   }
 }
 

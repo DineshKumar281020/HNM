@@ -56,9 +56,7 @@
 
         <button class="quote-btn">GET A QUOTE</button>
       </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+      
     </div>
   </nav>
 
@@ -118,7 +116,7 @@
 
 
   <!--ABOUT-->
-  <div class="container installation-section" style="padding: 80px 0;">
+  <div class="container installation-section" style="padding: 40px 0;">
 
     <div class="about-head">
       <p>24/7 hassle-free</p>
@@ -280,7 +278,7 @@
             <p class="lead">Volutpat maecenas volutpat blandit aliquam etiam erat. Enim praesent elementum facilisis leo vel fringilla est.</p>
         </div>
 
-        <div class="row">
+        <div class="row pro-row">
             <!-- Window Carpentry Card -->
             <div class="col-lg-3 col-md-6 mb-4 pro-box">
                 <div class="card service-card">
@@ -543,7 +541,7 @@
 
   <!--QUALITY-->
 
-  <section id="quality" class="py-5">
+  <section id="quality" class="py-4">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center mb-5">
@@ -693,7 +691,7 @@
           <h5><img src="assets/logo.png" alt="Mezan Logo" class="footer-logo"> HNM</h5>
           <p>Duis ultricies libero sit amet aliquam fermentum. Nunc tincidunt mollis dui in tempor. Maecenas ut leo
             vitae purus condimentum dignissim.</p>
-          <div>
+          <div class="footer-div">
             <a href="#"><img src="assets/logo1.png" alt="Google Play" class="store-icon"></a>
             <a href="#"><img src="assets/logo2.jpg" alt="App Store" class="store-icon"></a>
           </div>
@@ -775,6 +773,12 @@ window.onscroll = function() {
         navbar.classList.remove("fixed");
       }
     };
+
+
+
+    document.querySelector('.navbar-toggler').addEventListener('click', function() {
+  document.querySelector('.navbar').classList.toggle('active');
+});
 
 
     
