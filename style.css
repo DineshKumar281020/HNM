@@ -107,6 +107,20 @@ header a:hover {
   
 }
 
+.tog-toggle{
+  font-size: 2rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.navbar-toggler{
+  display: none;
+}
+
+.navbar-toggler:hover{
+  background-color: #000;
+}
+
 .navbar-logo {
   display: flex;
   align-items: center;
@@ -1003,11 +1017,13 @@ select{
   }
 
   .quote-btn {
-    padding: 8px 18px; 
+    padding: 5px 5px; 
     font-size: 0.9rem;
   }
 
-  
+  .navbar-toggler{
+    display: none;
+  }
 
 }
 
@@ -1036,6 +1052,10 @@ select{
 
   .navbar-container {
     height: 45px; 
+  }
+
+  .navbar-toggler{
+    display: none;
   }
 }
 
@@ -1072,6 +1092,16 @@ select{
     font-size: 0.8rem;
     margin-right: 15px;
   }
+
+  .navbar-toggler {
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+   
+  }
+
+  
 }
 
 /* Media queries for mobile screens (576px and below) */
@@ -1103,7 +1133,13 @@ select{
     margin-right: 12px; 
   }
 
-  
+  .navbar-toggler {
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    
+  }
 }
 
 /*ABOUT US*/
