@@ -286,6 +286,7 @@ header a:hover {
   width: 300px;
   height: 450px;
   margin: 7rem 0px 0px -40px;
+  border-radius: 20px;
 }
 
 
@@ -293,12 +294,14 @@ header a:hover {
   width: 300px;
   height: 300px;
   margin: 0rem 0px 0px 130px;
+  border-radius: 20px;
 }
 
 .img-flui{
   width: 330px;
   height: 310px;
   margin: -15.5rem 0px 0px 80px;
+  border-radius: 20px;
 }
  
 .info-list {
@@ -936,7 +939,7 @@ select{
 @media (max-width: 1200px) {
   .head-word {
     font-size: 16px;
-    margin-left: 35px;
+    margin-left: 15px;
   }
 
   .head-icon {
@@ -1004,6 +1007,15 @@ select{
 
 /* Media queries for large screens (1200px and below) */
 @media (max-width: 1200px) {
+
+  .content {
+    padding: 160px 20px 110px 30px;
+  }
+
+  .navbar-links a{
+    font-size: 14px;
+  }
+
   .content h2 {
     font-size: 2.5rem; 
   }
@@ -1029,6 +1041,15 @@ select{
 
 /* Media queries for small laptops (992px and below) */
 @media (max-width: 992px) {
+
+  .content{
+    padding: 150px 20px 110px 30px;
+  }
+
+  .content h6{
+    font-size: 1rem ;
+  }
+
   .content h2 {
     font-size: 2rem; 
   }
@@ -1042,8 +1063,8 @@ select{
   }
 
   .quote-btn {
-    padding: 7px 16px;
-    font-size: 0.9rem;
+    padding: 7px 7px;
+    font-size: 0.7rem;
   }
 
   .navbar-logo img {
@@ -1054,8 +1075,24 @@ select{
     height: 45px; 
   }
 
+  .navbar-links{
+    margin-right: 35px;
+  }
+
+  .navbar-links a{
+    font-size: 12px;
+  }
+
   .navbar-toggler{
     display: none;
+  }
+
+  .btn-yellow {
+    font-size: 12px;
+  }
+
+  .btn-white {
+    font-size: 12px;
   }
 }
 
@@ -1151,15 +1188,15 @@ select{
   }
 
   .stats-box {
-    margin: -20rem -15rem 0px 0; 
+    margin: -28rem -18rem 0px 0;
   }
 
   .stats-box h2 {
-    font-size: 40px; 
+    font-size: 30px; 
   }
 
   .stats-box p {
-    font-size: 14px; 
+    font-size: 12px; 
   }
 
   .img-fl, .img-flu, .img-flui {
@@ -1168,15 +1205,15 @@ select{
   }
 
   .img-fl {
-    margin: 5rem 0 0 -30px; /* Adjust margins */
+    margin: 5rem 0 0 -75px; /* Adjust margins */
   }
 
   .img-flu {
-    margin: 0 0 0 100px; /* Adjust margins */
+    margin: 35px 0 0 80px; /* Adjust margins */
   }
 
   .img-flui {
-    margin: -10rem 0 0 60px; /* Adjust margins */
+    margin: -13rem 0 0 65px; /* Adjust margins */
   }
 
   .info-list {
@@ -1196,7 +1233,7 @@ select{
 
   .about-icons {
     padding-top: 50px; /* Adjust padding */
-    padding-left: 30px; /* Adjust padding */
+    padding-left: 50px; /* Adjust padding */
   }
 
   .read-about {
@@ -1210,16 +1247,13 @@ select{
     font-size: 1.8rem; /* Adjust heading size */
   }
 
-  .stats-box {
-    margin: -15rem -10rem 0px 0; /* Adjust margins */
-  }
-
-  .stats-box h2 {
-    font-size: 35px; /* Adjust font size */
+  
+.stats-box h2 {
+    font-size: 25px; /* Adjust font size */
   }
 
   .stats-box p {
-    font-size: 13px; /* Adjust font size */
+    font-size: 10px; /* Adjust font size */
   }
 
   .img-fl, .img-flu, .img-flui {
@@ -1227,16 +1261,23 @@ select{
     height: auto; /* Adjust height */
   }
 
+  .stats-box {
+    margin: -20rem -10rem 0px 0;
+}
+
   .img-fl {
-    margin: 4rem 0 0 -20px; /* Adjust margins */
+    margin: 7rem 0 0 -95px; /* Adjust margins */
+    border-radius: 20px;
   }
 
   .img-flu {
-    margin: 0 0 0 80px; /* Adjust margins */
+    margin: 65px 0 0 40px; /* Adjust margins */
+    border-radius: 20px;
   }
 
   .img-flui {
-    margin: -8rem 0 0 40px; /* Adjust margins */
+    margin: -12rem 0 0 30px; /* Adjust margins */
+    border-radius: 20px;
   }
 
   .info-list {
@@ -1274,7 +1315,7 @@ select{
   }
 
   .stats-box {
-    margin: -10rem -5rem 0px 0; /* Adjust margins */
+    margin: -30rem -3rem 0px 0; /* Adjust margins */
     padding: 10px; /* Add padding */
   }
 
@@ -1286,14 +1327,26 @@ select{
     font-size: 12px; /* Adjust font size */
   }
 
-  .img-fl, .img-flu, .img-flui {
-    width: 100%; /* Full width images */
-    height: auto; /* Maintain aspect ratio */
-  }
+  .img-fl{
+    width: 249px;
+    height: 399px;
+    margin-left: 20px;
+    border-radius: 20px;
+ }
 
-  .img-fl, .img-flu, .img-flui {
-    margin: 0; /* Remove margins */
-  }
+ .img-flu{
+   width: 224px;
+   height: 210px;
+   margin: -615px 0px 0px 300px;
+   border-radius: 20px;
+ }
+
+ .img-flui{
+   width: 234px;
+   height: 220px;
+   margin: -220px 0 0 300px;
+   border-radius: 20px;
+ }
 
   .info-list {
     font-size: 0.9rem; /* Adjust font size */
@@ -1316,7 +1369,7 @@ select{
 
   .read-about {
     padding-top: 40px; /* Adjust padding */
-    padding-left: 100px;
+    padding-left: 0px;
   }
 }
 
@@ -1328,11 +1381,11 @@ select{
 
   .about-head h2 {
     font-size: 1.2rem; /* Adjust heading size */
-    margin-top: 5px;
+    margin: 5px 0 20px 0;
   }
 
   .stats-box {
-    margin: -8rem 0 0 0; /* Adjust margins */
+    margin: -30rem 0 0 25px; /* Adjust margins */
     padding: 10px; /* Add padding */
   }
 
@@ -1344,13 +1397,25 @@ select{
     font-size: 11px; /* Adjust font size */
   }
 
-  .img-fl, .img-flu, .img-flui {
-    width: 100%; /* Full width images */
-    height: auto; /* Maintain aspect ratio */
+  .img-fl{
+     width: 249px;
+     height: 399px;
+     margin-left: 20px;
+     border-radius: 20px;
   }
 
-  .img-fl, .img-flu, .img-flui {
-    margin: 0; /* Remove margins */
+  .img-flu{
+    width: 224px;
+    height: 210px;
+    margin: -615px 0px 0px 300px;
+    border-radius: 20px;
+  }
+
+  .img-flui{
+    width: 234px;
+    height: 220px;
+    margin: -220px 0 0 300px;
+    border-radius: 20px;
   }
 
   .info-list {
@@ -1593,6 +1658,7 @@ select{
 
   .pro-box {
     width: 220px; /* Adjust box width */
+   
   }
 
   .card-title {
@@ -1626,7 +1692,7 @@ select{
   .pro-box {
     width: 100%; /* Full width for mobile */
     padding: 0 10px; /* Adjust padding */
-    margin-left: 0;
+    margin-left: -30px;
   }
 
   .card-title {
@@ -2124,6 +2190,10 @@ select{
     text-align: center; /* Center the heading */
   }
 
+  .contact-section p{
+    text-align: center;
+  }
+
   .service-card-contact h5, 
   .why-best-card h5 {
     font-size: 1.1rem; /* Adjust heading size for mobile */
@@ -2209,7 +2279,7 @@ select{
   }
 
   .footer-div{
-    margin-left: 165px;
+    margin-left: 160px;
     margin-bottom: 10px;
     
   }
@@ -2243,6 +2313,10 @@ select{
 
   .list-unstyled{
     text-align: center;
+  }
+
+  .footer-div{
+    margin:0;
   }
 
   .footer p {
