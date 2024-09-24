@@ -93,6 +93,10 @@ header a:hover {
   color: #000;
 }
 
+ .navbar-toggler{
+  display: none;
+ }
+
 
 
 .navbar-container {
@@ -105,20 +109,6 @@ header a:hover {
   margin: auto;
   color: #fff;
   
-}
-
-.tog-toggle{
-  font-size: 2rem;
-  cursor: pointer;
-  color: #fff;
-}
-
-.navbar-toggler{
-  display: none;
-}
-
-.navbar-toggler:hover{
-  background-color: #000;
 }
 
 .navbar-logo {
@@ -1130,16 +1120,18 @@ select{
     margin-right: 15px;
   }
 
-  .navbar-toggler {
+  .navbar-container .navbar-toggler {
     display: block;
     background-color: transparent;
     border: none;
     font-size: 1.5rem;
+    color: #fff;
+    background-color: #6c774f;
    }
 
-   .navbar-toggler .fixed{
-    color: #000;
-  }
+   .navbar-container .navbar-toggler:hover{
+    background-color: #99b086;
+   }
 
   
 }
@@ -1173,16 +1165,20 @@ select{
     margin-right: 12px; 
   }
 
-  .navbar-toggler {
+  .navbar-container .navbar-toggler {
     display: block;
     background-color: transparent;
     border: none;
     font-size: 1.5rem;
+    color: #fff;
+    background-color: #6c774f;
   }
 
-  .navbar-toggler .fixed{
-    color: #000;
-  }
+  .navbar-container .navbar-toggler:hover{
+    background-color: #99b086;
+   }
+
+  
 }
 
 /*ABOUT US*/
