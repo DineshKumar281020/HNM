@@ -951,6 +951,7 @@ select{
 
   body{
     overflow-x: hidden;
+    width: 100%;
   }
 
   .head {
@@ -1130,7 +1131,7 @@ select{
    }
 
    .navbar-container .navbar-toggler:hover{
-    background-color: #99b086;
+    background-color: #000;
    }
 
   
@@ -1175,7 +1176,7 @@ select{
   }
 
   .navbar-container .navbar-toggler:hover{
-    background-color: #99b086;
+    background-color: #000;
    }
 
   
@@ -1190,7 +1191,7 @@ select{
   }
 
   .stats-box {
-    margin: -28rem 18rem 0px 0;
+    margin: -28rem 15rem 0px 0;
   }
 
   .stats-box h2 {
@@ -1207,15 +1208,15 @@ select{
   }
 
   .img-fl {
-    margin: 5rem 0 0 -75px; /* Adjust margins */
+    margin: 5rem 0 0 -10px; /* Adjust margins */
   }
 
   .img-flu {
-    margin: 35px 0 0 80px; /* Adjust margins */
+    margin: 35px 0 0 120px; /* Adjust margins */
   }
 
   .img-flui {
-    margin: -12rem 0 0 39px; /* Adjust margins */
+    margin: -12rem 0 0 89px; /* Adjust margins */
   }
 
   .info-list {
