@@ -266,7 +266,7 @@ header a:hover {
 .stats-box {
   background-color: #99b086;
   color: #000;
-  margin: -33rem -25rem 0px 0;
+  margin: -33rem 23rem 0px 0;
   border-radius: 30px;
 }
 
@@ -1135,7 +1135,10 @@ select{
     background-color: transparent;
     border: none;
     font-size: 1.5rem;
-   
+   }
+
+   .navbar-toggler .fixed{
+    color: #000;
   }
 
   
@@ -1175,7 +1178,10 @@ select{
     background-color: transparent;
     border: none;
     font-size: 1.5rem;
-    
+  }
+
+  .navbar-toggler .fixed{
+    color: #000;
   }
 }
 
@@ -1188,7 +1194,7 @@ select{
   }
 
   .stats-box {
-    margin: -28rem -18rem 0px 0;
+    margin: -28rem 18rem 0px 0;
   }
 
   .stats-box h2 {
@@ -1213,7 +1219,7 @@ select{
   }
 
   .img-flui {
-    margin: -13rem 0 0 65px; /* Adjust margins */
+    margin: -12rem 0 0 39px; /* Adjust margins */
   }
 
   .info-list {
@@ -1262,21 +1268,21 @@ select{
   }
 
   .stats-box {
-    margin: -20rem -10rem 0px 0;
+    margin: -20rem 17rem 0px 0;
 }
 
   .img-fl {
-    margin: 7rem 0 0 -95px; /* Adjust margins */
+    margin: 3rem 0 0 -100px; /* Adjust margins */
     border-radius: 20px;
   }
 
   .img-flu {
-    margin: 65px 0 0 40px; /* Adjust margins */
+    margin: 20px 0 0 35px; /* Adjust margins */
     border-radius: 20px;
   }
 
   .img-flui {
-    margin: -12rem 0 0 30px; /* Adjust margins */
+    margin: -9rem 0 0 4px; /* Adjust margins */
     border-radius: 20px;
   }
 
@@ -1330,21 +1336,21 @@ select{
   .img-fl{
     width: 249px;
     height: 399px;
-    margin-left: 20px;
+    margin: 20px;
     border-radius: 20px;
  }
 
  .img-flu{
    width: 224px;
    height: 210px;
-   margin: -615px 0px 0px 300px;
+   margin: -700px 0px 0px 300px;
    border-radius: 20px;
  }
 
  .img-flui{
    width: 234px;
    height: 220px;
-   margin: -220px 0 0 300px;
+   margin: -265px 0 0 315px;
    border-radius: 20px;
  }
 
@@ -1381,7 +1387,7 @@ select{
 
   .about-head h2 {
     font-size: 1.2rem; /* Adjust heading size */
-    margin: 5px 0 20px 0;
+    margin: 5px 0 25px 0;
   }
 
   .stats-box {
@@ -1400,21 +1406,21 @@ select{
   .img-fl{
      width: 249px;
      height: 399px;
-     margin-left: 20px;
+     margin: 20px;
      border-radius: 20px;
   }
 
   .img-flu{
     width: 224px;
     height: 210px;
-    margin: -615px 0px 0px 300px;
+    margin: -722px 0px 0px 300px;
     border-radius: 20px;
   }
 
   .img-flui{
     width: 234px;
     height: 220px;
-    margin: -220px 0 0 300px;
+    margin: -290px 0 0 305px;
     border-radius: 20px;
   }
 
