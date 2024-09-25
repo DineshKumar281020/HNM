@@ -1,5 +1,7 @@
 body{
   font-family: 'inter';
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .head{
