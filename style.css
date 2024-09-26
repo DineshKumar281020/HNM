@@ -485,6 +485,7 @@ p.lead {
 }
 
 /*EXPORTS*/
+
 .exports-section {
   background-color: #eaefe6;
   padding: 70px 0;
@@ -1015,7 +1016,7 @@ select{
   .icons {
     height: 25px;
     width: 25px;
-    padding: 5px;
+    padding: 4px 0 0 0;
   }
 
   header span {
@@ -1215,7 +1216,6 @@ select{
 
 @media (max-width: 480px) {
   
-
   .content, .owl-content {
     padding: 120px 10px 80px 20px; /* Reduce padding */
   }
@@ -1548,7 +1548,7 @@ select{
   }
 
   .stats-box {
-    margin: 0; /* Remove large margins for small screens */
+    margin: -410px 0 0 0; /* Remove large margins for small screens */
     border-radius: 20px;
     padding: 20px;
   }
@@ -1561,11 +1561,26 @@ select{
     font-size: 13px; /* Adjust text size */
   }
 
-  .img-fl, .img-flu, .img-flui {
-    width: 100%; /* Full width for images */
-    height: auto; /* Maintain aspect ratio */
-    margin: 20px 0; /* Adjust margins */
-  }
+  .img-fl{
+    width: 200px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 20px;
+ }
+
+ .img-flu{
+   width: 224px;
+   height: 200px;
+   margin: -610px 0px 0px 245px;
+   border-radius: 20px;
+ }
+
+ .img-flui{
+   width: 234px;
+   height: 220px;
+   margin: -220px 0 0 245px;
+   border-radius: 20px;
+ }
 
   .info-list {
     font-size: 0.9rem; /* Smaller list item text */
@@ -1597,6 +1612,7 @@ select{
 
   .read-about {
     padding-top: 60px; /* Reduce padding */
+    padding-left: 45px;
   }
 }
 
@@ -1740,6 +1756,45 @@ select{
   }
 }
 
+@media (max-width: 480px) {
+  .services-section {
+    padding: 30px 0; /* Reduce padding */
+  }
+
+  .services-section h2 {
+    font-size: 28px; /* Smaller heading */
+  }
+
+  .services-section p {
+    margin-bottom: 30px; /* Adjust margin */
+  }
+
+  .service-box {
+    padding: 20px; /* Reduce padding */
+    box-shadow: none; /* Remove shadow on smaller screens */
+  }
+
+  .service-icon {
+    font-size: 30px; /* Smaller icon */
+    height: 80px;
+    width: 80px;
+    padding: 20px 0px 0 1px; /* Adjust padding */
+  }
+
+  .service-title {
+    font-size: 18px; /* Smaller title */
+  }
+
+  .service-description {
+    font-size: 14px; /* Adjust text size */
+  }
+
+  .action-buttons {
+    margin-top: 20px; /* Reduce margin */
+  }
+}
+
+
 /*PRODUCTS*/
 
 /* Media queries for large screens (1200px and below) */
@@ -1862,6 +1917,45 @@ select{
   }
 }
 
+@media (max-width: 480px) {
+  .pro-title {
+    font-size: 28px; /* Smaller title */
+  }
+
+  .product-section {
+    padding: 20px; /* Add padding for small screens */
+  }
+
+  .pro-para h2 {
+    font-size: 22px; /* Adjust heading size */
+  }
+
+  p.lead {
+    font-size: 14px; /* Smaller text */
+  }
+
+  .service-card img {
+    height: 200px; /* Reduce image height */
+  }
+
+  .pro-box {
+    width: 100%; /* Full width */
+  }
+
+  .card-title {
+    font-size: 16px; /* Adjust title size */
+  }
+
+  .card-text {
+    font-size: 14px; /* Adjust text size */
+  }
+
+  .card-img {
+    height: 180px; /* Adjust image height */
+  }
+}
+
+
 /*EXPORTS*/
 
 /* Media queries for large screens (1200px and below) */
@@ -1952,6 +2046,44 @@ select{
     font-size: 12px; /* Adjust stats font size */
   }
 }
+
+@media (max-width: 480px) {
+
+  .exports-section {
+    padding: 40px 0; /* Reduce padding */
+  }
+
+  .exports-title {
+    font-size: 28px; /* Smaller title */
+    margin-bottom: 30px; /* Adjust margin */
+  }
+
+  .export-card {
+    margin-bottom: 20px; /* Add margin for spacing */
+  }
+
+  .country-flag {
+    height: 150px; /* Reduce image height */
+  }
+
+  .card-body {
+    padding: 15px; /* Adjust padding */
+  }
+
+  .card-title {
+    font-size: 18px; /* Smaller font size */
+    margin-bottom: 10px; /* Adjust margin */
+  }
+
+  .card-text {
+    font-size: 14px; /* Smaller text */
+  }
+
+  .export-stats {
+    font-size: 16px; /* Adjust font size */
+  }
+}
+
 
 
 /*APPLICATIONS*/
@@ -2053,6 +2185,38 @@ select{
     padding: 0.3rem 0.8rem; /* Adjust button padding */
   }
 }
+
+@media (max-width: 480px) {
+  #applications {
+    padding: 20px; /* Add padding for small screens */
+  }
+
+  .app-head {
+    font-size: 28px; /* Smaller font size for heading */
+  }
+
+  .app-sub {
+    font-size: 16px; /* Adjust font size */
+  }
+
+  .service-card {
+    margin-bottom: 20px; /* Add margin between cards */
+  }
+
+  .card-img-top {
+    height: 180px; /* Reduce image height */
+  }
+
+  .card-title {
+    font-size: 1.1rem; /* Adjust title size */
+  }
+
+  .btn-outline-light {
+    padding: 0.4rem 1rem; /* Adjust button padding */
+    font-size: 14px; /* Adjust button font size */
+  }
+}
+
 
 
 /*INFRASTRUCTURE*/
@@ -2170,6 +2334,45 @@ select{
   }
 }
 
+@media (max-width: 480px) {
+  .timeline-section {
+    padding: 30px 0; /* Reduce padding */
+  }
+
+  .timeline-title h2 {
+    font-size: 1.8rem; /* Adjust font size for the title */
+  }
+
+  .timeline {
+    padding-left: 20px; /* Reduce left padding */
+  }
+
+  .timeline::before {
+    left: 10px; /* Adjust position of the vertical line */
+    width: 2px; /* Narrow the vertical line */
+  }
+
+  .timeline-item::before {
+    left: -4px; /* Adjust position of timeline bullet */
+    width: 15px; /* Adjust size of the bullet */
+    height: 15px;
+  }
+
+  .timeline-content {
+    margin-left: 20px; /* Reduce the left margin for timeline content */
+    padding: 20px; /* Reduce padding */
+  }
+
+  .timeline-content h4 {
+    font-size: 1.2rem; /* Adjust font size */
+  }
+
+  .timeline-content p {
+    font-size: 14px; /* Adjust paragraph font size */
+  }
+}
+
+
 /*QUALITY*/
 
 /* Media queries for large screens (1200px and below) */
@@ -2267,6 +2470,36 @@ select{
     margin-left: 60px; /* Reduce left margin */
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .section-title {
+    font-size: 1.8rem; /* Reduce the font size of the title */
+  }
+
+  .section-subtitle {
+    font-size: 1rem; /* Adjust subtitle font size */
+  }
+
+  .quality-detail {
+    margin-bottom: 20px; /* Reduce bottom margin */
+  }
+
+  .progress {
+    height: 1.2rem; /* Decrease height of the progress bar */
+  }
+
+  .progress-bar {
+    font-size: 0.8rem; /* Adjust font size inside the progress bar */
+  }
+
+  .img-fluid-quality {
+    max-width: 100%; /* Ensure the image takes full width */
+    margin-left: 0; /* Remove margin for better centering */
+  }
+}
+
+
+
 
 /*CONTACT US*/
 
@@ -2380,6 +2613,65 @@ select{
     padding: 15px; /* Adjust padding for mobile */
   }
 }
+
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 30px 0; /* Adjust padding for smaller screens */
+  }
+
+  .contact-section h2 {
+    font-size: 28px; /* Reduce heading size */
+  }
+
+  .con {
+    padding-left: 15px; /* Reduce padding */
+  }
+
+  .contact-section .quote-box {
+    padding: 20px; /* Reduce padding in the quote box */
+  }
+
+  .service-card-contact {
+    border-radius: 10px; /* Adjust border radius for smaller cards */
+    padding: 20px; /* Adjust padding */
+  }
+
+  .service-card-contact h5 {
+    font-size: 1.2rem; /* Decrease heading size */
+  }
+
+  .service-card-contact p {
+    font-size: 0.9rem; /* Adjust paragraph font size */
+  }
+
+  .why-best-card {
+    padding: 20px; /* Reduce padding in the card */
+    border-radius: 10px; /* Adjust border radius */
+  }
+
+  .why-best-card h5 {
+    font-size: 1.2rem; /* Adjust font size */
+  }
+
+  .why-best-card p {
+    font-size: 0.9rem; /* Adjust paragraph font size */
+  }
+
+  .contact-frame {
+    padding-top: 30px; /* Reduce top padding */
+  }
+
+  .icon {
+    padding: 10px; /* Reduce padding for icons */
+  }
+  
+  .c-icon {
+    padding-right: 0; /* Keep icon layout consistent */
+  }
+}
+
+
+
 
 /*FOOTER*/
 
@@ -2503,6 +2795,52 @@ select{
     font-size: 12px; /* Adjust link font size */
   }
 }
+
+
+@media (max-width: 480px) {
+  .footer h5 {
+    font-size: 18px; /* Reduce heading size */
+    margin-bottom: 15px; /* Adjust margin */
+  }
+
+  .footer-logo {
+    width: 80px; /* Decrease logo size */
+  }
+
+  .footer p {
+    font-size: 12px; /* Decrease paragraph font size */
+    line-height: 1.4; /* Adjust line height */
+  }
+
+  .footer .store-icon {
+    width: 80px; /* Reduce store icon size */
+    
+  }
+
+  .footer-bottom {
+    padding-top: 15px; /* Adjust padding */
+  }
+
+  .footer-bottom p {
+    font-size: 11px; /* Decrease font size */
+  }
+
+  .btn-paper {
+    padding: 8px 12px; /* Adjust button padding */
+    font-size: 0.9rem; /* Adjust button font size */
+  }
+
+  .footer .fa-paper-plane {
+    font-size: 1rem; /* Reduce icon size */
+  }
+
+  .footer-div{
+    margin-left: 0;
+  }
+
+
+}
+
 
 
 
