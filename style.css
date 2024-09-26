@@ -995,6 +995,35 @@ select{
   }
 }
 
+@media (max-width: 480px) {
+  .head { 
+    background-color: #6c774f;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .head-word {
+    font-size: 14px;
+  }
+
+  .head-icon {
+    font-size: 16px;
+    float: none; /* Prevent floating on small screens */
+    text-align: center;
+  }
+
+  .icons {
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+  }
+
+  header span {
+    font-size: 12px;
+  }
+}
+
+
 /*NAVBAR*/
 
 
@@ -1183,6 +1212,66 @@ select{
 
   
 }
+
+@media (max-width: 480px) {
+  
+
+  .content, .owl-content {
+    padding: 120px 10px 80px 20px; /* Reduce padding */
+  }
+
+  .content h2 {
+    font-size: 2rem; /* Smaller heading size */
+  }
+
+  .content h6, .content p {
+    font-size: 14px; /* Smaller text */
+  }
+
+  .btn-yellow, .btn-white {
+    padding: 8px 15px; /* Adjust button padding */
+    font-size: 0.9rem; /* Smaller button text */
+  }
+
+  .navbar-container {
+   height: auto;
+    
+  }
+
+  .navbar-logo {
+    font-size: 1.2rem;
+  }
+
+  .navbar-links {
+    flex-direction: column; /* Stack links vertically */
+    margin-top: 10px;
+  }
+
+  .navbar-links li {
+    margin-left: 0;
+    margin-bottom: 10px; /* Space between links */
+  }
+
+  .navbar-toggler {
+    display: block; /* Show toggler on smaller screens */
+  }
+
+  .quote-btn {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+  }
+
+  .overlay {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .navbar-info {
+    font-size: 0.8rem; /* Adjust navbar info text */
+    margin-right: 10px;
+  }
+}
+
 
 /*ABOUT US*/
 
@@ -1447,6 +1536,70 @@ select{
         padding-left: 100px; /* Adjust padding */
   }
 }
+
+@media (max-width: 480px) {
+  .about-head p {
+    font-size: 0.8rem; /* Adjust font size */
+    margin-bottom: 10px; /* Add space at the bottom */
+  }
+
+  .about-head h2 {
+    font-size: 1.8rem; /* Smaller heading size */
+  }
+
+  .stats-box {
+    margin: 0; /* Remove large margins for small screens */
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  .stats-box h2 {
+    font-size: 30px; /* Adjust font size */
+  }
+
+  .stats-box p {
+    font-size: 13px; /* Adjust text size */
+  }
+
+  .img-fl, .img-flu, .img-flui {
+    width: 100%; /* Full width for images */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px 0; /* Adjust margins */
+  }
+
+  .info-list {
+    font-size: 0.9rem; /* Smaller list item text */
+  }
+
+  .info-list li {
+    margin-bottom: 15px; /* Adjust spacing */
+  }
+
+  .read-more-btn {
+    padding: 8px 15px; /* Adjust button padding */
+    font-size: 0.9rem; /* Adjust font size */
+  }
+
+  .contact-info {
+    font-size: 1rem; /* Smaller text */
+    padding-left: 20px;
+  }
+
+  .about-icon {
+    width: 30px; /* Adjust icon size */
+    height: 30px;
+  }
+
+  .about-icons {
+    padding-left: 20px;
+    padding-top: 40px; /* Adjust padding */
+  }
+
+  .read-about {
+    padding-top: 60px; /* Reduce padding */
+  }
+}
+
 
 /*SERVICES*/
 
