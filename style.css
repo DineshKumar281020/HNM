@@ -363,7 +363,7 @@ header a:hover {
 
 .services-section {
   background-color: #eaefe6;
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
 .services-section h2 {
@@ -430,6 +430,7 @@ header a:hover {
 
 .product-section {
   background-color: #99b086;
+  padding: 40px 0;
 }
 
 .pro-para h2 {
@@ -488,7 +489,7 @@ p.lead {
 
 .exports-section {
   background-color: #eaefe6;
-  padding: 70px 0;
+  padding: 40px 0;
 }
 
 .exports-title {
@@ -607,7 +608,7 @@ p.lead {
 
 .timeline-section {
   background-color: #f9f9f9;
-  padding: 60px 0;
+  padding: 40px 0;
 }
 .timeline-title {
   text-align: center;
@@ -667,6 +668,10 @@ p.lead {
 
 /*QUALITY*/
 
+.quality-section{
+  padding: 40px 0;
+}
+
 .section-title {
   font-size: 2.5rem;
   font-weight: bold;
@@ -708,7 +713,7 @@ p.lead {
 
 .contact-section {
   background-color: #f9f9f9;
-  padding: 60px 0;
+  padding: 40px 0;
 }
 .contact-section h2 {
   font-size: 40px;
@@ -822,6 +827,7 @@ select{
 .footer {
   background-color: #282828;
   color: #fff;
+  padding: 40px 0;
 }
 .footer h5 {
   color: #99b086;
@@ -1299,7 +1305,7 @@ select{
   }
 
   .img-fl {
-    margin: 5rem 0 0 -10px; /* Adjust margins */
+    margin: 5rem 0 0 -20px; /* Adjust margins */
   }
 
   .img-flu {
@@ -1453,7 +1459,7 @@ select{
 
   .contact-info {
     font-size: 0.8rem; /* Adjust font size */
-    padding-left: 0; /* Remove padding */
+    
   }
 
   .about-icons {
@@ -2315,13 +2321,13 @@ select{
   }
 
   .timeline-item::before {
-    left: -12px; /* Adjust marker position */
+    left: 3px; /* Adjust marker position */
     width: 14px; /* Reduce marker size */
     height: 14px;
   }
 
   .timeline-content {
-    margin-left: 10px; /* Reduce margin for mobile */
+    margin-left: 20px; /* Reduce margin for mobile */
     padding: 10px; /* Minimize padding */
   }
 
@@ -2466,8 +2472,8 @@ select{
   }
 
   .img-fluid-quality {
-    max-width: 80%; /* Adjust image size for mobile */
-    margin-left: 60px; /* Reduce left margin */
+    max-width: 85%; /* Adjust image size for mobile */
+    margin-left: 40px; /* Reduce left margin */
   }
 }
 
