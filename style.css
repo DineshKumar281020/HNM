@@ -29,7 +29,7 @@ body{
 
 .icons:hover{
   color: #99b086;
-  
+
 }
 
 header .bi {
@@ -72,14 +72,14 @@ header a:hover {
 }
 
 .navbar {
-  
+
   position: absolute;
       width: 100%;
       background-color: transparent;
       transition: background-color 0.3s ease;
       z-index: 999;
-      
-  
+
+
 }
 
 .navbar.fixed {
@@ -110,7 +110,7 @@ header a:hover {
   align-items: center;
   margin: auto;
   color: #fff;
-  
+
 }
 
 .navbar-logo {
@@ -129,7 +129,7 @@ header a:hover {
   display: flex;
   list-style: none;
   margin-top: 18px;
-  
+
 }
 
 .navbar-links li {
@@ -252,7 +252,7 @@ header a:hover {
 .about-head h2{
   font-weight: bold;
     font-size: 2.5rem;
-    
+
 }
 
 .stats-box {
@@ -273,6 +273,8 @@ header a:hover {
   font-size: 15px;
   font-weight: 700;
 }
+
+
 
 .img-fl{
   width: 300px;
@@ -295,7 +297,7 @@ header a:hover {
   margin: -15.5rem 0px 0px 80px;
   border-radius: 20px;
 }
- 
+
 .info-list {
   list-style-type: none;
   padding-left: 0;
@@ -386,7 +388,7 @@ header a:hover {
 
 .service-box:hover{
   background-color: #99b086;
-   color: white; 
+   color: white;
   transform: scale(1.05);
 }
 
@@ -413,7 +415,7 @@ header a:hover {
 }
 .service-description {
   font-size: 16px;
-  
+
 }
 
 .action-buttons {
@@ -463,7 +465,7 @@ p.lead {
 
 
 .card-title {
-  
+
   font-size: 18px;
   font-weight: bold;
 }
@@ -497,7 +499,7 @@ p.lead {
   text-align: center;
   font-weight: bold;
   margin-bottom: 50px;
-  
+
 }
 .export-card {
   border: none;
@@ -506,7 +508,7 @@ p.lead {
 .export-card:hover {
   transform: translateY(-10px);
    background-color: #99b086;
-  color: #fff ; 
+  color: #fff ;
 }
 .country-flag {
   width: 100%;
@@ -524,7 +526,7 @@ p.lead {
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 15px;
- 
+
 }
 
 .card-text {
@@ -534,7 +536,7 @@ p.lead {
 .export-stats {
   font-size: 18px;
   font-weight: bold;
-  
+
 }
 
 /*APPLICATIONS*/
@@ -730,7 +732,7 @@ select{
 
 
 
-.contact-section .form-control, 
+.contact-section .form-control,
 .contact-section .btn {
   border-radius: 0;
 }
@@ -816,7 +818,7 @@ select{
 
  .c-icon{
   padding-right: 0;
-} 
+}
 
 
 
@@ -886,11 +888,11 @@ select{
   .head {
     background-color: #6c774f;
     color: #fff;
-    text-align: center; 
+    text-align: center;
   }
 
   .head-word {
-    font-size: 15px; 
+    font-size: 15px;
     }
 
   .head-icon {
@@ -916,11 +918,11 @@ select{
 
 @media (max-width: 992px) {
   .head-word {
-    font-size: 16px; 
+    font-size: 16px;
   }
 
   .head-icon {
-    font-size: 17px; 
+    font-size: 17px;
   }
 
   .icons {
@@ -956,7 +958,7 @@ select{
 }
 
 @media (max-width: 576px) {
-  
+
 
   body{
     overflow-x: hidden;
@@ -966,17 +968,17 @@ select{
   .head {
     background-color: #6c774f;
     color: #fff;
-    text-align: center; 
+    text-align: center;
   }
 
   .head-word {
-    font-size: 14px; 
+    font-size: 14px;
   }
 
   .head-icon {
     float: none;
     font-size: 16px;
-    margin-top: 10px; 
+    margin-top: 10px;
   }
 
   .icons {
@@ -994,7 +996,7 @@ select{
   }
 
   header span {
-    font-size: 12px; 
+    font-size: 12px;
   }
 
   header a:hover {
@@ -1003,7 +1005,7 @@ select{
 }
 
 @media (max-width: 480px) {
-  .head { 
+  .head {
     background-color: #6c774f;
     color: #fff;
     padding: 10px;
@@ -1046,19 +1048,19 @@ select{
   }
 
   .content h2 {
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
   }
 
   .content p {
-    font-size: 1.1rem; 
+    font-size: 1.1rem;
   }
 
   .owl-content {
-    padding: 200px 0 180px 20px; 
+    padding: 200px 0 180px 20px;
   }
 
   .quote-btn {
-    padding: 5px 5px; 
+    padding: 5px 5px;
     font-size: 0.9rem;
   }
 
@@ -1080,15 +1082,15 @@ select{
   }
 
   .content h2 {
-    font-size: 2rem; 
+    font-size: 2rem;
   }
 
   .content p {
-    font-size: 1rem; 
+    font-size: 1rem;
   }
 
   .owl-content {
-    padding: 150px 0 150px 20px; 
+    padding: 150px 0 150px 20px;
   }
 
   .quote-btn {
@@ -1097,11 +1099,11 @@ select{
   }
 
   .navbar-logo img {
-    height: 40px; 
+    height: 40px;
   }
 
   .navbar-container {
-    height: 45px; 
+    height: 45px;
   }
 
   .navbar-links{
@@ -1128,12 +1130,12 @@ select{
 /* Media queries for tablets (768px and below) */
 @media (max-width: 768px) {
   .content {
-    padding: 150px 20px 100px 20px; 
-    text-align: center; 
+    padding: 150px 20px 100px 20px;
+    text-align: center;
   }
 
   .content h2 {
-    font-size: 1.8rem; 
+    font-size: 1.8rem;
   }
 
   .content p {
@@ -1142,15 +1144,15 @@ select{
 
   .btn-yellow, .btn-white {
     padding: 6px 14px;
-    font-size: 0.9rem; 
+    font-size: 0.9rem;
   }
 
   .navbar-links {
-    display: none; 
+    display: none;
   }
 
   .navbar-logo img {
-    height: 35px; 
+    height: 35px;
   }
 
   .quote-btn {
@@ -1172,21 +1174,21 @@ select{
     background-color: #000;
    }
 
-  
+
 }
 
 /* Media queries for mobile screens (576px and below) */
 @media (max-width: 576px) {
   .content {
-    padding: 120px 10px 80px 10px; 
+    padding: 120px 10px 80px 10px;
   }
 
   .content h2 {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
   }
 
   .content p {
-    font-size: 0.9rem; 
+    font-size: 0.9rem;
   }
 
   .btn-yellow, .btn-white {
@@ -1195,13 +1197,13 @@ select{
   }
 
   .navbar-logo img {
-    height: 30px; 
+    height: 30px;
   }
 
   .quote-btn {
     padding: 5px 12px;
     font-size: 0.7rem;
-    margin-right: 12px; 
+    margin-right: 12px;
   }
 
   .navbar-container .navbar-toggler {
@@ -1217,11 +1219,11 @@ select{
     background-color: #000;
    }
 
-  
+
 }
 
 @media (max-width: 480px) {
-  
+
   .content, .owl-content {
     padding: 120px 10px 80px 20px; /* Reduce padding */
   }
@@ -1241,7 +1243,7 @@ select{
 
   .navbar-container {
    height: auto;
-    
+
   }
 
   .navbar-logo {
@@ -1284,36 +1286,42 @@ select{
 /* Media queries for large screens (1200px and below) */
 @media (max-width: 1200px) {
   .about-head h2 {
-    font-size: 2rem; 
+    font-size: 2rem;
   }
 
   .stats-box {
-    margin: -28rem 15rem 0px 0;
+    margin: -20rem 12rem 0px 0;
   }
 
   .stats-box h2 {
-    font-size: 30px; 
+    font-size: 30px;
   }
 
   .stats-box p {
-    font-size: 12px; 
+    font-size: 12px;
   }
 
-  .img-fl, .img-flu, .img-flui {
-    width: 250px; 
-    height: auto; 
-  }
+  /* .img-fl, .img-flu, .img-flui {
+    width: 250px;
+    height: auto;
+  } */
 
   .img-fl {
-    margin: 5rem 0 0 -20px; /* Adjust margins */
+    margin: 5rem 0 0 5px; /* Adjust margins */
+    height: 360px;
+    width: 180px;
   }
 
   .img-flu {
-    margin: 35px 0 0 120px; /* Adjust margins */
+    margin: 55px 0 0 110px; /* Adjust margins */
+    height: 180px;
+    width: 200px;
   }
 
   .img-flui {
     margin: -12rem 0 0 89px; /* Adjust margins */
+    height: 180px;
+    width: 200px;
   }
 
   .info-list {
@@ -1347,7 +1355,7 @@ select{
     font-size: 1.8rem; /* Adjust heading size */
   }
 
-  
+
 .stats-box h2 {
     font-size: 25px; /* Adjust font size */
   }
@@ -1428,23 +1436,23 @@ select{
   }
 
   .img-fl{
-    width: 249px;
-    height: 399px;
+    width: 209px;
+    height: 359px;
     margin: 20px;
     border-radius: 20px;
  }
 
  .img-flu{
-   width: 224px;
-   height: 210px;
-   margin: -700px 0px 0px 300px;
+   width: 184px;
+   height: 170px;
+   margin: -645px 0px 0px 260px;
    border-radius: 20px;
  }
 
  .img-flui{
-   width: 234px;
-   height: 220px;
-   margin: -265px 0 0 315px;
+   width: 194px;
+   height: 180px;
+   margin: -290px 0 0 260px;
    border-radius: 20px;
  }
 
@@ -1459,7 +1467,7 @@ select{
 
   .contact-info {
     font-size: 0.8rem; /* Adjust font size */
-    
+
   }
 
   .about-icons {
@@ -1485,7 +1493,7 @@ select{
   }
 
   .stats-box {
-    margin: -30rem 0 0 25px; /* Adjust margins */
+    margin: -30rem 0 0 0; /* Adjust margins */
     padding: 10px; /* Add padding */
   }
 
@@ -1498,23 +1506,22 @@ select{
   }
 
   .img-fl{
-     width: 249px;
-     height: 399px;
-     margin: 20px;
+     width: 199px;
+     height: 349px;
      border-radius: 20px;
   }
 
   .img-flu{
-    width: 224px;
-    height: 210px;
-    margin: -722px 0px 0px 300px;
+    width: 174px;
+    height: 160px;
+    margin: -640px 0px 0px 250px;
     border-radius: 20px;
   }
 
   .img-flui{
-    width: 234px;
-    height: 220px;
-    margin: -290px 0 0 305px;
+    width: 184px;
+    height: 170px;
+    margin: -310px 0 0 260px;
     border-radius: 20px;
   }
 
@@ -1539,11 +1546,14 @@ select{
 
   .read-about {
     padding-top: 20px;
-        padding-left: 100px; /* Adjust padding */
+        padding-left: 50px; /* Adjust padding */
   }
 }
 
 @media (max-width: 480px) {
+
+
+
   .about-head p {
     font-size: 0.8rem; /* Adjust font size */
     margin-bottom: 10px; /* Add space at the bottom */
@@ -1554,13 +1564,15 @@ select{
   }
 
   .stats-box {
-    margin: -410px 0 0 0; /* Remove large margins for small screens */
+
     border-radius: 20px;
     padding: 20px;
+    height: 230px;
+    width: 125px;
   }
 
   .stats-box h2 {
-    font-size: 30px; /* Adjust font size */
+    font-size: 20px; /* Adjust font size */
   }
 
   .stats-box p {
@@ -1568,23 +1580,22 @@ select{
   }
 
   .img-fl{
-    width: 200px;
-    height: 350px;
-    margin: 20px;
-    border-radius: 20px;
+    width: 150px;
+    height: 300px;
+   border-radius: 20px;
  }
 
  .img-flu{
-   width: 224px;
-   height: 200px;
-   margin: -610px 0px 0px 245px;
+   width: 174px;
+   height: 150px;
+   margin: -560px 0px 0px 200px;
    border-radius: 20px;
  }
 
  .img-flui{
-   width: 234px;
-   height: 220px;
-   margin: -220px 0 0 245px;
+   width: 184px;
+   height: 170px;
+   margin: -260px 0 0 205px;
    border-radius: 20px;
  }
 
@@ -1618,7 +1629,7 @@ select{
 
   .read-about {
     padding-top: 60px; /* Reduce padding */
-    padding-left: 45px;
+    padding-left: 0px;
   }
 }
 
@@ -1824,7 +1835,7 @@ select{
   .pro-para h2 {
     font-size: 30px;
   }
-  
+
   p.lead {
     font-size: 16px;
   }
@@ -1851,7 +1862,7 @@ select{
   .pro-para h2 {
     font-size: 25px;
   }
-  
+
   p.lead {
     font-size: 14px;
   }
@@ -1877,7 +1888,7 @@ select{
 
   .pro-box {
     width: 220px; /* Adjust box width */
-   
+
   }
 
   .card-title {
@@ -2515,7 +2526,7 @@ select{
     font-size: 36px; /* Reduce heading size */
   }
 
-  .service-card-contact h5, 
+  .service-card-contact h5,
   .why-best-card h5 {
     font-size: 1.4rem; /* Adjust heading size */
   }
@@ -2531,7 +2542,7 @@ select{
     font-size: 32px; /* Reduce heading size further */
   }
 
-  .service-card-contact h5, 
+  .service-card-contact h5,
   .why-best-card h5 {
     font-size: 1.3rem; /* Adjust heading size for tablets */
   }
@@ -2544,7 +2555,7 @@ select{
     padding-left: 20px; /* Adjust padding for contact form */
   }
 
-  .service-card-contact, 
+  .service-card-contact,
   .why-best-card {
     padding: 25px; /* Reduce padding in cards */
   }
@@ -2556,12 +2567,12 @@ select{
     font-size: 28px; /* Reduce heading size for smaller screens */
   }
 
-  .service-card-contact h5, 
+  .service-card-contact h5,
   .why-best-card h5 {
     font-size: 1.2rem; /* Adjust heading size for small tablets */
   }
 
-  .service-card-contact p, 
+  .service-card-contact p,
   .why-best-card p {
     font-size: 0.9rem; /* Adjust paragraph text size */
   }
@@ -2574,7 +2585,7 @@ select{
     padding-top: 30px; /* Reduce padding */
   }
 
-  .service-card-contact, 
+  .service-card-contact,
   .why-best-card {
     padding: 20px; /* Reduce card padding */
   }
@@ -2591,13 +2602,13 @@ select{
     text-align: center;
   }
 
-  .service-card-contact h5, 
+  .service-card-contact h5,
   .why-best-card h5 {
     font-size: 1.1rem; /* Adjust heading size for mobile */
     text-align: center; /* Center card headings */
   }
 
-  .service-card-contact p, 
+  .service-card-contact p,
   .why-best-card p {
     font-size: 0.85rem; /* Reduce paragraph text size */
   }
@@ -2614,7 +2625,7 @@ select{
     padding-top: 20px; /* Further reduce padding */
   }
 
-  .service-card-contact, 
+  .service-card-contact,
   .why-best-card {
     padding: 15px; /* Adjust padding for mobile */
   }
@@ -2670,7 +2681,7 @@ select{
   .icon {
     padding: 10px; /* Reduce padding for icons */
   }
-  
+
   .c-icon {
     padding-right: 0; /* Keep icon layout consistent */
   }
@@ -2737,7 +2748,7 @@ select{
   .footer-div{
     margin-left: 160px;
     margin-bottom: 10px;
-    
+
   }
 
   .footer h5 {
@@ -2820,7 +2831,7 @@ select{
 
   .footer .store-icon {
     width: 80px; /* Reduce store icon size */
-    
+
   }
 
   .footer-bottom {
