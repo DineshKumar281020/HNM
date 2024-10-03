@@ -1385,6 +1385,11 @@ select{
   }
 
 
+  .aboutSection {
+   padding-top: 110px;
+ }
+
+
   .content-box{
     height: 210px;
   }
@@ -1500,6 +1505,7 @@ select{
  .aboutSection 
  {
    gap:15px;
+   padding-top: 75px;
  }
  .imgbox-2 
  {
@@ -1533,6 +1539,11 @@ select{
 
 /* Media queries for mobile screens (576px and below) */
 @media (max-width: 576px) {
+
+  .aboutSection {
+    padding-top: 35px;
+}
+
   .about-head p {
     font-size: 0.7rem; /* Adjust font size */
   }
@@ -1602,7 +1613,10 @@ select{
 
 @media (max-width: 480px) {
 
-
+  .aboutSection 
+ {
+   padding-top: 30px;
+ }
 
   .about-head p {
     font-size: 0.8rem; /* Adjust font size */
@@ -1668,7 +1682,7 @@ select{
   }
 
   .contact-info {
-    font-size: 1rem; /* Smaller text */
+    font-size: 14px; /* Smaller text */
     padding-left: 20px;
   }
 
@@ -2798,10 +2812,11 @@ select{
 
   .list-unstyled{
     text-align: center;
+    font-size: 14px;
   }
 
   .footer-div{
-    margin-left: 160px;
+    margin-left: 35px;
     margin-bottom: 10px;
 
   }
