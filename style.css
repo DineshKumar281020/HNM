@@ -871,7 +871,7 @@ select{
   margin-right: 10px;
 }
 .footer p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
 }
 .footer a {
@@ -889,16 +889,27 @@ select{
   border-top: 1px solid #444;
   padding-top: 20px;
 }
-.footer-bottom p {
-  margin: 0;
-  font-size: 13px;
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
 }
-.footer-bottom a {
+
+.footer-content p {
   color: #99b086;
+  font-size: 14px;
 }
-.footer-bottom a:hover {
-  color: #fff;
+
+.powered-by {
+  text-align: left;
 }
+
+.copyright {
+  text-align: right;
+}
+
 
 .btn-paper{
   background-color: #99b086;
@@ -911,6 +922,16 @@ select{
 .footer .fa-paper-plane{
   color: #fff;
 }
+
+.ic{
+  color: #6c774f;
+}
+
+.ic:hover{
+  color: #fff;
+}
+
+
 
 /*MEDIA QUERRIES*/
 
@@ -1522,7 +1543,7 @@ select{
   }
 
   .contact-info {
-    font-size: 0.8rem; /* Adjust font size */
+    font-size: 0.7rem; /* Adjust font size */
 
   }
 
@@ -2775,9 +2796,7 @@ select{
     width: 100px; /* Reduce store icon size */
   }
 
-  .footer-bottom p {
-    font-size: 12px; /* Adjust text size in footer bottom */
-  }
+  
 }
 
 /* Media queries for tablets (992px and below) */
@@ -2798,15 +2817,13 @@ select{
     width: 90px; /* Reduce logo size */
   }
 
-  .footer-bottom p {
-    font-size: 11px; /* Reduce text size in footer bottom */
-  }
+  
 }
 
 /* Media queries for small tablets (768px and below) */
 @media (max-width: 768px) {
   .footer p {
-    font-size: 14px; /* Reduce paragraph text size for small tablets */
+    font-size: 13px; /* Reduce paragraph text size for small tablets */
     text-align: center;
   }
 
@@ -2836,9 +2853,7 @@ select{
     margin: 5px 3px; /* Adjust margins for spacing */
   }
 
-  .footer-bottom p {
-    font-size: 13px; /* Reduce footer bottom text size */
-  }
+  
 }
 
 /* Media queries for mobile screens (576px and below) */
@@ -2854,6 +2869,10 @@ select{
 
   .footer-div{
     margin:0;
+  }
+
+  .footer a {
+    padding-top: 5px;
   }
 
   .footer p {
@@ -2873,14 +2892,11 @@ select{
     margin: 5px auto; /* Center the store icons */
   }
 
-  .footer-bottom p {
-    font-size: 12px; /* Adjust footer bottom text size */
-    text-align: center; /* Center footer bottom text */
-  }
+  
 
-  .footer-bottom a {
-    font-size: 12px; /* Adjust link font size */
-  }
+  
+
+  
 }
 
 
@@ -2888,6 +2904,7 @@ select{
   .footer h5 {
     font-size: 18px; /* Reduce heading size */
     margin-bottom: 15px; /* Adjust margin */
+    text-align: left;
   }
 
   .footer-logo {
@@ -2895,8 +2912,13 @@ select{
   }
 
   .footer p {
-    font-size: 12px; /* Decrease paragraph font size */
+    font-size: 14px; /* Decrease paragraph font size */
     line-height: 1.4; /* Adjust line height */
+    text-align: left;
+  }
+
+  .a-tag{
+    text-align: left;
   }
 
   .footer .store-icon {
@@ -2908,9 +2930,17 @@ select{
     padding-top: 15px; /* Adjust padding */
   }
 
-  .footer-bottom p {
-    font-size: 11px; /* Decrease font size */
+  .powered-by{
+    text-align: center !important;
+    font-size: 10px !important;
   }
+
+  .copyright{
+    text-align: center !important;
+    font-size: 10px !important;
+  }
+
+  
 
   .btn-paper {
     padding: 8px 12px; /* Adjust button padding */
@@ -2924,6 +2954,8 @@ select{
   .footer-div{
     margin-left: 0;
   }
+
+  
 
 
 }
