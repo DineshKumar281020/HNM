@@ -131,7 +131,7 @@ body{
   color: #ccc;
 }
 
-.card {
+.infrastructure-section .card {
   background-color: #2a2a2c;
   border: none;
   padding: 30px 20px;
@@ -139,33 +139,25 @@ body{
   transition: 0.3s;
 }
 
-.card:hover {
+.infrastructure-section .card:hover {
   background-color: #3b3b3d;
 }
 
-.card h5 {
+.infrastructure-section .card h5 {
   margin-top: 20px;
   color: #fff;
   font-size: 1.2rem;
 }
 
-.card p {
+.infrastructure-section .card p {
   color: #b8b8b8;
 }
 
-.card a {
-  color: #48c9b0;
-  font-weight: 500;
-  text-decoration: none;
-}
 
-.card a:hover {
-  text-decoration: underline;
-}
 
-.icon {
+.infrastructure-section .icon {
   font-size: 2.5rem;
-  color: #48c9b0;
+  color: #99b086;
 }
 
 
@@ -377,7 +369,7 @@ body{
 /* For screens up to 1200px */
 @media (max-width: 1200px) {
   .infrastructure-section {
-    padding: 60px 0 35px 0;
+    padding: 80px 0 35px 0;
   }
   .infrastructure-section h2 {
     font-size: 2.2rem;
@@ -399,7 +391,7 @@ body{
 /* For screens up to 992px */
 @media (max-width: 992px) {
   .infrastructure-section {
-    padding: 55px 0 30px 0;
+    padding: 75px 0 30px 0;
   }
   .infrastructure-section h2 {
     font-size: 2rem;
@@ -421,7 +413,7 @@ body{
 /* For screens up to 768px */
 @media (max-width: 768px) {
   .infrastructure-section {
-    padding: 50px 0 30px 0;
+    padding: 70px 0 30px 0;
   }
   .infrastructure-section h2 {
     font-size: 1.8rem;
@@ -443,7 +435,7 @@ body{
 /* For screens up to 576px */
 @media (max-width: 576px) {
   .infrastructure-section {
-    padding: 40px 0 25px 0;
+    padding: 65px 0 25px 0;
   }
   .infrastructure-section h2 {
     font-size: 1.6rem;
@@ -465,7 +457,7 @@ body{
 /* For screens up to 480px */
 @media (max-width: 480px) {
   .infrastructure-section {
-    padding: 35px 0 20px 0;
+    padding: 65px 0 20px 0;
   }
   .infrastructure-section h2 {
     font-size: 1.5rem;
