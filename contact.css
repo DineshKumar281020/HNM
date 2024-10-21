@@ -130,6 +130,7 @@ body{
 .info-container {
   width: 40%;
   padding-left: 30px;
+  padding-top: 20px;
 }
 
 .info-container h3 {
@@ -149,7 +150,7 @@ body{
 
 .info-container .info-item i {
   font-size: 20px;
-  color: #f0ad4e;
+  color: #6c774f;
   margin-right: 10px;
 }
 
