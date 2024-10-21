@@ -88,7 +88,7 @@ header a:hover {
   left: 0;
   right: 0;
   background-color: white;
-  box-shadow: 0 4px 2px -2px gray;
+  box-shadow: 0 3px 2px -2px gray;
 }
 
 .navbar.fixed a{
@@ -240,8 +240,6 @@ header a:hover {
 
 /*ABOUT US*/
 
-
-
 .about-head p{
   color: #888;
     font-size: 0.9rem;
@@ -274,30 +272,6 @@ header a:hover {
   font-weight: 700;
 }
 
-
-
-/*.img-fl{
-  width: 300px;
-  height: 450px;
-  margin: 7rem 0px 0px -40px;
-  border-radius: 20px;
-}
-
-
-.img-flu{
-  width: 300px;
-  height: 300px;
-  margin: 0rem 0px 0px 130px;
-  border-radius: 20px;
-}
-
-.img-flui{
-  width: 330px;
-  height: 310px;
-  margin: -15.5rem 0px 0px 80px;
-  border-radius: 20px;
-} */
-
 .aboutSection 
 {
   display:flex;
@@ -329,19 +303,43 @@ header a:hover {
   margin:auto;
 }
 
-.info-list {
-  list-style-type: none;
-  padding-left: 0;
-  font-size: 1.1rem;
+.about-para{
+  padding-left: 25px;
 }
-.info-list li {
+
+
+.about-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4a6437; /* dark green color */
+  text-align: left;
+}
+
+.about-subheading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #4a6437; /* same dark green color */
   margin-bottom: 20px;
-  display: flex;
-  align-items: center;
 }
-.info-list li img {
-  margin-right: 15px;
+
+.about-text {
+  font-size: 1rem;
+  color: #4a4a4a;
+  margin-bottom: 15px;
 }
+
+.about-highlight {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #4a6437; /* dark green for highlight text */
+}
+
+strong {
+  color: #000; /* black bold text for emphasis */
+}
+
+
+
 .read-more-btn {
   background-color: #000;
   color: #fff;
@@ -363,8 +361,8 @@ header a:hover {
   font-weight: bold;
   font-size: 1.2rem;
   margin-top: 20px;
-  display: inline;
-    padding-left: 40px;
+  
+    
 }
 
 .contact-info a{
@@ -377,18 +375,8 @@ header a:hover {
   text-decoration: underline;
 }
 
-.about-icon{
-  width: 40px;
-  height: 40px;
-}
-
-.about-icons{
-  padding-top: 70px;
-  padding-left: 50px;
-}
-
 .read-about{
-  padding-top: 110px;
+  padding-top: 55px;
 }
 
 
@@ -466,13 +454,11 @@ header a:hover {
   padding: 40px 0;
 }
 
-.pro-para h2 {
-  color: #2d2d2d;
-  font-weight: 700;
-}
+
 
 p.lead {
   color: #000;
+  font-size: 16px;
 }
 
 .card {
@@ -653,50 +639,36 @@ p.lead {
   font-size: 2.5rem;
 }
 
-.timeline {
-  position: relative;
-  padding-left: 40px;
-  margin-bottom: 50px;
+.infrastructure-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 18px;
-  top: 0;
-  bottom: 0;
-  width: 4px;
-  background-color: #6c774f;
+
+.infrastructure-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
-.timeline-item {
-  position: relative;
-  margin-bottom: 50px;
+
+.icon-box {
+  font-size: 40px;
+  color: #f39c12;
 }
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  left: -6px;
-  top: 0;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #99b086;
-  border: 2px solid white;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #333;
 }
-.timeline-content {
-  margin-left: 40px;
-  background-color: #ffffff;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+.description {
+  font-size: 14px;
+  color: #6c757d;
 }
-.timeline-content h4 {
-  margin-bottom: 15px;
-}
-.timeline-content p {
-  font-size: 15px;
-  color: #555555;
-}
+
 
 
 /*QUALITY*/
@@ -744,7 +716,7 @@ p.lead {
 
 /*CONTACT US*/
 
-.contact-section {
+/* .contact-section {
   background-color: #f9f9f9;
   padding: 40px 0;
 }
@@ -774,7 +746,7 @@ select{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Service Card Styling */
+
 .service-card-contact {
   background: linear-gradient(135deg, #99b086, #6c774f);
   color: white;
@@ -810,7 +782,7 @@ select{
   margin-bottom: 0;
 }
 
-/* Why We Are Best Styling */
+
 .why-best-card {
   background-color: #f5f7fa;
   border-radius: 20px;
@@ -839,7 +811,7 @@ select{
   padding-top: 60px;
 }
 
-/* Icon Styling */
+
 .icon {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 50%;
@@ -849,7 +821,7 @@ select{
 
  .c-icon{
   padding-right: 0;
-}
+} */
 
 
 
@@ -1058,6 +1030,7 @@ select{
 
 @media (max-width: 480px) {
   .head {
+    display: none;
     background-color: #6c774f;
     color: #fff;
     padding: 10px;
@@ -1319,6 +1292,7 @@ select{
   .quote-btn {
     padding: 6px 12px;
     font-size: 0.9rem;
+    display: none;
   }
 
   .overlay {
@@ -1341,8 +1315,6 @@ select{
     font-size: 2rem;
   }
 
-  
-
   .content-box h2 {
     font-size: 30px;
   }
@@ -1351,29 +1323,7 @@ select{
     font-size: 12px;
   }
 
-   /* .img-fl, .img-flu, .img-flui {
-    width: 250px;
-    height: auto;
-  } 
-
-  .img-fl {
-    margin: 5rem 0 0 5px; 
-    height: 360px;
-    width: 180px;
-  }
-
-  .img-flu {
-    margin: 55px 0 0 110px; 
-    height: 180px;
-    width: 200px;
-  }
-
-  .img-flui {
-    margin: -12rem 0 0 89px; 
-    height: 180px;
-    width: 200px;
-  } */
-
+   
   .info-list {
     font-size: 1rem; /* Adjust font size */
     margin-right: 20px;
@@ -1389,9 +1339,18 @@ select{
     padding-left: 10px; /* Adjust padding */
   }
 
-  .about-icons {
-    padding-top: 50px; /* Adjust padding */
-    padding-left: 50px; /* Adjust padding */
+  .about-para {
+    padding-left: 20px;
+  }
+  .about-heading {
+    font-size: 1.8rem;
+    text-align: left;
+  }
+  .about-subheading {
+    font-size: 1.1rem;
+  }
+  .about-text {
+    font-size: 0.95rem;
   }
 
   .read-about {
@@ -1424,30 +1383,23 @@ select{
     font-size: 12px; /* Adjust font size */
   }
 
-  /* .img-fl, .img-flu, .img-flui {
-    width: 200px; 
-    height: auto; 
-  } */
-
   
-
-  /* .img-fl {
-    margin: 3rem 0 0 -100px; 
-    border-radius: 20px;
-  }
-
-  .img-flu {
-    margin: 20px 0 0 35px; 
-    border-radius: 20px;
-  }
-
-  .img-flui {
-    margin: -9rem 0 0 4px; 
-    border-radius: 20px;
-  } */
 
   .info-list {
     font-size: 0.9rem; /* Adjust font size */
+  }
+
+  .about-para {
+    padding-left: 15px;
+  }
+  .about-heading {
+    font-size: 1.7rem;
+  }
+  .about-subheading {
+    font-size: 1rem;
+  }
+  .about-text {
+    font-size: 0.9rem;
   }
 
   .read-more-btn {
@@ -1460,10 +1412,7 @@ select{
     padding-left: 10px; /* Adjust padding */
   }
 
-  .about-icons {
-    padding-top: 40px; /* Adjust padding */
-    padding-left: 20px; /* Adjust padding */
-  }
+  
 
   .read-about {
     padding-top: 60px; /* Adjust padding */
@@ -1480,15 +1429,6 @@ select{
     font-size: 1.5rem; /* Adjust heading size */
   }
 
-  
-
-  
-
-  /* .stats-box {
-    margin: -30rem -3rem 0px 0; 
-    padding: 10px; 
-  } */
-
   .content-box h2 {
     font-size: 26px; /* Adjust font size */
   }
@@ -1497,26 +1437,7 @@ select{
     font-size: 12px; /* Adjust font size */
   }
 
-  /* .img-fl{
-    width: 209px;
-    height: 359px;
-    margin: 20px;
-    border-radius: 20px;
- }
-
- .img-flu{
-   width: 184px;
-   height: 170px;
-   margin: -645px 0px 0px 260px;
-   border-radius: 20px;
- }
-
- .img-flui{
-   width: 194px;
-   height: 180px;
-   margin: -290px 0 0 260px;
-   border-radius: 20px;
- } */
+  
 
   .content-box
  {
@@ -1537,6 +1458,19 @@ select{
     font-size: 0.9rem; /* Adjust font size */
   }
 
+  .about-para {
+    padding-left: 10px;
+  }
+  .about-heading {
+    font-size: 1.6rem;
+  }
+  .about-subheading {
+    font-size: 1rem;
+  }
+  .about-text {
+    font-size: 0.875rem;
+  }
+
   .read-more-btn {
     padding: 6px 12px; /* Adjust padding */
     font-size: 0.8rem; /* Adjust font size */
@@ -1547,10 +1481,7 @@ select{
 
   }
 
-  .about-icons {
-    padding-top: 20px; /* Adjust padding */
-    padding-left: 10px; /* Adjust padding */
-  }
+  
 
   .read-about {
     padding-top: 40px; /* Adjust padding */
@@ -1574,10 +1505,7 @@ select{
     margin: 5px 0 25px 0;
   }
 
-  /* .stats-box {
-    margin: -30rem 0 0 0; 
-    padding: 10px; 
-  } */
+  
 
   .content-box h2 {
     font-size: 25px; /* Adjust font size */
@@ -1587,28 +1515,24 @@ select{
     font-size: 11px; /* Adjust font size */
   }
 
-  /* .img-fl{
-     width: 199px;
-     height: 349px;
-     border-radius: 20px;
-  }
-
-  .img-flu{
-    width: 174px;
-    height: 160px;
-    margin: -640px 0px 0px 250px;
-    border-radius: 20px;
-  }
-
-  .img-flui{
-    width: 184px;
-    height: 170px;
-    margin: -310px 0 0 260px;
-    border-radius: 20px;
-  } */
+  
 
   .info-list {
     font-size: 0.8rem; /* Adjust font size */
+  }
+
+  .about-para {
+    padding-left: 8px;
+    margin-top: 30px;
+  }
+  .about-heading {
+    font-size: 1.5rem;
+  }
+  .about-subheading {
+    font-size: 0.95rem;
+  }
+  .about-text {
+    font-size: 0.85rem;
   }
 
   .read-more-btn {
@@ -1621,10 +1545,7 @@ select{
     padding-left: 0; /* Remove padding */
   }
 
-  .about-icons {
-    padding-top: 20px;
-        padding-left: 50px;
-  }
+  
 
   .read-about {
     padding-top: 20px;
@@ -1646,15 +1567,10 @@ select{
 
   .about-head h2 {
     font-size: 1.8rem; /* Smaller heading size */
+    margin: 5px 0 0px 0;
   }
 
-  /* .stats-box {
-
-    border-radius: 20px;
-    padding: 20px;
-    height: 230px;
-    width: 125px;
-  } */
+  
 
   .content-box{
     height: 180px;
@@ -1669,25 +1585,7 @@ select{
     font-size: 10px; /* Adjust text size */
   }
 
-  /* .img-fl{
-    width: 150px;
-    height: 300px;
-   border-radius: 20px;
- }
-
- .img-flu{
-   width: 174px;
-   height: 150px;
-   margin: -560px 0px 0px 200px;
-   border-radius: 20px;
- }
-
- .img-flui{
-   width: 184px;
-   height: 170px;
-   margin: -260px 0 0 205px;
-   border-radius: 20px;
- } */
+  
 
   .info-list {
     font-size: 0.9rem; /* Smaller list item text */
@@ -1700,11 +1598,13 @@ select{
   .read-more-btn {
     padding: 8px 15px; /* Adjust button padding */
     font-size: 0.9rem; /* Adjust font size */
+    margin-bottom: 10px;
   }
 
   .contact-info {
     font-size: 14px; /* Smaller text */
-    padding-left: 20px;
+    margin-top: 10px;
+    
   }
 
   .about-icon {
@@ -1712,13 +1612,24 @@ select{
     height: 30px;
   }
 
-  .about-icons {
-    padding-left: 20px;
-    padding-top: 40px; /* Adjust padding */
+  .about-para {
+    padding-left: 5px;
+    margin-top: 30px;
+  }
+  .about-heading {
+    font-size: 1.4rem;
+  }
+  .about-subheading {
+    font-size: 0.9rem;
+  }
+  .about-text {
+    font-size: 0.8rem;
   }
 
+  
+
   .read-about {
-    padding-top: 60px; /* Reduce padding */
+    padding-top: 50px; /* Reduce padding */
     padding-left: 0px;
   }
 }
@@ -2334,17 +2245,7 @@ select{
     font-size: 2.2rem; /* Reduce title size */
   }
 
-  .timeline-content {
-    padding: 25px; /* Reduce padding */
-  }
-
-  .timeline-content h4 {
-    font-size: 1.25rem; /* Adjust heading size */
-  }
-
-  .timeline-content p {
-    font-size: 14px; /* Adjust paragraph size */
-  }
+  
 }
 
 /* Media queries for tablets (992px and below) */
@@ -2353,25 +2254,7 @@ select{
     font-size: 2rem; /* Reduce title size */
   }
 
-  .timeline {
-    padding-left: 30px; /* Adjust timeline padding */
-  }
-
-  .timeline::before {
-    left: 14px; /* Adjust timeline line position */
-    width: 3px; /* Reduce line thickness */
-  }
-
-  .timeline-item::before {
-    left: -8px; /* Adjust marker position */
-    width: 18px; /* Adjust marker size */
-    height: 18px;
-  }
-
-  .timeline-content {
-    margin-left: 30px; /* Adjust content margin */
-    padding: 20px; /* Reduce padding */
-  }
+  
 }
 
 /* Media queries for small tablets (768px and below) */
@@ -2380,25 +2263,7 @@ select{
     font-size: 1.8rem; /* Reduce title size */
   }
 
-  .timeline {
-    padding-left: 25px; /* Reduce padding for smaller screens */
-  }
-
-  .timeline::before {
-    left: 10px; /* Adjust line position */
-    width: 2px; /* Further reduce line thickness */
-  }
-
-  .timeline-item::before {
-    left: -10px; /* Adjust marker position */
-    width: 16px; /* Adjust marker size */
-    height: 16px;
-  }
-
-  .timeline-content {
-    margin-left: 20px; /* Further reduce content margin */
-    padding: 15px; /* Reduce padding */
-  }
+  
 }
 
 /* Media queries for mobile screens (576px and below) */
@@ -2408,37 +2273,7 @@ select{
     text-align: center; /* Center-align title */
   }
 
-  .timeline {
-    padding-left: 10px; /* Further reduce timeline padding */
-  }
-
-  .timeline::before {
-    left: 8px; /* Adjust line position */
-    width: 2px; /* Keep line thin */
-  }
-
-  .timeline-item {
-    margin-bottom: 30px; /* Reduce spacing between items */
-  }
-
-  .timeline-item::before {
-    left: 3px; /* Adjust marker position */
-    width: 14px; /* Reduce marker size */
-    height: 14px;
-  }
-
-  .timeline-content {
-    margin-left: 20px; /* Reduce margin for mobile */
-    padding: 10px; /* Minimize padding */
-  }
-
-  .timeline-content h4 {
-    font-size: 1rem; /* Adjust content heading size */
-  }
-
-  .timeline-content p {
-    font-size: 13px; /* Reduce paragraph size */
-  }
+  
 }
 
 @media (max-width: 480px) {
@@ -2450,33 +2285,7 @@ select{
     font-size: 1.8rem; /* Adjust font size for the title */
   }
 
-  .timeline {
-    padding-left: 20px; /* Reduce left padding */
-  }
-
-  .timeline::before {
-    left: 10px; /* Adjust position of the vertical line */
-    width: 2px; /* Narrow the vertical line */
-  }
-
-  .timeline-item::before {
-    left: -4px; /* Adjust position of timeline bullet */
-    width: 15px; /* Adjust size of the bullet */
-    height: 15px;
-  }
-
-  .timeline-content {
-    margin-left: 20px; /* Reduce the left margin for timeline content */
-    padding: 20px; /* Reduce padding */
-  }
-
-  .timeline-content h4 {
-    font-size: 1.2rem; /* Adjust font size */
-  }
-
-  .timeline-content p {
-    font-size: 14px; /* Adjust paragraph font size */
-  }
+  
 }
 
 
@@ -2611,81 +2420,81 @@ select{
 /*CONTACT US*/
 
 /* Media queries for large screens (1200px and below) */
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .contact-section h2 {
-    font-size: 36px; /* Reduce heading size */
+    font-size: 36px; 
   }
 
   .service-card-contact h5,
   .why-best-card h5 {
-    font-size: 1.4rem; /* Adjust heading size */
+    font-size: 1.4rem; 
   }
 
   .contact-frame {
-    padding-top: 50px; /* Adjust padding for better spacing */
+    padding-top: 50px; 
   }
-}
+} */
 
 /* Media queries for tablets (992px and below) */
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .contact-section h2 {
-    font-size: 32px; /* Reduce heading size further */
+    font-size: 32px; 
   }
 
   .service-card-contact h5,
   .why-best-card h5 {
-    font-size: 1.3rem; /* Adjust heading size for tablets */
+    font-size: 1.3rem; 
   }
 
   .contact-frame {
-    padding-top: 40px; /* Reduce padding */
+    padding-top: 40px; 
   }
 
   .con {
-    padding-left: 20px; /* Adjust padding for contact form */
+    padding-left: 20px; 
   }
 
   .service-card-contact,
   .why-best-card {
-    padding: 25px; /* Reduce padding in cards */
+    padding: 25px; 
   }
-}
+} */
 
 /* Media queries for small tablets (768px and below) */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .contact-section h2 {
-    font-size: 28px; /* Reduce heading size for smaller screens */
+    font-size: 28px; 
   }
 
   .service-card-contact h5,
   .why-best-card h5 {
-    font-size: 1.2rem; /* Adjust heading size for small tablets */
+    font-size: 1.2rem; 
   }
 
   .service-card-contact p,
   .why-best-card p {
-    font-size: 0.9rem; /* Adjust paragraph text size */
+    font-size: 0.9rem; 
   }
 
   .con {
-    padding-top: 20px; /* Further adjust padding */
+    padding-top: 20px; 
   }
 
   .contact-frame {
-    padding-top: 30px; /* Reduce padding */
+    padding-top: 30px; 
   }
 
   .service-card-contact,
   .why-best-card {
-    padding: 20px; /* Reduce card padding */
+    padding: 20px; 
   }
-}
+} */
 
 /* Media queries for mobile screens (576px and below) */
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .contact-section h2 {
-    font-size: 24px; /* Reduce heading size for mobile */
-    text-align: center; /* Center the heading */
+    font-size: 24px; 
+    text-align: center; 
   }
 
   .contact-section p{
@@ -2694,88 +2503,88 @@ select{
 
   .service-card-contact h5,
   .why-best-card h5 {
-    font-size: 1.1rem; /* Adjust heading size for mobile */
-    text-align: center; /* Center card headings */
+    font-size: 1.1rem; 
+    text-align: center; 
   }
 
   .service-card-contact p,
   .why-best-card p {
-    font-size: 0.85rem; /* Reduce paragraph text size */
+    font-size: 0.85rem; 
   }
 
   .service-card-contact {
-    margin-bottom: 20px; /* Add spacing between cards */
+    margin-bottom: 20px; 
   }
 
   .con {
-    padding-left: 10px; /* Remove padding for small screens */
+    padding-left: 10px; 
   }
 
   .contact-frame {
-    padding-top: 20px; /* Further reduce padding */
+    padding-top: 20px; 
   }
 
   .service-card-contact,
   .why-best-card {
-    padding: 15px; /* Adjust padding for mobile */
+    padding: 15px; 
   }
-}
+} */
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .contact-section {
-    padding: 30px 0; /* Adjust padding for smaller screens */
+    padding: 30px 0; 
   }
 
   .contact-section h2 {
-    font-size: 28px; /* Reduce heading size */
+    font-size: 28px; 
   }
 
   .con {
-    padding-left: 15px; /* Reduce padding */
+    padding-left: 15px; 
   }
 
   .contact-section .quote-box {
-    padding: 20px; /* Reduce padding in the quote box */
+    padding: 20px; 
   }
 
   .service-card-contact {
-    border-radius: 10px; /* Adjust border radius for smaller cards */
-    padding: 20px; /* Adjust padding */
+    border-radius: 10px; 
+    padding: 20px; 
   }
 
   .service-card-contact h5 {
-    font-size: 1.2rem; /* Decrease heading size */
+    font-size: 1.2rem; 
   }
 
   .service-card-contact p {
-    font-size: 0.9rem; /* Adjust paragraph font size */
+    font-size: 0.9rem; 
   }
 
   .why-best-card {
-    padding: 20px; /* Reduce padding in the card */
-    border-radius: 10px; /* Adjust border radius */
+    padding: 20px; 
+    border-radius: 10px; 
   }
 
   .why-best-card h5 {
-    font-size: 1.2rem; /* Adjust font size */
+    font-size: 1.2rem; 
   }
 
   .why-best-card p {
-    font-size: 0.9rem; /* Adjust paragraph font size */
+    font-size: 0.9rem; 
   }
 
   .contact-frame {
-    padding-top: 30px; /* Reduce top padding */
+    padding-top: 30px; 
   }
 
   .icon {
-    padding: 10px; /* Reduce padding for icons */
+    padding: 10px; 
   }
 
   .c-icon {
-    padding-right: 0; /* Keep icon layout consistent */
+    padding-right: 0; 
   }
-}
+} */
 
 
 
@@ -2908,7 +2717,8 @@ select{
   }
 
   .footer-logo {
-    width: 80px; /* Decrease logo size */
+    width: 130px; /* Decrease logo size */
+    display: inline;
   }
 
   .footer p {
