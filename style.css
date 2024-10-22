@@ -48,7 +48,7 @@ header a:hover {
 
 .owl-carousel .item {
   position: relative;
-  height: 100vh;
+  height: 75vh;
 }
 
 .image-container {
@@ -536,12 +536,12 @@ p.lead {
   border-radius: 8px 8px 0 0;
 }
 
-.card-body {
+.exports-section .card-body {
   padding: 20px;
   text-align: center;
 }
 
-.card-title {
+.exports-section .card-title {
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 15px;
@@ -624,6 +624,14 @@ p.lead {
   color: black;
 }
 
+#applications .card-text {
+  color: #fff;
+}
+
+#applications .card-body {
+  padding: 20px;
+  text-align: center;
+}
 
 /*INFRASTRUCTURE*/
 
@@ -659,58 +667,66 @@ p.lead {
   color: #f39c12;
 }
 
-.title {
+.timeline-section .title {
   font-size: 18px;
   font-weight: bold;
   margin: 15px 0;
   color: #333;
 }
 
-.description {
+.timeline-section .description {
   font-size: 14px;
-  color: #6c757d;
+  color: #555555;
 }
 
 
 
 /*QUALITY*/
 
-.quality-section{
+.quality-section {
+  background-color: #eaefe6;
   padding: 40px 0;
 }
 
-.section-title {
+.quality-section .section-title {
   font-size: 2.5rem;
-  font-weight: bold;
   color: #212529;
 }
 
-.section-subtitle {
-  font-size: 1.2rem;
+.quality-section .section-description {
+  font-size: 1.1rem;
+  color: #555555;
+}
+
+.quality-section .card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.quality-section .card:hover {
+  transform: translateY(-10px);
+}
+
+.quality-section .card-title {
+  font-size: 1.3rem;
   color: #212529;
+  font-weight: 600;
 }
 
-.quality-detail {
-  margin-bottom: 30px;
+.quality-section .card-text {
+  color: #555;
 }
 
-.progress {
-  height: 1.5rem;
-  margin-bottom: 10px;
-  background-color: #e9ecef;
-  border-radius: 10px;
+.quality-section .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.progress-bar {
-  font-size: 0.9rem;
-  line-height: 1.5rem;
-  border-radius: 10px;
-}
-
-.img-fluid-quality{
-    max-width: 75%;
-    height: auto;
-    margin-left: 100px;
+.quality-section .img-fluid {
+  margin-top: 20px;
 }
 
 
@@ -826,7 +842,61 @@ select{
 } */
 
 
+/*OUR CLIENTELE*/
 
+.clients-section {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #212529;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  color: #555555;
+  margin-bottom: 40px;
+}
+
+.clients-slider {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide {
+  min-width: 200px;
+  text-align: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide img {
+  max-width: 100px;
+  height: auto;
+  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.1));
+}
+
+
+
+/* Automatic sliding animation */
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.clients-slider {
+  display: flex;
+  animation: slideAnimation 20s linear infinite;
+}
 
 
 
@@ -1480,6 +1550,7 @@ select{
 
   .contact-info {
     font-size: 0.7rem; /* Adjust font size */
+    padding-left: 0;
 
   }
 
@@ -1632,7 +1703,7 @@ select{
 
   .read-about {
     padding-top: 50px; /* Reduce padding */
-    padding-left: 0px;
+    padding-left: 10px;
   }
 }
 
@@ -1940,10 +2011,6 @@ select{
 @media (max-width: 480px) {
   .pro-title {
     font-size: 28px; /* Smaller title */
-  }
-
-  .product-section {
-    padding: 20px; /* Add padding for small screens */
   }
 
   .pro-para h2 {
@@ -2293,126 +2360,98 @@ select{
 
 /*QUALITY*/
 
-/* Media queries for large screens (1200px and below) */
+/* For screens up to 1200px */
 @media (max-width: 1200px) {
-  .section-title {
-    font-size: 2.2rem; /* Reduce title size */
+  .quality-section {
+    padding: 35px 0;
   }
-
-  .section-subtitle {
-    font-size: 1.1rem; /* Reduce subtitle size */
+  .quality-section .section-title {
+    font-size: 2.3rem;
   }
-
-  .img-fluid-quality {
-    max-width: 70%;
-        margin-left: 70px;
-        margin-top: 100px;
+  .quality-section .section-description {
+    font-size: 1rem;
+  }
+  .quality-section .card-title {
+    font-size: 1.2rem;
+  }
+  .quality-section .card-img-top {
+    height: 180px;
   }
 }
 
-/* Media queries for tablets (992px and below) */
+/* For screens up to 992px */
 @media (max-width: 992px) {
-  .section-title {
-    font-size: 2rem; /* Further reduce title size */
+  .quality-section {
+    padding: 30px 0;
   }
-
-  .section-subtitle {
-    font-size: 1rem; /* Further reduce subtitle size */
+  .quality-section .section-title {
+    font-size: 2.1rem;
   }
-
-  .progress {
-    height: 1.25rem; /* Adjust progress bar height */
+  .quality-section .section-description {
+    font-size: 0.95rem;
   }
-
-  .progress-bar {
-    font-size: 0.85rem; /* Adjust progress bar text size */
+  .quality-section .card-title {
+    font-size: 1.1rem;
   }
-
-  .img-fluid-quality {
-    max-width: 80%;
-        margin-left: 50px;
-        margin-top: 90px;
+  .quality-section .card-img-top {
+    height: 160px;
   }
 }
 
-/* Media queries for small tablets (768px and below) */
+/* For screens up to 768px */
 @media (max-width: 768px) {
-  .section-title {
-    font-size: 1.8rem; /* Further reduce title size for smaller screens */
+  .quality-section {
+    padding: 25px 0;
   }
-
-  .section-subtitle {
-    font-size: 0.95rem; /* Reduce subtitle size */
+  .quality-section .section-title {
+    font-size: 1.9rem;
   }
-
-  .progress {
-    height: 1.2rem; /* Further reduce progress bar height */
+  .quality-section .section-description {
+    font-size: 0.9rem;
   }
-
-  .progress-bar {
-    font-size: 0.8rem; /* Further reduce progress bar text size */
+  .quality-section .card-title {
+    font-size: 1rem;
   }
-
-  .img-fluid-quality {
-    max-width: 80%;
-        margin-left: 50px; /* Adjust margin for smaller screens */
+  .quality-section .card-img-top {
+    height: 140px;
   }
 }
 
-/* Media queries for mobile screens (576px and below) */
+/* For screens up to 576px */
 @media (max-width: 576px) {
-  .section-title {
-    font-size: 1.5rem; /* Adjust title size for mobile */
-    text-align: center; /* Center the title */
+  .quality-section {
+    padding: 20px 0;
   }
-
-  .section-subtitle {
-    font-size: 0.9rem; /* Adjust subtitle size */
-    text-align: center; /* Center the subtitle */
+  .quality-section .section-title {
+    font-size: 1.7rem;
   }
-
-  .quality-detail {
-    margin-bottom: 20px; /* Reduce spacing between details */
+  .quality-section .section-description {
+    font-size: 0.85rem;
   }
-
-  .progress {
-    height: 1rem; /* Further reduce progress bar height */
+  .quality-section .card-title {
+    font-size: 0.9rem;
   }
-
-  .progress-bar {
-    font-size: 0.75rem; /* Further reduce progress bar text */
-  }
-
-  .img-fluid-quality {
-    max-width: 85%; /* Adjust image size for mobile */
-    margin-left: 40px; /* Reduce left margin */
+  .quality-section .card-img-top {
+    height: 120px;
   }
 }
 
-@media only screen and (max-width: 480px) {
-  .section-title {
-    font-size: 1.8rem; /* Reduce the font size of the title */
+/* For screens up to 480px */
+@media (max-width: 480px) {
+  .quality-section {
+    padding: 15px 0;
   }
-
-  .section-subtitle {
-    font-size: 1rem; /* Adjust subtitle font size */
+  .quality-section .section-title {
+    font-size: 1.5rem;
   }
-
-  .quality-detail {
-    margin-bottom: 20px; /* Reduce bottom margin */
+  .quality-section .section-description {
+    font-size: 0.8rem;
   }
-
-  .progress {
-    height: 1.2rem; /* Decrease height of the progress bar */
+  .quality-section .card-title {
+    font-size: 0.8rem;
   }
-
-  .progress-bar {
-    font-size: 0.8rem; /* Adjust font size inside the progress bar */
-  }
-
-  .img-fluid-quality {
-    max-width: 100%; /* Ensure the image takes full width */
-    margin-left: 0; /* Remove margin for better centering */
+  .quality-section .card-img-top {
+    height: 100px;
   }
 }
 
@@ -2588,6 +2627,112 @@ select{
   }
 } */
 
+/* OUR CLIENTELE */
+
+/* For screens up to 1200px */
+@media (max-width: 1200px) {
+  .clients-section {
+    padding: 35px 0;
+  }
+  .section-title {
+    font-size: 28px;
+  }
+  .section-subtitle {
+    font-size: 16px;
+  }
+  .clients-slider {
+    justify-content: space-between;
+  }
+  .slide {
+    min-width: 180px;
+  }
+  .slide img {
+    max-width: 90px;
+  }
+}
+
+/* For screens up to 992px */
+@media (max-width: 992px) {
+  .clients-section {
+    padding: 30px 0;
+  }
+  .section-title {
+    font-size: 26px;
+  }
+  .section-subtitle {
+    font-size: 15px;
+  }
+  .clients-slider {
+    justify-content: space-around;
+  }
+  .slide {
+    min-width: 160px;
+  }
+  .slide img {
+    max-width: 80px;
+  }
+}
+
+/* For screens up to 768px */
+@media (max-width: 768px) {
+  .clients-section {
+    padding: 25px 0;
+  }
+  .section-title {
+    font-size: 24px;
+  }
+  .section-subtitle {
+    font-size: 14px;
+  }
+  .clients-slider {
+    align-items: center;
+  }
+  .slide {
+    min-width: 140px;
+    margin-bottom: 15px;
+  }
+  .slide img {
+    max-width: 70px;
+  }
+}
+
+/* For screens up to 576px */
+@media (max-width: 576px) {
+  .clients-section {
+    padding: 20px 0;
+  }
+  .section-title {
+    font-size: 22px;
+  }
+  .section-subtitle {
+    font-size: 13px;
+  }
+  .slide {
+    min-width: 120px;
+  }
+  .slide img {
+    max-width: 60px;
+  }
+}
+
+/* For screens up to 480px */
+@media (max-width: 480px) {
+  .clients-section {
+    padding: 15px 0;
+  }
+  .section-title {
+    font-size: 20px;
+  }
+  .section-subtitle {
+    font-size: 12px;
+  }
+  .slide {
+    min-width: 100px;
+  }
+  .slide img {
+    max-width: 50px;
+  }
+}
 
 
 
