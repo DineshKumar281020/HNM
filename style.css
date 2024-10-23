@@ -240,7 +240,7 @@ header a:hover {
 
 .hamburger {
   position: absolute;
-  right: 15px;
+  right: 10px;
   top: 9px;
   cursor: pointer;
   color: #fff;
