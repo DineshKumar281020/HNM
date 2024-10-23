@@ -27,25 +27,54 @@
 
       <ul class="navbar-links" id="navbarlinks">
         <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Products</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="products.html">Products</a></li>
         <li><a href="#">Exports</a></li>
-        <li><a href="#">Applications</a></li>
-        <li><a href="#">Infrastructure</a></li>
+        <li><a href="application.html">Applications</a></li>
+        <li><a href="infrastructure.html">Infrastructure</a></li>
         <li><a href="#">Quality</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
+
+
+
       <div class="navbar-right">
 
         <button class="quote-btn">GET A QUOTE</button>
       </div>
-      <button class="navbar-toggler" type="button" aria-label="Toggle navigation" data-bs-toggle="collapse"
+      
+      <a id="offCanvas" class="hamburger"><button class="navbar-toggler" type="button" aria-label="Toggle navigation" data-bs-toggle="collapse"
         data-bs-target="#navbarlinks">
         <span class="tog-toggle">&#9776;</span>
-      </button>
+      </button></a>
+
+      <div class="nav-offcanvas">
+        <button type="button" class="close" id="offCanvasClose" aria-label="Close">
+        <i class="ti-close"><span class="tog-toggle">&#x2716;</span></i>
+        </button>
+        <div class="nav-offcanvas-menu">
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="#">Exports</a></li>
+        <li><a href="application.html">Applications</a></li>
+        <li><a href="infrastructure.html">Infrastructure</a></li>
+        <li><a href="#">Quality</a></li>
+        <li><a href="contact.html">Contact-Us</a></li>
+        </ul>
+        </div>
+        </div>
+        
+        <div class="offcanvas-overlay"></div>
+
+
     </div>
   </nav>
+
+  <!--BANNER-->
 
   <section class="about-banner d-flex align-items-center justify-content-center">
     <div class="container text-center">
@@ -384,9 +413,14 @@
 
 
 
-    document.querySelector('.navbar-toggler').addEventListener('click', function () {
-      document.querySelector('.navbar').classList.toggle('active');
-    });
+    $('#offCanvas').on('click', function () {
+  $('.nav-offcanvas').addClass('open');
+  $('.offcanvas-overlay').addClass('on');
+});
+$('#offCanvasClose, .offcanvas-overlay').on('click', function () {
+  $('.nav-offcanvas').removeClass('open');
+  $('.offcanvas-overlay').removeClass('on');
+});
 
   </script>
 </body>
