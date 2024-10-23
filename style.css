@@ -1006,7 +1006,7 @@ select{
 .footer {
   background-color: #282828;
   color: #fff;
-  padding: 40px 0;
+  padding: 40px 0 0 0;
 }
 .footer h5 {
   color: #99b086;
