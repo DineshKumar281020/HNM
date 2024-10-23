@@ -269,7 +269,7 @@ header a:hover {
   z-index: 2000;
   padding: 50px 0;
   top: 0;
-  left: -300px;
+  right: -300px;
   -webkit-transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
@@ -316,7 +316,7 @@ header a:hover {
    color: #6c774f; 
 } 
 .nav-offcanvas.open {
-  left: 0;
+  right: 0;
 }
 
 .offcanvas-overlay {
@@ -965,13 +965,17 @@ select{
 
 .clients-section .owl-carousel .item img {
   display: block;
-  width: 40%;
   height: auto;
 }
 
 .clients-section .owl-carousel .item {
   position: relative;
-  height: 15vh;
+  
+}
+
+.clients-section .owl-carousel .item{
+  height: unset;
+  padding: 20px;
 }
 
 /* .clients-slider {

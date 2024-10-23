@@ -66,7 +66,7 @@
 
       <div class="nav-offcanvas">
         <button type="button" class="close" id="offCanvasClose" aria-label="Close">
-          <i class="ti-close"><span class="tog-toggle">&#x2716;</span></i>
+          <i class="ti-close"><span class="tog-toggle">&#10006;</span></i>
         </button>
         <div class="nav-offcanvas-menu">
           <ul>
@@ -861,8 +861,8 @@
     $(document).ready(function(){
     $(".owl-theme").owlCarousel({
       loop: true,
-      margin: 5,
-      nav: true,
+      margin: 30,
+      nav: false,
       autoplay: true,
       autoplayTimeout: 3000, // Auto slide every 3 seconds
       autoplayHoverPause: true,
@@ -874,7 +874,7 @@
           items: 2
         },
         1000: {
-          items: 3
+          items: 5
         }
       }
     });
