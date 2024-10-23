@@ -301,7 +301,7 @@ header a:hover {
   list-style: none;
 }
 .nav-offcanvas-menu ul li a {
-  color: #000;
+  color: #212529;
   font-size: 16px;
   font-weight: 300;
   padding: 10px 40px;
@@ -963,7 +963,18 @@ select{
   margin-bottom: 40px;
 }
 
-.clients-slider {
+.clients-section .owl-carousel .item img {
+  display: block;
+  width: 40%;
+  height: auto;
+}
+
+.clients-section .owl-carousel .item {
+  position: relative;
+  height: 15vh;
+}
+
+/* .clients-slider {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -981,12 +992,12 @@ select{
   max-width: 100px;
   height: auto;
   filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.1));
-}
+} */
 
 
 
 /* Automatic sliding animation */
-@keyframes slideAnimation {
+/* @keyframes slideAnimation {
   0% {
     transform: translateX(0);
   }
@@ -998,7 +1009,7 @@ select{
 .clients-slider {
   display: flex;
   animation: slideAnimation 20s linear infinite;
-}
+} */
 
 
 

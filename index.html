@@ -363,7 +363,8 @@
   <section class="exports-section">
     <div class="container">
       <h2 class="exports-title">Global Rubber Exports</h2>
-      <p class="text-center lead">Volutpat maecenas volutpat blandit aliquam etiam erat. Enim praesent elementum facilisis leo vel
+      <p class="text-center lead">Volutpat maecenas volutpat blandit aliquam etiam erat. Enim praesent elementum
+        facilisis leo vel
         fringilla est.</p>
       <div class="row g-4">
         <!-- Export Card 1 -->
@@ -698,7 +699,7 @@
       </div>
 
       <!-- Slider -->
-      <div class="clients-slider">
+      <!-- <div class="clients-slider">
         <div class="slide">
           <img src="assets/our-client/logo1.png" class="img-fluid" alt="Cloudly">
 
@@ -723,7 +724,28 @@
           <img src="assets/our-client/logo6.png" class="img-fluid" alt="Techlify">
 
         </div>
+      </div>  -->
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="assets/our-client/logo1.png" alt="Image 1">
+        </div>
+        <div class="item">
+          <img src="assets/our-client/logo2.png" alt="Image 2">
+        </div>
+        <div class="item">
+          <img src="assets/our-client/logo3.png" alt="Image 3">
+        </div>
+        <div class="item">
+          <img src="assets/our-client/logo4.png" alt="Image 3">
+        </div>
+        <div class="item">
+          <img src="assets/our-client/logo5.png" alt="Image 3">
+        </div>
+        <div class="item">
+          <img src="assets/our-client/logo6.png" alt="Image 3">
+        </div>
       </div>
+      
     </div>
   </section>
 
@@ -820,22 +842,46 @@
 
 
     // JavaScript to control slider speed, if you prefer manual control
-    const slider = document.querySelector('.clients-slider');
-    let isHovered = false;
+    //  const slider = document.querySelector('.clients-slider');
+    //  let isHovered = false;
 
-    document.addEventListener('DOMContentLoaded', () => {
-      setInterval(() => {
-        if (!isHovered) {
-          slider.appendChild(slider.firstElementChild); // Move first element to the end of the list
+    //  document.addEventListener('DOMContentLoaded', () => {
+    //    setInterval(() => {
+    //      if (!isHovered) {
+    //        slider.appendChild(slider.firstElementChild); 
+    //      }
+    //    }, 3000); 
+    //  });
+
+    //  slider.addEventListener('mouseover', () => isHovered = true);
+    //  slider.addEventListener('mouseout', () => isHovered = false);
+
+
+
+    $(document).ready(function(){
+    $(".owl-theme").owlCarousel({
+      loop: true,
+      margin: 5,
+      nav: true,
+      autoplay: true,
+      autoplayTimeout: 3000, // Auto slide every 3 seconds
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
         }
-      }, 3000); // 3-second interval for the slider
+      }
     });
-
-    slider.addEventListener('mouseover', () => isHovered = true);
-    slider.addEventListener('mouseout', () => isHovered = false);
+  });
 
 
-
+    
 
 
 
