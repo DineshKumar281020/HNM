@@ -338,6 +338,7 @@ header a:hover {
 .nav-offcanvas .navbar-logo{
   margin-top: -35px;
     margin-bottom: 10px;
+    padding-left: 10px;
 }
 
 .nav-offcanvas .navbar-logo img{
@@ -675,7 +676,7 @@ p.lead {
   color: white;
 }
 
-.application-overview{
+#applications .container{
   z-index: 2;
 }
 
@@ -2030,6 +2031,7 @@ select{
 
   .pro-box {
     width: 300px; /* Adjust box width */
+    margin-bottom: 20px;
   }
 
   .card-title {
@@ -2096,7 +2098,7 @@ select{
 
   .pro-box {
     width: 220px; /* Adjust box width */
-
+    margin-bottom: 20px;
   }
 
   .card-title {
@@ -2131,6 +2133,7 @@ select{
     width: 100%; /* Full width for mobile */
     padding: 0 10px; /* Adjust padding */
     margin-left: -30px;
+    margin-bottom: 20px;
   }
 
   .card-title {
