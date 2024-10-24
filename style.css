@@ -256,7 +256,6 @@ header a:hover {
 
 .hamburger i {
   font-size: 25px;
- 
   color:#fff;
 }
 
@@ -334,6 +333,15 @@ header a:hover {
 .offcanvas-overlay.on {
   opacity: 1;
   visibility: visible;
+}
+
+.nav-offcanvas .navbar-logo{
+  margin-top: -35px;
+    margin-bottom: 10px;
+}
+
+.nav-offcanvas .navbar-logo img{
+  height:35px;
 }
 
 
@@ -667,6 +675,10 @@ p.lead {
   color: white;
 }
 
+.application-overview{
+  z-index: 2;
+}
+
 .app-head{
 
   font-size: 40px;
@@ -688,10 +700,7 @@ p.lead {
   z-index: 1;
 }
 
-#applications .container {
-  position: relative;
-  z-index: 2;
-}
+
 
 .service-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -1059,7 +1068,6 @@ select{
 }
 
 .footer-content p {
-  color: #99b086;
   font-size: 14px;
 }
 
@@ -1218,6 +1226,11 @@ select{
 }
 
 @media (max-width: 480px) {
+  
+  .heading-icons{
+    background-color: #eaefe6;
+  }
+  
   .head {
     display: none;
     background-color: #6c774f;
@@ -1226,7 +1239,9 @@ select{
   }
 
   .head-word {
-    font-size: 14px;
+    font-size: 16px;
+    color: #212529;
+    display: block;
   }
 
   .head-icon {
@@ -3013,6 +3028,7 @@ select{
 
   .footer-bottom {
     padding-top: 15px; /* Adjust padding */
+    display: flow-root;
   }
 
   .powered-by{
@@ -3023,6 +3039,7 @@ select{
   .copyright{
     text-align: center !important;
     font-size: 10px !important;
+    margin-bottom: 5px;
   }
 
   
