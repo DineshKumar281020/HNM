@@ -305,6 +305,17 @@ body{
   height:35px;
 }
 
+.heading-icons{
+  position: absolute;
+  bottom: 60px;
+  padding-left: 25px;
+  line-height: 30px;
+}
+
+.icons{
+  color: #6c774f;
+}
+
 /*BANNER*/
 
 .about-banner {
@@ -444,7 +455,8 @@ body{
 }
 
 .chart-title {
-  font-size: 20px;
+  font-size: 40px;
+  color: #212529;
   margin-bottom: 20px;
   font-weight: bold;
 }
@@ -626,10 +638,12 @@ body{
 
 .powered-by {
   text-align: left;
+  margin-left: 10px;
 }
 
 .copyright {
   text-align: right;
+  margin-right: 10px;
 }
 
 
@@ -654,6 +668,163 @@ body{
 }
 
 /*MEDIA QUERIES*/
+
+/*HEADER*/
+
+@media (max-width: 768px) {
+  .head {
+    background-color: #6c774f;
+    color: #fff;
+    text-align: center;
+  }
+
+  .head-word {
+    font-size: 15px;
+    }
+
+  .head-icon {
+    float: none;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .icons {
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+  }
+
+  header span {
+    font-size: 12px;
+  }
+}
+
+/* Media queries for small laptops (992px and below) */
+
+/*HEADER*/
+
+@media (max-width: 992px) {
+  .head-word {
+    font-size: 16px;
+  }
+
+  .head-icon {
+    font-size: 17px;
+  }
+
+  .icons {
+    height: 28px;
+    width: 28px;
+    padding: 5px;
+  }
+
+  header span {
+    font-size: 13px;
+  }
+}
+
+/* Media queries for large screens (1200px and below) */
+@media (max-width: 1200px) {
+  .head-word {
+    font-size: 16px;
+    margin-left: 15px;
+  }
+
+  .head-icon {
+    font-size: 17px;
+  }
+
+  .icons {
+    height: 28px;
+    width: 28px;
+  }
+
+  header span {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 576px) {
+
+
+  body{
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .head {
+    background-color: #6c774f;
+    color: #fff;
+    text-align: center;
+  }
+
+  .head-word {
+    font-size: 14px;
+  }
+
+  .head-icon {
+    float: none;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .icons {
+    height: 25px;
+    width: 25px;
+    padding: 4px 3px;
+  }
+
+  .icons:hover {
+    color: #99b086;
+  }
+
+  header .bi {
+    margin-right: 2px;
+  }
+
+  header span {
+    font-size: 12px;
+  }
+
+  header a:hover {
+    color: black;
+  }
+}
+
+@media (max-width: 480px) {
+  
+  
+  
+  .head {
+    display: none;
+    background-color: #6c774f;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .head-word {
+    font-size: 16px;
+    font-weight: 300;
+    color: #212529;
+    display: block;
+  }
+
+  .head-icon {
+    font-size: 16px;
+    float: none; /* Prevent floating on small screens */
+    text-align: center;
+  }
+
+  .icons {
+    height: 25px;
+    width: 25px;
+    padding: 4px 0 0 0;
+  }
+
+  header span {
+    font-size: 12px;
+  }
+}
 
 /*NAVBAR*/
 
@@ -821,6 +992,7 @@ body{
 
   .navbar-logo img {
     height: 30px;
+    padding-left: 5px;
   }
 
   .quote-btn {
@@ -1137,6 +1309,12 @@ body{
 
 /* For screens up to 1200px */
 @media (max-width: 1200px) {
+  
+  .team-section h2 {
+    font-size: 36px;
+    margin-bottom: 35px;
+  }
+  
   .team-section {
     padding: 35px 0;
   }
@@ -1151,6 +1329,12 @@ body{
 
 /* For screens up to 992px */
 @media (max-width: 992px) {
+  
+  .team-section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
   .team-section {
     padding: 30px 0;
   }
@@ -1165,6 +1349,13 @@ body{
 
 /* For screens up to 768px */
 @media (max-width: 768px) {
+  
+  
+  .team-section h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  
   .team-section {
     padding: 25px 0;
   }
@@ -1179,6 +1370,12 @@ body{
 
 /* For screens up to 576px */
 @media (max-width: 576px) {
+  
+  .team-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
   .team-section {
     padding: 20px 0;
   }
@@ -1193,6 +1390,12 @@ body{
 
 /* For screens up to 480px */
 @media (max-width: 480px) {
+  
+  .team-section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
   .team-section {
     padding: 15px 0;
   }
@@ -1306,7 +1509,7 @@ body{
     font-size: 8px;
   }
   .chart-title {
-    font-size: 13px;
+    font-size: 22px;
   }
   .graph-placeholder::after {
     font-size: 14px;
@@ -1667,7 +1870,8 @@ body{
 
   .footer-bottom {
     padding-top: 15px; /* Adjust padding */
-    display: flow-root;
+    display: flex;
+    flex-flow: column-reverse;
   }
 
   .powered-by{

@@ -88,7 +88,7 @@ header a:hover {
   left: 0;
   right: 0;
   background-color: white;
-  box-shadow: 0 3px 2px -2px gray;
+  box-shadow: 0 2px 2px -2px gray;
 }
 
 .navbar.fixed a{
@@ -345,6 +345,13 @@ header a:hover {
   height:35px;
 }
 
+.heading-icons{
+  position: absolute;
+  bottom: 60px;
+  padding-left: 25px;
+  line-height: 30px;
+}
+
 
 
 
@@ -487,7 +494,7 @@ strong {
 }
 
 .read-about{
-  padding-top: 55px;
+  padding-top: 25px;
 }
 
 
@@ -1074,10 +1081,12 @@ select{
 
 .powered-by {
   text-align: left;
+  margin-left: 10px;
 }
 
 .copyright {
   text-align: right;
+  margin-right: 10px;
 }
 
 
@@ -1228,9 +1237,7 @@ select{
 
 @media (max-width: 480px) {
   
-  .heading-icons{
-    background-color: #eaefe6;
-  }
+  
   
   .head {
     display: none;
@@ -1241,6 +1248,7 @@ select{
 
   .head-word {
     font-size: 16px;
+    font-weight: 300;
     color: #212529;
     display: block;
   }
@@ -1429,6 +1437,7 @@ select{
 
   .navbar-logo img {
     height: 30px;
+    padding-left: 5px;
   }
 
   .quote-btn {
@@ -1837,7 +1846,7 @@ select{
   
 
   .read-about {
-    padding-top: 50px; /* Reduce padding */
+    padding-top: 20px; /* Reduce padding */
     padding-left: 10px;
   }
 }
@@ -3031,18 +3040,22 @@ select{
 
   .footer-bottom {
     padding-top: 15px; /* Adjust padding */
-    display: flow-root;
+    display: flex;
+    flex-flow: column-reverse;
   }
 
   .powered-by{
     text-align: center !important;
     font-size: 10px !important;
+    
   }
 
   .copyright{
     text-align: center !important;
     font-size: 10px !important;
     margin-bottom: 5px;
+    
+  
   }
 
   
