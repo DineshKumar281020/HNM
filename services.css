@@ -320,7 +320,7 @@ body{
 /*BANNER*/
 
 .about-banner {
-  background-image: url('assets/Aboutus-page/aboutus-img.jpg');
+  background-image: url('assets/services-page/service-banner.avif');
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -360,7 +360,7 @@ body{
  }
 
 .section-title {
-  font-size: 36px;
+  font-size: 40px;
   color: #212529;
   font-weight: 700;
 }
@@ -370,6 +370,8 @@ body{
   font-size: 18px;
   font-weight: 500;
 }
+
+
 
 
 
@@ -412,7 +414,9 @@ body{
   margin-top: 40px;
 }
 
-
+.service-process h2{
+  font-size: 40px;
+}
 
 .process-step {
   position: relative;

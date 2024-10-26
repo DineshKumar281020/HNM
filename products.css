@@ -319,7 +319,7 @@ body{
 /*BANNER*/
 
 .about-banner {
-  background-image: url('assets/Aboutus-page/aboutus-img.jpg');
+  background-image: url('assets/products-page/products-banner.avif');
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -358,7 +358,7 @@ body{
 }
 
 .product-range h2 {
-  font-size: 2.5rem;
+  font-size: 40px;
   font-weight: 700;
   color: #6c774f;
 }
