@@ -639,11 +639,13 @@ body{
 .powered-by {
   text-align: left;
   margin-left: 10px;
+  padding-left: 95px;
 }
 
 .copyright {
   text-align: right;
   margin-right: 10px;
+  padding-right: 95px;
 }
 
 
@@ -1748,6 +1750,13 @@ body{
     width: 100px; /* Reduce store icon size */
   }
 
+  .powered-by {
+    padding-left: 75px;
+  }
+  .copyright {
+    padding-right: 75px;
+  }
+
   
 }
 
@@ -1767,6 +1776,13 @@ body{
 
   .footer-logo {
     width: 90px; /* Reduce logo size */
+  }
+
+  .powered-by {
+    padding-left: 55px;
+  }
+  .copyright {
+    padding-right: 55px;
   }
 
   
@@ -1803,6 +1819,17 @@ body{
   .footer .store-icon {
     width: 80px; /* Adjust store icon size */
     margin: 5px 3px; /* Adjust margins for spacing */
+  }
+
+  .powered-by {
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .copyright {
+    text-align: center;
+    padding-right: 0;
+    margin-right: 0;
   }
 
   
@@ -1843,6 +1870,11 @@ body{
     display: block;
     margin: 5px auto; /* Center the store icons */
   }
+
+  .powered-by, .copyright {
+    text-align: center;
+    padding: 0;
+  }
 }
 
 
@@ -1882,12 +1914,16 @@ body{
   .powered-by{
     text-align: center !important;
     font-size: 10px !important;
+    margin: 0;
+    padding: 0;
+    
   }
 
   .copyright{
     text-align: center !important;
     font-size: 10px !important;
-    margin-bottom: 5px;
+     margin-bottom: 5px; 
+     padding: 0;
   }
 
   

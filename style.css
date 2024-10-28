@@ -123,6 +123,7 @@ header a:hover {
 .navbar-logo img {
   height: 50px;
   margin-right: 10px;
+  padding-left: 4px;
 }
 
 .navbar-links {
@@ -194,11 +195,13 @@ header a:hover {
 
 .content h6{
   font-size: 16px;
+  margin-bottom: 20px;
+  margin-left: 2px;
 }
 
 .content p {
   font-size: 1.2rem;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .btn-yellow, .btn-white {
@@ -371,6 +374,10 @@ header a:hover {
 
 } */
 
+ .installation-section{
+  padding: 40px;
+ }
+
  .content-box {
   background-color: #99b086;
   color: #000;
@@ -495,6 +502,7 @@ strong {
 
 .read-about{
   padding-top: 25px;
+  padding-left: 10px;
 }
 
 
@@ -1082,11 +1090,13 @@ select{
 .powered-by {
   text-align: left;
   margin-left: 10px;
+  padding-left: 95px;
 }
 
 .copyright {
   text-align: right;
   margin-right: 10px;
+  padding-right: 95px;
 }
 
 
@@ -1527,6 +1537,11 @@ select{
 
 /* Media queries for large screens (1200px and below) */
 @media (max-width: 1200px) {
+
+  .installation-section {
+    padding: 35px;
+  }
+
   .about-head h2 {
     font-size: 2rem;
   }
@@ -1576,6 +1591,12 @@ select{
 
 /* Media queries for small laptops (992px and below) */
 @media (max-width: 992px) {
+
+
+  .installation-section {
+    padding: 30px;
+  }
+
   .about-head h2 {
     font-size: 1.8rem; /* Adjust heading size */
   }
@@ -1637,6 +1658,11 @@ select{
 
 /* Media queries for tablets (768px and below) */
 @media (max-width: 768px) {
+
+  .installation-section {
+    padding: 25px;
+  }
+
   .about-head p {
     font-size: 0.8rem; /* Adjust font size */
   }
@@ -1709,6 +1735,10 @@ select{
 /* Media queries for mobile screens (576px and below) */
 @media (max-width: 576px) {
 
+  .installation-section {
+    padding: 20px;
+  }
+
   .aboutSection {
     padding-top: 35px;
 }
@@ -1771,6 +1801,10 @@ select{
 }
 
 @media (max-width: 480px) {
+
+  .installation-section {
+    padding: 20px;
+  }
 
   .aboutSection 
  {
@@ -2907,6 +2941,13 @@ select{
     width: 100px; /* Reduce store icon size */
   }
 
+  .powered-by {
+    padding-left: 75px;
+  }
+  .copyright {
+    padding-right: 75px;
+  }
+
   
 }
 
@@ -2926,6 +2967,13 @@ select{
 
   .footer-logo {
     width: 90px; /* Reduce logo size */
+  }
+
+  .powered-by {
+    padding-left: 55px;
+  }
+  .copyright {
+    padding-right: 55px;
   }
 
   
@@ -2962,6 +3010,17 @@ select{
   .footer .store-icon {
     width: 80px; /* Adjust store icon size */
     margin: 5px 3px; /* Adjust margins for spacing */
+  }
+
+  .powered-by {
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .copyright {
+    text-align: center;
+    padding-right: 0;
+    margin-right: 0;
   }
 
   
@@ -3003,7 +3062,10 @@ select{
     margin: 5px auto; /* Center the store icons */
   }
 
-  
+  .powered-by, .copyright {
+    text-align: center;
+    padding: 0;
+  }
 
   
 
@@ -3047,13 +3109,17 @@ select{
   .powered-by{
     text-align: center !important;
     font-size: 10px !important;
+    margin: 0;
+    padding: 0;
     
   }
 
   .copyright{
     text-align: center !important;
     font-size: 10px !important;
-    margin-bottom: 5px;
+     margin-bottom: 5px; 
+     
+    padding: 0;
     
   
   }
