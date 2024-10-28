@@ -367,7 +367,7 @@ body{
 }
 
 .about-subtitle {
-  font-size: 18px;
+  font-size: 16px;
   color: #666;
   margin-bottom: 20px;
   font-weight: 500;
@@ -410,106 +410,92 @@ body{
 
 /*TIMELINE*/
 
-.timeline-section {
+.timeline-section{
   padding: 40px 0;
-  background-color: #f9f9f9;
 }
 
-.timeline-header {
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 40px;
+.timeline-heading{
   color: #212529;
   font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
-
-.info-card {
-  border-radius: 10px;
-  padding: 20px;
+.timeline-subtitle {
+  font-size: 16px;
+  color: #666;
   margin-bottom: 20px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.info-card .card-icon {
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-
-.info-card h5 {
-  margin-bottom: 0;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.info-card p {
-  font-size: 12px;
-  color: #fff;
-  margin: 5px 0;
-}
-
-
-.chart-container {
-  margin-top: 40px;
+  font-weight: 500;
   text-align: center;
 }
 
-.chart-title {
-  font-size: 40px;
-  color: #212529;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-
-.graph-image {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-
-.graph-placeholder {
-  background-color: #f2f2f2;
-  height: 200px;
-  border-radius: 10px;
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
+  padding: 20px 0;
 }
 
-.graph-placeholder::after {
-  content: 'Graph here';
+.timeline::before {
+  content: '';
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #ddd;
+  z-index: 1;
+}
+
+.timeline-item {
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+
+.timeline-icon {
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 24px;
-  color: #888;
 }
 
-/*JOURNEY*/
-
-.journey-section {
-  background-color: #eaefe6;
-  color: #000;
-  padding: 40px 0;
-}
-
-.journey-section h2 {
-  color: #212529;
-  font-size: 40px;
+.timeline-year {
+  font-size: 20px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  color: #333;
 }
 
-.journey-section p {
+.timeline-content {
+  background-color: #fff;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  max-width: 150px;
+}
+
+.timeline-content h5 {
   font-size: 16px;
-  line-height: 1.8;
+  margin-bottom: 5px;
 }
 
-.journey-section .container {
-  max-width: 900px;
-  text-align: left;
+.timeline-content p {
+  font-size: 14px;
+  color: #666;
 }
+
+
+
 
 /*OUR TEAM*/
 
@@ -518,11 +504,20 @@ body{
 }
 .team-section h2 {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
   font-size: 40px;
   color: #212529;
   font-weight: bold;
 }
+
+.team-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
 .team-member {
   text-align: center;
   margin-bottom: 30px;
@@ -1326,6 +1321,10 @@ body{
   .team-member p {
     font-size: 13px;
   }
+
+  .team-subtitle {
+    font-size: 16px;
+  }
   
 }
 
@@ -1345,6 +1344,10 @@ body{
   }
   .team-member p {
     font-size: 12px;
+  }
+
+  .team-subtitle {
+    font-size: 15px;
   }
   
 }
@@ -1367,6 +1370,10 @@ body{
   .team-member p {
     font-size: 12px;
   }
+
+  .team-subtitle {
+    font-size: 14px;
+  }
   
 }
 
@@ -1386,6 +1393,10 @@ body{
   }
   .team-member p {
     font-size: 11px;
+  }
+
+  .team-subtitle {
+    font-size: 13px;
   }
   
 }
@@ -1407,186 +1418,117 @@ body{
   .team-member p {
     font-size: 10px;
   }
+
+  .team-subtitle {
+    font-size: 12px;
+  }
   
 }
 
 /*TIMELINE*/
 
+/* Media Queries */
+
+/* For screens up to 1200px */
 @media (max-width: 1200px) {
-  .timeline-header {
+  .timeline-heading {
     font-size: 36px;
   }
-  .info-card {
-    padding: 18px;
+  .timeline-subtitle {
+    font-size: 15px;
   }
-  .info-card h5 {
-    font-size: 22px;
-  }
-  .chart-title {
-    font-size: 18px;
-  }
-  .graph-placeholder::after {
-    font-size: 22px;
+  .timeline-content {
+    max-width: 140px;
   }
 }
 
 /* For screens up to 992px */
 @media (max-width: 992px) {
-  .timeline-header {
+  .timeline {
+    padding: 15px 0;
+  }
+  .timeline-heading {
     font-size: 32px;
   }
-  .info-card {
-    padding: 16px;
+  .timeline-icon {
+    width: 45px;
+    height: 45px;
+    margin-left: 40px;
+    font-size: 22px;
   }
-  .info-card h5 {
-    font-size: 20px;
-  }
-  .info-card p {
-    font-size: 11px;
-  }
-  .chart-title {
-    font-size: 16px;
-  }
-  .graph-placeholder::after {
-    font-size: 20px;
-  }
-}
-
-/* For screens up to 768px */
-@media (max-width: 768px) {
-  .timeline-header {
-    font-size: 28px;
-  }
-  .info-card {
-    padding: 14px;
-  }
-  .info-card h5 {
+  .timeline-year {
     font-size: 18px;
   }
-  .info-card p {
-    font-size: 10px;
-  }
-  .chart-title {
-    font-size: 15px;
-  }
-  .graph-placeholder::after {
-    font-size: 18px;
-  }
-}
-
-/* For screens up to 576px */
-@media (max-width: 576px) {
-  .timeline-header {
-    font-size: 24px;
-  }
-  .info-card {
+  .timeline-content {
+    max-width: 130px;
     padding: 12px;
   }
-  .info-card h5 {
-    font-size: 16px;
-  }
-  .info-card p {
-    font-size: 9px;
-  }
-  .chart-title {
-    font-size: 14px;
-  }
-  .graph-placeholder::after {
-    font-size: 16px;
-  }
-}
-
-/* For screens up to 480px */
-@media (max-width: 480px) {
-  .timeline-header {
-    font-size: 22px;
-  }
-  .info-card {
-    padding: 10px;
-  }
-  .info-card h5 {
-    font-size: 15px;
-  }
-  .info-card p {
-    font-size: 8px;
-  }
-  .chart-title {
-    font-size: 22px;
-  }
-  .graph-placeholder::after {
-    font-size: 14px;
-  }
-}
-
-/*JOURNEY*/
-
-@media (max-width: 1200px) {
-  .journey-section h2 {
-    font-size: 36px;
-  }
-  .journey-section p {
-    font-size: 15px;
-  }
-}
-
-/* For screens up to 992px */
-@media (max-width: 992px) {
-  .journey-section h2 {
-    font-size: 32px;
-  }
-  .journey-section p {
-    font-size: 14px;
-  }
-  .journey-section .container {
-    max-width: 800px;
-  }
 }
 
 /* For screens up to 768px */
 @media (max-width: 768px) {
-  .journey-section h2 {
+  .timeline {
+    flex-direction: column;
+    align-items: center;
+  }
+  .timeline-heading {
     font-size: 28px;
   }
-  .journey-section p {
-    font-size: 13px;
+  .timeline-icon {
+    margin-left: 0;
   }
-  .journey-section .container {
-    max-width: 700px;
+  .timeline-content {
+    max-width: 120px;
+    padding: 10px;
   }
 }
 
 /* For screens up to 576px */
 @media (max-width: 576px) {
-  .journey-section h2 {
+  .timeline-heading {
     font-size: 24px;
   }
-  .journey-section p {
-    font-size: 12px;
+  .timeline-subtitle {
+    font-size: 14px;
   }
-  .journey-section .container {
-    max-width: 500px;
+  .timeline-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .timeline-year {
+    font-size: 16px;
+  }
+  .timeline-content {
+    max-width: 110px;
   }
 }
 
 /* For screens up to 480px */
 @media (max-width: 480px) {
-  .journey-section h2 {
+  .timeline-section {
+    padding: 30px 0;
+  }
+  .timeline-heading {
     font-size: 22px;
   }
-  .journey-section p {
-    font-size: 11px;
+  .timeline-subtitle {
+    font-size: 13px;
   }
-  .journey-section .container {
-    max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+  .timeline-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
+  .timeline-content {
+    max-width: 100px;
+    font-size: 13px;
+    padding: 8px;
+  }
+  .timeline-year {
+    font-size: 15px;
   }
 }
-
-
-
-
-
 
 
 /*WHY CHOOSE US*/

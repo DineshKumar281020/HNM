@@ -354,54 +354,32 @@ body{
 
 /*SERVICES*/
 
-#services {
-  background-color: #eaefe6;
-  padding: 40px 0;
- }
+.service-container{
+  padding: 40px 20px;
+}
 
+.service-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  transition: transform 0.3s;
+}
+.service-card:hover {
+  transform: scale(1.05);
+}
+.service-card img {
+  height: 200px;
+  object-fit: cover;
+}
 .section-title {
   font-size: 40px;
-  color: #212529;
-  font-weight: 700;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #212529;
 }
-
-.lead {
-  color: #555;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-
-
-
-
-.service-box {
-  background-color: #6c774f;
-  color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.service-box:hover {
-  transform: translateY(-10px);
-  background-color: #99b086;
-  color: #000;
-}
-
-.service-title {
-  font-size: 24px;
-  color: #fff;
-  margin-bottom: 15px;
-}
-
-.service-title ul {
-  list-style-type: circle;
-  padding-left: 20px;
-}
-
-.service-title ul li {
-  font-size: 15px;
-  color: #555;
+.section-description {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 20px;
 }
 
 /*PROCESS*/
@@ -415,7 +393,9 @@ body{
 }
 
 .service-process h2{
-  font-size: 40px;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
 }
 
 .process-step {
@@ -445,8 +425,9 @@ body{
 
 .section-heading {
   color: #6c774f;
-  font-size: 1.2rem;
-  font-weight: 700;
+  font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .process-images img {
@@ -1026,140 +1007,88 @@ body{
 
 /*SERVICES*/
 
-/* For screens larger than 1200px */
+/* Media Queries */
+
+/* For screens up to 1200px */
 @media (max-width: 1200px) {
+  .service-container {
+    padding: 35px 20px;
+  }
   .section-title {
-    font-size: 34px;
+    font-size: 36px;
   }
-
-  .lead {
-    font-size: 17px;
+  .section-description {
+    font-size: 0.95rem;
   }
-
-  .col {
-    padding: 35px 0 0 0;
-  }
-
-  .service-title {
-    font-size: 22px;
-  }
-
-  .service-title p {
-    font-size: 15px;
-  }
-
-  .service-title ul li {
-    font-size: 14px;
+  .service-card img {
+    height: 180px;
   }
 }
 
-/* For screens larger than 992px */
+/* For screens up to 992px */
 @media (max-width: 992px) {
+  .service-container {
+    padding: 30px 15px;
+  }
   .section-title {
     font-size: 32px;
   }
-
-  .lead {
-    font-size: 16px;
+  .section-description {
+    font-size: 0.9rem;
   }
-
-  .col {
-    padding: 30px 0 0 0;
-  }
-
-  .service-title {
-    font-size: 20px;
-  }
-
-  .service-title p {
-    font-size: 14px;
-  }
-
-  .service-title ul li {
-    font-size: 13px;
+  .service-card img {
+    height: 160px;
   }
 }
 
-/* For screens larger than 768px */
+/* For screens up to 768px */
 @media (max-width: 768px) {
-  .section-title {
-    font-size: 30px;
+  .service-container {
+    padding: 25px 10px;
   }
-
-  .lead {
-    font-size: 15px;
-  }
-
-  .col {
-    padding: 25px 0 0 0;
-  }
-
-  .service-title {
-    font-size: 18px;
-  }
-
-  .service-title p {
-    font-size: 14px;
-  }
-
-  .service-title ul li {
-    font-size: 12px;
-  }
-}
-
-/* For screens larger than 576px */
-@media (max-width: 576px) {
   .section-title {
     font-size: 28px;
   }
-
-  .lead {
-    font-size: 14px;
+  .section-description {
+    font-size: 0.85rem;
   }
-
-  .col {
-    padding: 20px 0 0 0;
-  }
-
-  .service-title {
-    font-size: 16px;
-  }
-
-  .service-title p {
-    font-size: 13px;
-  }
-
-  .service-title ul li {
-    font-size: 11px;
+  .service-card img {
+    height: 150px;
   }
 }
 
-/* For screens larger than 480px */
-@media (max-width: 480px) {
+/* For screens up to 576px */
+@media (max-width: 576px) {
+  .service-container {
+    padding: 20px 10px;
+  }
   .section-title {
-    font-size: 26px;
+    font-size: 24px;
   }
-
-  .lead {
-    font-size: 13px;
+  .section-description {
+    font-size: 0.8rem;
   }
-
-  .col {
-    padding: 15px 0 0 0;
-  }
-
-  .service-title {
-    font-size: 15px;
-  }
-
-  .service-title p {
-    font-size: 12px;
-  }
-
-  .service-title ul li {
-    font-size: 10px;
+  .service-card img {
+    height: 140px;
   }
 }
+
+/* For screens up to 480px */
+@media (max-width: 480px) {
+  .service-container {
+    padding: 15px 5px;
+  }
+  .section-title {
+    font-size: 22px;
+  }
+  .section-description {
+    font-size: 0.75rem;
+  }
+  .service-card img {
+    height: 120px;
+  }
+}
+
 
 /*PROCESS*/
 
