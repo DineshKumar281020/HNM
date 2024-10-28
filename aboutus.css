@@ -669,11 +669,6 @@ body{
   color: #fff;
 }
 
-.fas {
-  color: #6c774f;
-  padding-right: 5px;
-}
-
 /*MEDIA QUERIES*/
 
 /*HEADER*/
@@ -1875,6 +1870,10 @@ body{
     text-align: center;
     padding: 0;
   }
+
+  
+
+  
 }
 
 
@@ -1923,7 +1922,10 @@ body{
     text-align: center !important;
     font-size: 10px !important;
      margin-bottom: 5px; 
-     padding: 0;
+     
+    padding: 0;
+    
+  
   }
 
   

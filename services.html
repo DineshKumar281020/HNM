@@ -285,7 +285,7 @@
     </div>
     <div class="footer-bottom footer-content text-center mt-4">
       <p class="powered-by">Design Global Trendz</p>
-      <p class="copyright">Copyright © 2024. All Rights Reserved.</p>
+      <p class="copyright">Copyright © <span id="year"></span> Company Name. All Rights Reserved.</p>
       
 
     </div>
@@ -297,6 +297,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
   <script>
+
+
+    document.getElementById("year").textContent = new Date().getFullYear();
 
     window.onscroll = function () {
       var navbar = document.getElementById("navbar");
