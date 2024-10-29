@@ -355,21 +355,10 @@ body{
 /*SERVICES*/
 
 .service-container{
-  padding: 40px 20px;
+  padding: 40px 0px;
+  background-color: #eaefe6;
 }
 
-.service-card {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border: none;
-  transition: transform 0.3s;
-}
-.service-card:hover {
-  transform: scale(1.05);
-}
-.service-card img {
-  height: 200px;
-  object-fit: cover;
-}
 .section-title {
   font-size: 40px;
     font-weight: bold;
@@ -381,6 +370,45 @@ body{
   font-size: 1rem;
   margin-bottom: 20px;
 }
+
+.service-item {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.service-item:hover {
+  transform: translateY(-10px);
+}
+.service-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.service-content {
+  padding: 20px;
+}
+.service-title {
+  font-size: 1.8rem;
+  color: #212529;
+  font-weight: bold;
+}
+.service-description {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* .service-item:nth-child(even) .service-image {
+  order: 2;
+  padding-left: 20px;
+}
+.service-item:nth-child(odd) .service-image {
+  padding-right: 20px;
+} */
 
 /*PROCESS*/
 
@@ -1008,85 +1036,118 @@ body{
 
 /*SERVICES*/
 
-/* Media Queries */
-
 /* For screens up to 1200px */
 @media (max-width: 1200px) {
   .service-container {
-    padding: 35px 18px;
+    padding: 35px 0px;
   }
   .section-title {
     font-size: 36px;
   }
-  .section-description {
-    font-size: 0.95rem;
+  .service-item {
+    margin: 15px;
   }
-  .service-card img {
-    height: 180px;
+  .service-image img {
+    max-width: 95%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .service-title {
+    font-size: 1.6rem;
   }
 }
 
 /* For screens up to 992px */
 @media (max-width: 992px) {
   .service-container {
-    padding: 30px 15px;
+    padding: 30px 0px;
   }
   .section-title {
     font-size: 32px;
   }
-  .section-description {
-    font-size: 0.9rem;
+  .service-item {
+    padding: 15px;
+    flex-direction: column;
+    margin: 15px;
   }
-  .service-card img {
-    height: 160px;
+  .service-image img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .service-title {
+    font-size: 1.5rem;
   }
 }
 
 /* For screens up to 768px */
 @media (max-width: 768px) {
   .service-container {
-    padding: 25px 12px;
+    padding: 25px 0px;
   }
   .section-title {
     font-size: 28px;
   }
   .section-description {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
   }
-  .service-card img {
-    height: 150px;
+  .service-image img {
+    max-width: 85%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .service-title {
+    font-size: 1.4rem;
   }
 }
 
 /* For screens up to 576px */
 @media (max-width: 576px) {
   .service-container {
-    padding: 20px 10px;
+    padding: 20px 0px;
   }
   .section-title {
     font-size: 24px;
   }
   .section-description {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
-  .service-card img {
-    height: 140px;
+  .service-item {
+    padding: 10px;
+    margin: 15px;
+  }
+  .service-image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 6px;
+  }
+  .service-title {
+    font-size: 1.3rem;
   }
 }
 
 /* For screens up to 480px */
 @media (max-width: 480px) {
   .service-container {
-    padding: 15px 15px;
+    padding: 15px 0px;
   }
   .section-title {
-    font-size: 22px;
+    font-size: 20px;
   }
   .section-description {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
   }
-  .service-card img {
-    height: 120px;
+  .service-item {
+    padding: 8px;
+    margin: 15px;
+  }
+  .service-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .service-title {
+    font-size: 1.2rem;
   }
 }
 
