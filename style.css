@@ -209,7 +209,6 @@ header a:hover {
   padding: 10px 20px;
   font-size: 1rem;
   border-radius: 5px;
-  margin: 10px;
   display: inline-block;
 }
 
@@ -223,6 +222,7 @@ header a:hover {
   background-color: #fff;
   color: #000;
   border-radius: 25px;
+  margin-left: 10px;
 }
 
 .btn-yellow:hover, .btn-white:hover {
@@ -430,6 +430,7 @@ header a:hover {
 
 .about-para{
   padding-left: 25px;
+  margin-top: 50px;
 }
 
 
@@ -445,18 +446,21 @@ header a:hover {
   font-weight: 600;
   color: #4a6437; /* same dark green color */
   margin-bottom: 20px;
+  margin-left: 5px;
 }
 
 .about-text {
   font-size: 1rem;
   color: #212529;
   margin-bottom: 15px;
+  margin-left: 5px;
 }
 
 .about-highlight {
   font-size: 1rem;
   font-weight: bold;
   color: #4a6437; /* dark green for highlight text */
+  margin-left: 5px;
 }
 
 strong {
@@ -502,7 +506,7 @@ strong {
 
 .read-about{
   padding-top: 25px;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 
@@ -1869,6 +1873,7 @@ select{
   }
   .about-heading {
     font-size: 1.4rem;
+    margin-left: 5px;
   }
   .about-subheading {
     font-size: 0.9rem;
@@ -1881,7 +1886,7 @@ select{
 
   .read-about {
     padding-top: 20px; /* Reduce padding */
-    padding-left: 10px;
+    padding-left: 15px;
   }
 }
 
