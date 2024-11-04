@@ -364,44 +364,64 @@ body{
   font-size: 2.5rem;
   color: #fff;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   font-weight: 700;
 }
 
 .infrastructure-section p {
   text-align: center;
-  margin-bottom: 40px;
-  color: #ccc;
-}
-
-.infrastructure-section .card {
-  background-color: #2a2a2c;
-  border: none;
-  padding: 30px 20px;
-  text-align: center;
-  transition: 0.3s;
-}
-
-.infrastructure-section .card:hover {
-  background-color: #3b3b3d;
-}
-
-.infrastructure-section .card h5 {
-  margin-top: 20px;
+  margin-bottom: 20px;
   color: #fff;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  max-height: 150px;
+  object-fit: cover;
+}
+.card-title {
   font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.card-text {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+.number-badge {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #6c774f;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.position-relative {
+  position: relative;
 }
 
-.infrastructure-section .card p {
-  color: #b8b8b8;
-}
 
-
-
-.infrastructure-section .icon {
-  font-size: 2.5rem;
-  color: #99b086;
-}
 
 
 /*FOOTER*/
@@ -983,15 +1003,7 @@ body{
   .infrastructure-section p {
     font-size: 1rem;
   }
-  .card {
-    padding: 25px 15px;
-  }
-  .card h5 {
-    font-size: 1.1rem;
-  }
-  .icon {
-    font-size: 2.3rem;
-  }
+  
 }
 
 /* For screens up to 992px */
@@ -1005,15 +1017,7 @@ body{
   .infrastructure-section p {
     font-size: 0.95rem;
   }
-  .card {
-    padding: 20px 15px;
-  }
-  .card h5 {
-    font-size: 1rem;
-  }
-  .icon {
-    font-size: 2rem;
-  }
+  
 }
 
 /* For screens up to 768px */
@@ -1027,15 +1031,7 @@ body{
   .infrastructure-section p {
     font-size: 0.9rem;
   }
-  .card {
-    padding: 20px 10px;
-  }
-  .card h5 {
-    font-size: 0.95rem;
-  }
-  .icon {
-    font-size: 1.8rem;
-  }
+  
 }
 
 /* For screens up to 576px */
@@ -1049,15 +1045,7 @@ body{
   .infrastructure-section p {
     font-size: 0.85rem;
   }
-  .card {
-    padding: 15px 10px;
-  }
-  .card h5 {
-    font-size: 0.9rem;
-  }
-  .icon {
-    font-size: 1.6rem;
-  }
+  
 }
 
 /* For screens up to 480px */
@@ -1071,15 +1059,7 @@ body{
   .infrastructure-section p {
     font-size: 0.8rem;
   }
-  .card {
-    padding: 15px 8px;
-  }
-  .card h5 {
-    font-size: 0.85rem;
-  }
-  .icon {
-    font-size: 1.5rem;
-  }
+  
 }
 
 

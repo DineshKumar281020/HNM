@@ -368,8 +368,8 @@ body{
 }
 
 .product-range p {
-  font-size: 1.1rem;
-  color: #555555;
+  font-size: 1rem;
+  color: #666666;
 }
 
 .product-range .card {
@@ -412,6 +412,8 @@ body{
   background-color: #6c774f;
   color: #fff;
 }
+
+
 
 /*EXPLORE PRODUCTS*/
 
