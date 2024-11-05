@@ -374,54 +374,47 @@ body{
   color: #fff;
 }
 
-.card {
-  border: none;
-  border-radius: 10px;
-  text-align: center;
-  padding: 20px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background-color: #ffffff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+.infrastructure-card {
+  display: flex;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  /* transition: transform 0.3s; */
+  margin-bottom: 40px;
 }
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-}
-.card img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  max-height: 150px;
-  object-fit: cover;
-}
-.card-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-top: 15px;
-}
-.card-text {
-  font-size: 0.9rem;
-  color: #6c757d;
-}
-.number-badge {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
+
+.infrastructure-card .card-image {
+  flex: 0 0 180px;
   background-color: #6c774f;
-  color: #fff;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px;
+  border-radius: 30px 0 0 30px;
+}
+.infrastructure-card .card-image img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+.infrastructure-card .card-content {
+  padding: 30px;
+  flex: 1;
+}
+.infrastructure-card .card-content h5 {
+  font-size: 1.4rem;
   font-weight: bold;
-  position: absolute;
-  top: 15px;
-  right: 15px;
+  color: #212529;
+  margin-bottom: 15px;
 }
-.position-relative {
-  position: relative;
+.infrastructure-card .card-content p {
+  color: #666666;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  text-align: left;
 }
-
-
 
 
 /*FOOTER*/
@@ -1003,6 +996,21 @@ body{
   .infrastructure-section p {
     font-size: 1rem;
   }
+  .infrastructure-card {
+    margin-bottom: 30px;
+    border-radius: 25px;
+  }
+  .infrastructure-card .card-image {
+    flex: 0 0 160px;
+    padding: 18px;
+    border-radius: 25px 0 0 25px;
+  }
+  .infrastructure-card .card-content {
+    padding: 25px;
+  }
+  .infrastructure-card .card-content h5 {
+    font-size: 1.3rem;
+  }
   
 }
 
@@ -1017,6 +1025,24 @@ body{
   .infrastructure-section p {
     font-size: 0.95rem;
   }
+  .infrastructure-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .infrastructure-card .card-image {
+    flex: 0 0 auto;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .infrastructure-card .card-content {
+    padding: 20px;
+  }
+  .infrastructure-card .card-content h5 {
+    font-size: 1.2rem;
+  }
   
 }
 
@@ -1029,6 +1055,21 @@ body{
     font-size: 1.8rem;
   }
   .infrastructure-section p {
+    font-size: 0.9rem;
+  }
+  .infrastructure-card .card-image {
+    flex: 0 0 auto;
+    padding: 12px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  .infrastructure-card .card-content {
+    padding: 18px;
+  }
+  .infrastructure-card .card-content h5 {
+    font-size: 1.1rem;
+  }
+  .infrastructure-card .card-content p {
     font-size: 0.9rem;
   }
   
@@ -1045,6 +1086,18 @@ body{
   .infrastructure-section p {
     font-size: 0.85rem;
   }
+  .infrastructure-card {
+    margin-bottom: 20px;
+  }
+  .infrastructure-card .card-content {
+    padding: 15px;
+  }
+  .infrastructure-card .card-content h5 {
+    font-size: 1rem;
+  }
+  .infrastructure-card .card-content p {
+    font-size: 0.85rem;
+  }
   
 }
 
@@ -1057,6 +1110,23 @@ body{
     font-size: 1.5rem;
   }
   .infrastructure-section p {
+    font-size: 0.8rem;
+  }
+  .infrastructure-card {
+    margin-bottom: 15px;
+  }
+  .infrastructure-card .card-image {
+    flex: 0 0 120px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .infrastructure-card .card-content {
+    padding: 10px;
+  }
+  .infrastructure-card .card-content h5 {
+    font-size: 0.9rem;
+  }
+  .infrastructure-card .card-content p {
     font-size: 0.8rem;
   }
   
