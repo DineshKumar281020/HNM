@@ -521,9 +521,10 @@ strong {
   font-size: 40px;
   color: #212529;
   font-weight: bold;
+  margin-bottom: 15px;
 }
 .services-section p {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .service-box {
@@ -577,6 +578,7 @@ strong {
 .pro-title{
   font-size: 40px;
   font-weight: bold;
+  margin-bottom: 15px;
 }
 
 .product-section {
@@ -589,6 +591,7 @@ strong {
 p.lead {
   color: #000;
   font-size: 16px;
+  margin-bottom: 20px;
 }
 
 .card {
@@ -639,13 +642,13 @@ p.lead {
   font-size: 40px;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .exports-section p.lead {
   color: #555;
   font-size: 16px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .export-card {
@@ -703,12 +706,17 @@ p.lead {
 
   font-size: 40px;
   font-weight: bold;
+  margin-bottom: 15px;
 
 }
 
-.app-sub{
+.app-des{
+  margin-bottom: 20px;
+}
+
+/* .app-sub{
   font-size: 20px;
-}
+} */
 
 #applications .overlay {
   position: absolute;
@@ -772,12 +780,17 @@ p.lead {
 }
 .timeline-title {
   text-align: center;
-  margin-bottom: 60px;
+  
 }
 
 .timeline-title h2{
   font-weight: bold;
   font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.timeline-title p{
+  margin-bottom: 20px;
 }
 
 .infrastructure-card {
@@ -822,11 +835,13 @@ p.lead {
 .quality-section .section-title {
   font-size: 2.5rem;
   color: #212529;
+  margin-bottom: 15px;
 }
 
 .quality-section .section-description {
   font-size: 1rem;
   color: #555555;
+  margin-bottom: 20px;
 }
 
 .quality-section .card {
@@ -984,12 +999,13 @@ select{
   font-size: 40px;
   font-weight: bold;
   color: #212529;
+  margin-bottom: 15px;
 }
 
 .section-subtitle {
   font-size: 16px;
   color: #555555;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .clients-section .owl-carousel .item img {

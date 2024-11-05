@@ -365,11 +365,13 @@ body{
   font-size: 40px;
   font-weight: 700;
   color: #6c774f;
+  margin-bottom: 15px;
 }
 
 .product-range p {
   font-size: 1rem;
   color: #666666;
+  margin-bottom: 20px;
 }
 
 .product-range .card {
@@ -403,8 +405,7 @@ body{
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
-  margin-top: 10px;
-    display: inline-block;
+  display: inline-block;
 }
 
 .read-more-btn:hover{
