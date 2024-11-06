@@ -49,7 +49,7 @@ body{
   left: 0;
   right: 0;
   background-color: white;
-  box-shadow: 0 3px 2px -2px gray;
+  box-shadow: 0 2px 2px -2px gray;
 }
 
 .navbar.fixed a{
@@ -320,7 +320,7 @@ body{
 /*BANNER*/
 
 .about-banner {
-  background-image: url('assets/contactus-page/contactus-banner.avif');
+  background-image: url('assets/contactus-page/contactus-banner.jpg');
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -409,6 +409,40 @@ body{
   margin-left: 5px;
 }
 
+/*ENQUIRY*/
+
+.contact-section {
+  padding: 40px 0;
+}
+.contact-section h2 {
+  font-size: 40px;
+ font-weight: bold;
+ margin-bottom: 15px;
+}
+
+.contact-subtitle{
+  margin-bottom: 20px;
+  color: #666666;
+}
+
+.con{
+  padding-left: 40px;
+}
+
+select{
+  color: grey;
+}
+
+.contact-section .form-control,
+.contact-section .btn {
+  border-radius: 0;
+}
+.contact-section .quote-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 /*FOOTER*/
 
@@ -1054,6 +1088,7 @@ body{
   }
   .info-container{
     margin-left: 10px;
+    
   }
   
   .info-container p {
@@ -1066,6 +1101,95 @@ body{
   .info-container .info-item {
     margin-bottom: 15px;
     
+  }
+}
+
+/*ENQUIRY*/
+
+/* Up to 1200px */
+@media (max-width: 1200px) {
+  .contact-section {
+    padding: 35px 0;
+  }
+  .contact-section h2 {
+    font-size: 36px;
+  }
+  .con {
+    padding-left: 30px;
+  }
+  .contact-section .quote-box {
+    padding: 35px;
+  }
+}
+
+/* Up to 992px */
+@media (max-width: 992px) {
+  .contact-section {
+    padding: 30px 0;
+  }
+  .contact-section h2 {
+    font-size: 32px;
+  }
+  .con {
+    padding-left: 20px;
+  }
+  .contact-section .quote-box {
+    padding: 30px;
+  }
+}
+
+/* Up to 768px */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 25px 0;
+  }
+  .contact-section h2 {
+    font-size: 28px;
+  }
+  .contact-subtitle {
+    font-size: 15px;
+  }
+  .con {
+    padding-left: 15px;
+  }
+  .contact-section .quote-box {
+    padding: 25px;
+  }
+}
+
+/* Up to 576px */
+@media (max-width: 576px) {
+  .contact-section {
+    padding: 20px 0;
+  }
+  .contact-section h2 {
+    font-size: 24px;
+  }
+  .con {
+    padding-left: 10px;
+  }
+  .contact-section .quote-box {
+    padding: 20px;
+  }
+}
+
+/* Up to 480px */
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 15px 0;
+  }
+  .contact-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .contact-subtitle {
+    font-size: 14px;
+  }
+  .con {
+    padding-left: 5px;
+  }
+  .contact-section .quote-box {
+    padding: 15px;
   }
 }
 

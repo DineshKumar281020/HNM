@@ -48,7 +48,7 @@ body{
   left: 0;
   right: 0;
   background-color: white;
-  box-shadow: 0 3px 2px -2px gray;
+  box-shadow: 0 2px 2px -2px gray;
 }
 
 .navbar.fixed a{
@@ -442,9 +442,9 @@ body{
   border: none;
 }
 
-.card-text {
+.related-applications .card-text {
   color: #555555;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .related-applications .card-body {
@@ -1082,7 +1082,7 @@ body{
   .related-applications .card-title {
     font-size: 1.4rem;
   }
-  .card-text {
+  .related-applications .card-text {
     font-size: 0.85rem;
   }
   .date {
@@ -1104,7 +1104,7 @@ body{
   .related-applications .card-title {
     font-size: 1.3rem;
   }
-  .card-text {
+  .related-applications .card-text {
     font-size: 0.8rem;
   }
   .date {
@@ -1126,7 +1126,7 @@ body{
   .related-applications .card-title {
     font-size: 1.2rem;
   }
-  .card-text {
+  .related-applications .card-text {
     font-size: 0.75rem;
   }
   .date {
@@ -1148,7 +1148,7 @@ body{
   .related-applications .card-title {
     font-size: 1.1rem;
   }
-  .card-text {
+  .related-applications .card-text {
     font-size: 0.7rem;
   }
   .date {
@@ -1170,7 +1170,7 @@ body{
   .related-applications .card-title {
     font-size: 1rem;
   }
-  .card-text {
+  .related-applications .card-text {
     font-size: 0.65rem;
   }
   .date {

@@ -748,7 +748,7 @@ p.lead {
 }
 
 .card-title {
-  font-size: 1.3rem;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -819,7 +819,7 @@ p.lead {
 }
 
 .timeline-section .description {
-  font-size: 14px;
+  font-size: 16px;
   color: #555555;
 }
 
@@ -855,7 +855,7 @@ p.lead {
 }
 
 .quality-section .card-title {
-  font-size: 1.3rem;
+  font-size: 20px;
   color: #212529;
   font-weight: 600;
 }
@@ -1101,6 +1101,11 @@ select{
   justify-content: space-between;
   align-items: center;
   padding-top: 10px;
+}
+
+.footer .fas {
+  color: #fff;
+  padding-right: 5px;
 }
 
 .footer-content p {
@@ -2962,6 +2967,11 @@ select{
     width: 100px; /* Reduce store icon size */
   }
 
+  .footer .fas {
+    font-size: 18px;
+    padding-right: 4px;
+  }
+
   .powered-by {
     padding-left: 75px;
   }
@@ -2988,6 +2998,11 @@ select{
 
   .footer-logo {
     width: 90px; /* Reduce logo size */
+  }
+
+  .footer .fas {
+    font-size: 16px;
+    padding-right: 3px;
   }
 
   .powered-by {
@@ -3031,6 +3046,11 @@ select{
   .footer .store-icon {
     width: 80px; /* Adjust store icon size */
     margin: 5px 3px; /* Adjust margins for spacing */
+  }
+
+  .footer .fas {
+    font-size: 12px;
+    padding-right: 2px;
   }
 
   .powered-by {
@@ -3083,6 +3103,11 @@ select{
     margin: 5px auto; /* Center the store icons */
   }
 
+  .footer .fas {
+    font-size: 12px;
+    padding-right: 2px;
+  }
+
   .powered-by, .copyright {
     text-align: center;
     padding: 0;
@@ -3125,6 +3150,11 @@ select{
     padding-top: 15px; /* Adjust padding */
     display: flex;
     flex-flow: column-reverse;
+  }
+
+  .footer .fas {
+    font-size: 10px;
+    padding-right: 2px;
   }
 
   .powered-by{
