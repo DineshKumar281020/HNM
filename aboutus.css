@@ -1498,7 +1498,7 @@ body{
 /* For screens up to 480px */
 @media (max-width: 480px) {
   .timeline-section {
-    padding: 15px 0;
+    padding: 15px 10px;
   }
   .timeline-heading {
     font-size: 20px;
