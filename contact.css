@@ -2,7 +2,7 @@ body{
   font-family: 'inter';
   overflow-x: hidden;
   width: 100%;
-  background-color: #1c1c1e;
+  
 }
 
 /*NAVBAR*/
@@ -411,10 +411,10 @@ body{
 
 /*ENQUIRY*/
 
-.contact-section {
-  padding: 40px 0;
+.contacts-section {
+  padding: 0 0 40px ; 
 }
-.contact-section h2 {
+.contacts-section h2 {
   font-size: 40px;
  font-weight: bold;
  margin-bottom: 15px;
@@ -433,11 +433,11 @@ select{
   color: grey;
 }
 
-.contact-section .form-control,
-.contact-section .btn {
+.contacts-section .form-control,
+.contacts-section .btn {
   border-radius: 0;
 }
-.contact-section .quote-box {
+.contacts-section .quote-box {
   background-color: white;
   padding: 40px;
   border-radius: 10px;
@@ -1087,7 +1087,7 @@ select{
     height: 220px;
   }
   .info-container{
-    margin-left: 10px;
+    padding: 10px;
     
   }
   
@@ -1108,42 +1108,42 @@ select{
 
 /* Up to 1200px */
 @media (max-width: 1200px) {
-  .contact-section {
+  .contacts-section {
     padding: 35px 0;
   }
-  .contact-section h2 {
+  .contacts-section h2 {
     font-size: 36px;
   }
   .con {
     padding-left: 30px;
   }
-  .contact-section .quote-box {
+  .contacts-section .quote-box {
     padding: 35px;
   }
 }
 
 /* Up to 992px */
 @media (max-width: 992px) {
-  .contact-section {
+  .contacts-section {
     padding: 30px 0;
   }
-  .contact-section h2 {
+  .contacts-section h2 {
     font-size: 32px;
   }
   .con {
     padding-left: 20px;
   }
-  .contact-section .quote-box {
+  .contacts-section .quote-box {
     padding: 30px;
   }
 }
 
 /* Up to 768px */
 @media (max-width: 768px) {
-  .contact-section {
+  .contacts-section {
     padding: 25px 0;
   }
-  .contact-section h2 {
+  .contacts-section h2 {
     font-size: 28px;
   }
   .contact-subtitle {
@@ -1152,43 +1152,43 @@ select{
   .con {
     padding-left: 15px;
   }
-  .contact-section .quote-box {
+  .contacts-section .quote-box {
     padding: 25px;
   }
 }
 
 /* Up to 576px */
 @media (max-width: 576px) {
-  .contact-section {
+  .contacts-section {
     padding: 20px 0;
   }
-  .contact-section h2 {
+  .contacts-section h2 {
     font-size: 24px;
   }
   .con {
     padding-left: 10px;
   }
-  .contact-section .quote-box {
+  .contacts-section .quote-box {
     padding: 20px;
   }
 }
 
 /* Up to 480px */
 @media (max-width: 480px) {
-  .contact-section {
+  .contacts-section {
     padding: 15px 0;
   }
-  .contact-section h2 {
+  .contacts-section h2 {
     font-size: 20px;
     margin-bottom: 10px;
   }
-  .contact-subtitle {
+  .contacts-subtitle {
     font-size: 14px;
   }
   .con {
     padding-left: 5px;
   }
-  .contact-section .quote-box {
+  .contacts-section .quote-box {
     padding: 15px;
   }
 }
