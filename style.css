@@ -2224,7 +2224,7 @@ select{
   }
 
   p.lead {
-    font-size: 14px; /* Smaller text */
+    font-size: 12px; /* Smaller text */
   }
 
   .service-card img {
@@ -2353,6 +2353,10 @@ select{
 
   .exports-section {
     padding: 40px 0; /* Reduce padding */
+  }
+
+  .exports-section p.lead{
+    font-size: 12px;
   }
 
   .exports-title {
@@ -2517,6 +2521,10 @@ select{
     padding: 0.4rem 1rem; /* Adjust button padding */
     font-size: 14px; /* Adjust button font size */
   }
+
+  .app-des{
+    font-size: 12px;
+  }
 }
 
 
@@ -2566,7 +2574,11 @@ select{
   }
 
   .timeline-title h2 {
-    font-size: 1.8rem; /* Adjust font size for the title */
+    font-size: 28px; /* Adjust font size for the title */
+  }
+
+  .timeline-title p {
+    font-size: 12px;
   }
 
   
@@ -2657,10 +2669,10 @@ select{
     padding: 15px 0;
   }
   .quality-section .section-title {
-    font-size: 1.5rem;
+    font-size: 28px;
   }
   .quality-section .section-description {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
   .quality-section .card-title {
     font-size: 0.8rem;
@@ -2936,7 +2948,7 @@ select{
     padding: 15px 0;
   }
   .section-title {
-    font-size: 20px;
+    font-size: 28px;
   }
   .section-subtitle {
     font-size: 12px;

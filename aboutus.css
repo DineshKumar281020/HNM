@@ -1260,7 +1260,7 @@ body{
   }
   
   .about-title {
-    font-size: 22px;
+    font-size: 28px;
   }
 
   .about-subtitle {
@@ -1391,7 +1391,7 @@ body{
 @media (max-width: 480px) {
   
   .team-section h2 {
-    font-size: 22px;
+    font-size: 28px;
     margin-bottom: 15px;
   }
   
@@ -1501,7 +1501,7 @@ body{
     padding: 15px 10px;
   }
   .timeline-heading {
-    font-size: 20px;
+    font-size: 28px;
   }
   .timeline {
     max-width: 450px;
@@ -1514,6 +1514,10 @@ body{
   }
   .timeline-content {
     padding: 4px 8px;
+    font-size: 12px;
+  }
+
+  .timeline-subtitle{
     font-size: 12px;
   }
 }

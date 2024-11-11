@@ -1130,10 +1130,10 @@ body{
     padding: 15px 0px;
   }
   .section-title {
-    font-size: 20px;
+    font-size: 28px;
   }
   .section-description {
-    font-size: 0.85rem;
+    font-size: 12px;
   }
   .service-item {
     padding: 8px;
@@ -1285,6 +1285,14 @@ body{
   .process-images img {
     width: 180px;
     height: 150px;
+  }
+
+  .section-heading{
+    font-size: 28px;
+  }
+
+  .service-process h2{
+    font-size: 12px;
   }
 }
 

@@ -1056,7 +1056,7 @@ body{
 
 @media (max-width: 480px) {
   .app-title {
-      font-size: 1.25rem;
+      font-size: 28px;
   }
   .app-description {
       font-size: 1rem;
@@ -1162,7 +1162,10 @@ body{
     padding: 15px 0;
   }
   .related-applications h2 {
-    font-size: 1.25rem;
+    font-size: 28px;
+  }
+  .rel-app{
+    font-size: 12px;
   }
   .related-applications .card-img-top {
     height: 120px;
