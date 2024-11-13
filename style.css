@@ -1873,7 +1873,7 @@ select{
 
   .read-more-btn {
     padding: 8px 15px; /* Adjust button padding */
-    font-size: 0.9rem; /* Adjust font size */
+    font-size: 12px; /* Adjust font size */
     margin-bottom: 10px;
   }
 
@@ -2061,7 +2061,7 @@ select{
   }
 
   .services-section p {
-    margin-bottom: 30px; /* Adjust margin */
+    margin-bottom: 20px; /* Adjust margin */
   }
 
   .service-box {
@@ -2361,7 +2361,7 @@ select{
 
   .exports-title {
     font-size: 28px; /* Smaller title */
-    margin-bottom: 30px; /* Adjust margin */
+    margin-bottom: 15px; /* Adjust margin */
   }
 
   .export-card {
@@ -2382,7 +2382,7 @@ select{
   }
 
   .card-text {
-    font-size: 14px; /* Smaller text */
+    font-size: 12px; /* Smaller text */
   }
 
   .export-stats {
@@ -2514,7 +2514,7 @@ select{
   }
 
   .card-title {
-    font-size: 1.1rem; /* Adjust title size */
+    font-size: 18px; /* Adjust title size */
   }
 
   .btn-outline-light {
@@ -2578,6 +2578,10 @@ select{
   }
 
   .timeline-title p {
+    font-size: 12px;
+  }
+
+  .timeline-section .description{
     font-size: 12px;
   }
 
@@ -2675,7 +2679,7 @@ select{
     font-size: 12px;
   }
   .quality-section .card-title {
-    font-size: 0.8rem;
+    font-size: 18px;
   }
   .quality-section .card-img-top {
     height: 250px;

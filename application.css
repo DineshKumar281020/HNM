@@ -1059,11 +1059,14 @@ body{
       font-size: 28px;
   }
   .app-description {
-      font-size: 1rem;
+      font-size: 14px;
   }
   .blockquote {
-      font-size: 0.9rem;
+      font-size: 1rem;
   }
+  .app-content {
+    font-size: 14px;
+}
 }
 
 /*RELATED APPLICATIONS*/
@@ -1171,10 +1174,10 @@ body{
     height: 120px;
   }
   .related-applications .card-title {
-    font-size: 1rem;
+    font-size: 18px;
   }
   .related-applications .card-text {
-    font-size: 0.65rem;
+    font-size: 12px;
   }
   .date {
     font-size: 0.65rem;

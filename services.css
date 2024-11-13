@@ -1145,7 +1145,7 @@ body{
     border-radius: 5px;
   }
   .service-title {
-    font-size: 1.2rem;
+    font-size: 18px;
   }
     .service-item:nth-child(even) .service-image {
   order: 2;
@@ -1154,6 +1154,7 @@ body{
 .service-item:nth-child(odd) .service-image {
   padding-right: 20px;
 }  
+
 }
 
 
@@ -1270,12 +1271,12 @@ body{
   }
 
   .process-step {
-    padding-left: 30px;
+    padding-left: 35px;
     margin-bottom: 10px;
   }
 
   .process-step h5 {
-    font-size: 1rem;
+    font-size: 18px;
   }
 
   .step-number {
@@ -1292,6 +1293,10 @@ body{
   }
 
   .service-process h2{
+    font-size: 12px;
+  }
+
+  .process-step p{
     font-size: 12px;
   }
 }

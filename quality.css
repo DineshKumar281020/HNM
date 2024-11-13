@@ -399,7 +399,7 @@ body{
   color: #fff;
 }
 
-.icons{
+.quality-section .icons{
   color: #fff;
 }
 
@@ -908,6 +908,8 @@ body{
 }
 
 
+
+
 /*BANNER*/
 
 /* For screens larger than 1200px */
@@ -1107,10 +1109,10 @@ body{
     height: 35px;
   }
   .quality-card h5 {
-    font-size: 0.9rem;
+    font-size: 18px;
   }
   .quality-card p {
-    font-size: 0.85rem;
+    font-size: 12px;
   }
 
   .icons{

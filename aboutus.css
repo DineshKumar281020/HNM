@@ -1399,10 +1399,10 @@ body{
     padding: 15px 0;
   }
   .team-member h5 {
-    font-size: 13px;
+    font-size: 18px;
   }
   .team-member p {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .team-subtitle {
@@ -1515,6 +1515,10 @@ body{
   .timeline-content {
     padding: 4px 8px;
     font-size: 12px;
+  }
+
+  .timeline-content h6{
+    font-size: 18px;
   }
 
   .timeline-subtitle{

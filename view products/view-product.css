@@ -470,13 +470,13 @@ color:white ;
     padding: 65px 0 15px 0;
   }
   .product-title {
-    font-size: 1.25rem;
+    font-size: 18px;
   }
   .product-description {
     font-size: 0.75rem;
   }
   .features-title {
-    font-size: 1rem;
+    font-size: 18px;
     margin-top: 20px;
   }
   .features-list li {

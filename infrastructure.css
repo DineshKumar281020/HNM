@@ -988,7 +988,7 @@ body{
 /* For screens up to 1200px */
 @media (max-width: 1200px) {
   .infrastructure-section {
-    padding: 80px 0 35px 0;
+    padding: 35px 0 35px 0;
   }
   .infrastructure-section h2 {
     font-size: 2.2rem;
@@ -1017,7 +1017,7 @@ body{
 /* For screens up to 992px */
 @media (max-width: 992px) {
   .infrastructure-section {
-    padding: 75px 0 30px 0;
+    padding: 30px 0 30px 0;
   }
   .infrastructure-section h2 {
     font-size: 2rem;
@@ -1049,7 +1049,7 @@ body{
 /* For screens up to 768px */
 @media (max-width: 768px) {
   .infrastructure-section {
-    padding: 70px 0 30px 0;
+    padding: 30px 0 30px 0;
   }
   .infrastructure-section h2 {
     font-size: 1.8rem;
@@ -1078,7 +1078,7 @@ body{
 /* For screens up to 576px */
 @media (max-width: 576px) {
   .infrastructure-section {
-    padding: 65px 0 25px 0;
+    padding: 25px 0 25px 0;
   }
   .infrastructure-section h2 {
     font-size: 1.6rem;
@@ -1104,7 +1104,7 @@ body{
 /* For screens up to 480px */
 @media (max-width: 480px) {
   .infrastructure-section {
-    padding: 65px 0 20px 0;
+    padding: 15px 0 20px 0;
   }
   .infrastructure-section h2 {
     font-size: 28px;
@@ -1124,10 +1124,11 @@ body{
     padding: 10px;
   }
   .infrastructure-card .card-content h5 {
-    font-size: 0.9rem;
+    font-size: 18px;
   }
   .infrastructure-card .card-content p {
-    font-size: 0.8rem;
+    font-size: 12px;
+    text-align: center;
   }
   
 }
