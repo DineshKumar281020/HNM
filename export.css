@@ -351,72 +351,49 @@ body{
   font-weight: 300;
 }
 
-/*SHIPMENTS*/
+/*EXPORTS*/
 
-.shipment-history {
+.export-section{
   padding: 40px 0;
-  
 }
 
-.shipment-title{
-  font-size: 40px;
+
+.export-title {
   font-weight: bold;
+  font-size: 40px;
+  color: #212529;
   margin-bottom: 15px;
 }
 
-.shipment-subtitle{
+.export-subtitle{
   font-size: 16px;
   color: #666;
   margin-bottom: 20px;
 }
 
-.table th, .table td {
-  vertical-align: middle;
-  text-align: center;
-}
-.table th {
-  background-color: #6c774f;
-  color: #fff;
-}
-.table td:nth-child(odd) {
-  background-color: #f8f9fa;
-}
-.freight-options {
-  border: 1px solid #ddd;
-  padding: 20px;
-  text-align: center;
-  background-color: #f8f9fa;
-}
-.freight-options h5 {
-  background-color: #6c774f;
-  color: #fff;
-  padding: 10px;
-  margin: 0;
-}
-.freight-options button {
-  display: block;
-  width: 100%;
-  padding: 15px;
-  margin-top: 10px;
-  font-weight: bold;
-  color: #6c774f;
-  background-color: #f8f9fa;
+
+.card {
   border: none;
-  text-align: left;
-  padding-left: 15px;
-}
-.freight-options button:hover {
-  background-color: #6c774f;
-  color: #fff;
-}
-.freight-options .order-list-btn {
-  background-color: #000;
-  color: #fff;
-  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
 }
 
-.shipment-table{
-  max-width: 100%;
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-text{
+  font-size: 16px;
+}
+
+.btn-link {
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 
@@ -988,143 +965,133 @@ body{
   }
 }
 
-/*SHIPMENT*/
+
+/*EXPORTS*/
 
 /* Media Queries */
 
 /* Up to 1200px */
 @media (max-width: 1200px) {
-  .shipment-history {
-    padding: 35px 0;
+  .export-section {
+    padding: 30px 0;
   }
-  .shipment-title {
+
+  .export-title {
     font-size: 36px;
   }
-  .shipment-subtitle {
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .card-text {
     font-size: 15px;
-  }
-  .freight-options {
-    padding: 18px;
-  }
-  .shipment-table {
-    max-width: 95%;
   }
 }
 
 /* Up to 992px */
 @media (max-width: 992px) {
-  .shipment-history {
-    padding: 30px 0;
+  .export-section {
+    padding: 30px 10px;
   }
-  .shipment-title {
+
+  .export-title {
     font-size: 32px;
   }
-  .shipment-subtitle {
+
+  .export-subtitle {
+    font-size: 15px;
+  }
+
+  .card-title {
+    font-size: 17px;
+  }
+
+  .card-text {
     font-size: 14px;
-  }
-  .table th, .table td {
-    font-size: 0.9rem;
-  }
-  .freight-options {
-    padding: 15px;
-  }
-  .freight-options button {
-    padding: 12px;
-  }
-  .shipment-table {
-    max-width: 90%;
   }
 }
 
 /* Up to 768px */
 @media (max-width: 768px) {
-  .shipment-history {
-    padding: 25px 0;
+  .export-section {
+    padding: 20px 10px;
   }
-  .shipment-title {
+
+  .export-title {
     font-size: 28px;
   }
-  .shipment-subtitle {
-    font-size: 13px;
+
+  .export-subtitle {
+    font-size: 14px;
   }
-  .table th, .table td {
-    font-size: 0.85rem;
-    padding: 8px;
+
+  .card-title {
+    font-size: 16px;
   }
-  .freight-options {
-    padding: 12px;
-  }
-  .freight-options h5 {
-    font-size: 1rem;
-  }
-  .freight-options button {
-    font-size: 0.9rem;
-    padding: 10px;
-  }
-  .shipment-table {
-    max-width: 85%;
+
+  .card-text {
+    font-size: 14px;
   }
 }
 
 /* Up to 576px */
 @media (max-width: 576px) {
-  .shipment-history {
-    padding: 20px 0;
+  .export-section {
+    padding: 15px 5px;
   }
-  .shipment-title {
+
+  .export-title {
     font-size: 24px;
   }
-  .shipment-subtitle {
-    font-size: 12px;
+
+  .export-subtitle {
+    font-size: 13px;
   }
-  .table th, .table td {
-    font-size: 0.8rem;
-    padding: 6px;
+
+  .card-title {
+    font-size: 15px;
   }
-  .freight-options {
-    padding: 10px;
+
+  .card-text {
+    font-size: 13px;
   }
-  .freight-options h5 {
-    font-size: 0.95rem;
-  }
-  .freight-options button {
-    font-size: 0.85rem;
-    padding: 8px;
-  }
-  .shipment-table {
-    max-width: 100%;
+
+  .btn-link {
+    font-size: 13px;
   }
 }
 
 /* Up to 480px */
 @media (max-width: 480px) {
-  .shipment-history {
-    padding: 15px 0;
+  .export-section {
+    padding: 10px 15px;
   }
-  .shipment-title {
-    font-size: 20px;
-    margin-bottom: 10px;
+
+  .export-title {
+    font-size: 22px;
+    text-align: center;
   }
-  .shipment-subtitle {
-    font-size: 11px;
+
+  .export-subtitle {
+    font-size: 12px;
+    text-align: center;
   }
-  .table th, .table td {
-    font-size: 10px;
-    padding: 5px;
+
+  .card-title {
+    font-size: 14px;
+    text-align: center;
   }
-  .freight-options {
-    padding: 8px;
+
+  .card-text {
+    font-size: 12px;
+    text-align: center;
   }
-  .freight-options h5 {
-    font-size: 0.9rem;
-  }
-  .freight-options button {
-    font-size: 0.8rem;
-    padding: 6px;
-  }
-  .shipment-table {
-    max-width: 100%;
-    overflow-x: auto; /* Ensure horizontal scrolling if table content overflows */
+
+  .btn-link {
+    font-size: 12px;
+    display: block;
+    text-align: center;
   }
 }
 
