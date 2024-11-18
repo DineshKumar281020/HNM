@@ -631,6 +631,10 @@ p.lead {
   object-fit: cover;
 }
 
+.products-btn{
+  margin-top: 40px;
+}
+
 /*EXPORTS*/
 
 .exports-section {
@@ -1828,7 +1832,7 @@ select{
 @media (max-width: 480px) {
 
   .installation-section {
-    padding: 20px;
+    padding: 15px;
   }
 
   .aboutSection 
@@ -2053,7 +2057,7 @@ select{
 
 @media (max-width: 480px) {
   .services-section {
-    padding: 30px 0; /* Reduce padding */
+    padding: 15px 0; /* Reduce padding */
   }
 
   .services-section h2 {
@@ -2118,6 +2122,10 @@ select{
   p.lead {
     font-size: 16px;
   }
+
+  .products-btn {
+    margin-top: 35px;
+  }
 }
 
 /* Media queries for small laptops (992px and below) */
@@ -2144,6 +2152,10 @@ select{
 
   p.lead {
     font-size: 14px;
+  }
+
+  .products-btn {
+    margin-top: 30px;
   }
 }
 
@@ -2177,12 +2189,16 @@ select{
   .card-text {
     font-size: 12px; /* Adjust text size */
   }
+
+  .products-btn {
+    margin-top: 25px;
+  }
 }
 
 /* Media queries for mobile screens (576px and below) */
 @media (max-width: 576px) {
   .product-section {
-    padding: 20px 0; /* Adjust padding */
+    padding: 15px 0; /* Adjust padding */
   }
 
   .pro-para h2 {
@@ -2211,6 +2227,10 @@ select{
 
   .card-text {
     font-size: 14px; /* Adjust text size */
+  }
+
+  .products-btn {
+    margin-top: 20px;
   }
 }
 
@@ -2254,6 +2274,10 @@ select{
   .product-section .service-card {
     margin-bottom: 20px; /* Add margin between cards */
     width: 350px;
+  }
+
+  .products-btn {
+    margin-top: 15px;
   }
 }
 
@@ -2352,7 +2376,7 @@ select{
 @media (max-width: 480px) {
 
   .exports-section {
-    padding: 40px 0; /* Reduce padding */
+    padding: 15px 0; /* Reduce padding */
   }
 
   .exports-section p.lead{
