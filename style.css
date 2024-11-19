@@ -349,7 +349,8 @@ header a:hover {
 }
 
 .heading-icons{
-  position: absolute;
+  display: grid;
+  color: #212529;
   bottom: 60px;
   padding-left: 25px;
   line-height: 30px;
@@ -1159,6 +1160,7 @@ select{
     background-color: #6c774f;
     color: #fff;
     text-align: center;
+    display: none;
   }
 
   .head-word {
@@ -1239,6 +1241,7 @@ select{
     background-color: #6c774f;
     color: #fff;
     text-align: center;
+    display: none;
   }
 
   .head-word {
@@ -1296,6 +1299,7 @@ select{
     font-size: 16px;
     float: none; /* Prevent floating on small screens */
     text-align: center;
+    margin-right: 95px;
   }
 
   .icons {

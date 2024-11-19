@@ -306,8 +306,8 @@ body{
 }
 
 .heading-icons{
-  position: absolute;
-  bottom: 60px;
+  display: grid;
+  color: #212529;
   padding-left: 25px;
   line-height: 30px;
 }
@@ -463,6 +463,10 @@ body{
   margin-left: 15px;
   width: 300px;
   height: 200px;
+}
+
+.process-para{
+  padding: 50px 0;
 }
 
 /*FOOTER*/
@@ -691,6 +695,7 @@ body{
     font-size: 16px;
     float: none; /* Prevent floating on small screens */
     text-align: center;
+    margin-right: 95px;
   }
 
   .icons {
@@ -1180,8 +1185,12 @@ body{
   }
 
   .process-images img {
-    width: 260px;
+    width: 250px;
     height: 170px;
+  }
+
+  .process-para {
+    padding: 45px 0;
   }
 }
 
@@ -1205,8 +1214,12 @@ body{
   }
 
   .process-images img {
-    width: 225px;
+    width: 200px;
     height: 160px;
+  }
+
+  .process-para {
+    padding: 40px 0;
   }
 }
 
@@ -1230,8 +1243,12 @@ body{
   }
 
   .process-images img {
-    width: 165px;
+    width: 150px;
     height: 150px;
+  }
+
+  .process-para {
+    padding:  0;
   }
 }
 
@@ -1259,8 +1276,12 @@ body{
   }
 
   .process-images img {
-    width: 220px;
+    width: 205px;
     height: 160px;
+  }
+
+  .process-para {
+    padding: 0 0;
   }
 }
 
@@ -1284,7 +1305,7 @@ body{
   }
 
   .process-images img {
-    width: 180px;
+    width: 125px;
     height: 150px;
   }
 
@@ -1298,6 +1319,10 @@ body{
 
   .process-step p{
     font-size: 12px;
+  }
+
+  .process-para {
+    padding: 0 0;
   }
 }
 

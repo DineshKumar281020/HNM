@@ -306,8 +306,8 @@ body{
 }
 
 .heading-icons{
-  position: absolute;
-  bottom: 60px;
+  display: grid;
+  color: #212529;
   padding-left: 25px;
   line-height: 30px;
 }
@@ -643,6 +643,7 @@ body{
     font-size: 16px;
     float: none; /* Prevent floating on small screens */
     text-align: center;
+    margin-right: 95px;
   }
 
   .icons {

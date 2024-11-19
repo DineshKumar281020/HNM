@@ -307,8 +307,8 @@ body{
 }
 
 .heading-icons{
-  position: absolute;
-  bottom: 60px;
+  display: grid;
+  color: #212529;
   padding-left: 25px;
   line-height: 30px;
 }
@@ -399,6 +399,13 @@ body{
   border-radius: 50%;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
 }
+
+/* .infrastructure-section .infrastructure-image{
+  height: 140px;
+  width: 140px;
+} */
+
+
 .infrastructure-card .card-content {
   padding: 30px;
   flex: 1;
@@ -642,6 +649,8 @@ body{
     font-size: 16px;
     float: none; /* Prevent floating on small screens */
     text-align: center;
+    margin-right: 95px;
+    
   }
 
   .icons {

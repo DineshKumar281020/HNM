@@ -307,8 +307,9 @@ body{
 }
 
 .heading-icons{
-  position: absolute;
-  bottom: 60px;
+ 
+  display: grid;
+  color: #212529;
   padding-left: 25px;
   line-height: 30px;
 }
@@ -358,7 +359,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding: 40px 0;
+  padding: 0 0 40px;
   background-color: #fff;
 }
 
@@ -412,7 +413,7 @@ body{
 /*ENQUIRY*/
 
 .contacts-section {
-  padding: 0 0 40px ; 
+  padding: 40px 0 ; 
 }
 .contacts-section h2 {
   font-size: 40px;
@@ -670,6 +671,7 @@ select{
     font-size: 16px;
     float: none; /* Prevent floating on small screens */
     text-align: center;
+    margin-right: 95px;
   }
 
   .icons {
