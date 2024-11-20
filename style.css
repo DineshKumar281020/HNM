@@ -1600,7 +1600,7 @@ select{
 
   .contact-info {
     font-size: 1rem; /* Adjust font size */
-    padding-left: 10px; /* Adjust padding */
+    
   }
 
   .about-para {
@@ -1679,7 +1679,7 @@ select{
 
   .contact-info {
     font-size: 0.9rem; /* Adjust font size */
-    padding-left: 10px; /* Adjust padding */
+    
   }
 
   
@@ -2109,6 +2109,7 @@ select{
   .pro-box {
     width: 300px; /* Adjust box width */
     margin-bottom: 20px;
+    margin-left: 60px;
   }
 
   .card-title {
@@ -2136,6 +2137,10 @@ select{
 @media (max-width: 992px) {
   .service-card img {
     height: 220px; /* Adjust image height */
+  }
+
+  .pro-box{
+    margin-left: 75px;
   }
 
   .pro-row{
@@ -2169,6 +2174,10 @@ select{
     padding: 40px 0; /* Adjust padding */
   }
 
+  .pro-row{
+    margin-left: 0;
+  }
+
   .pro-para h2 {
     font-size: 20px; /* Adjust heading size */
   }
@@ -2182,7 +2191,7 @@ select{
   }
 
   .pro-box {
-    width: 220px; /* Adjust box width */
+    width: 75%;
     margin-bottom: 20px;
   }
 
@@ -2221,7 +2230,7 @@ select{
   .pro-box {
     width: 100%; /* Full width for mobile */
     padding: 0 10px; /* Adjust padding */
-    margin-left: -30px;
+    margin-left: -5px;
     margin-bottom: 20px;
   }
 
@@ -2271,13 +2280,11 @@ select{
     height: 180px; /* Adjust image height */
   }
 
-  .pro-row{
-    margin-left: 20px;
-  }
+  
 
   .product-section .service-card {
     margin-bottom: 20px; /* Add margin between cards */
-    width: 350px;
+    
   }
 
   .products-btn {
@@ -3157,9 +3164,6 @@ select{
     padding: 0;
   }
 
-  
-
-  
 }
 
 
@@ -3215,11 +3219,7 @@ select{
      margin-bottom: 5px; 
      
     padding: 0;
-    
-  
   }
-
-  
 
   .btn-paper {
     padding: 8px 12px; /* Adjust button padding */
@@ -3233,6 +3233,10 @@ select{
   .footer-div{
     margin-left: 0;
   }
+
+  
+
+  
 
 }
 
