@@ -1072,6 +1072,10 @@ body{
   .read-more-btn {
     padding: 5px 10px;
     font-size: 0.85rem;
+    
+  }
+  .quote-button{
+    display: none;
   }
 }
 
@@ -1095,6 +1099,11 @@ body{
   .read-more-btn {
     padding: 4px 8px;
     font-size: 0.8rem;
+    
+  }
+
+  .quote-button{
+    display: none;
   }
 }
 
@@ -1121,7 +1130,13 @@ body{
   .read-more-btn {
     padding: 3px 7px;
     font-size: 0.75rem;
+    
   }
+
+  .quote-button{
+    display: none;
+  }
+
   .card-title{
     font-size: 18px;
   }
