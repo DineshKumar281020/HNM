@@ -1547,6 +1547,10 @@ body{
   .read-more-btn {
       padding: 6px 12px; /* Adjust padding */
       font-size: 0.8rem; /* Adjust font size */
+      
+    }
+
+    .quote-button{
       display: none;
     }
   }
@@ -1555,6 +1559,10 @@ body{
   .read-more-btn {
       padding: 5px 10px; /* Adjust padding */
       font-size: 0.7rem; /* Adjust font size */
+      
+    }
+
+    .quote-button{
       display: none;
     }
   }
@@ -1564,6 +1572,10 @@ body{
       padding: 8px 15px; /* Adjust button padding */
       font-size: 12px; /* Adjust font size */
       margin-bottom: 10px;
+      
+    }
+
+    .quote-button{
       display: none;
     }
   }
