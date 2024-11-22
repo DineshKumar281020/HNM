@@ -1016,7 +1016,7 @@ select{
   }
   .info-container {
     width: 100%;
-    padding-left: 0;
+    padding-left: 5px;
     margin-top: 30px;
   }
   
@@ -1414,6 +1414,10 @@ select{
   .read-more-btn {
       padding: 6px 14px; /* Adjust padding */
       font-size: 0.8rem; /* Adjust font size */
+    }
+
+    .quote-button{
+      font-size: 11px;
     }
   }
   

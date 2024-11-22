@@ -1377,7 +1377,7 @@ select{
   }
 
   .navbar-links a{
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .navbar-toggler{
@@ -1647,6 +1647,10 @@ select{
   .read-more-btn {
     padding: 6px 14px; /* Adjust padding */
     font-size: 0.8rem; /* Adjust font size */
+  }
+
+  .quote-button{
+    font-size: 11px;
   }
 
   .contact-info {

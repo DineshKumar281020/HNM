@@ -1337,6 +1337,10 @@ body{
       padding: 6px 14px; /* Adjust padding */
       font-size: 0.8rem; /* Adjust font size */
     }
+
+    .quote-button{
+      font-size: 11px;
+    }
   }
   
   @media (max-width: 768px) {
