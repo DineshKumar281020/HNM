@@ -1047,8 +1047,12 @@ body{
     height: 210px;
   }
   .read-more-btn {
-    padding: 5px 12px;
-    font-size: 0.9rem;
+    padding: 6px 14px;
+    font-size: 0.8rem;
+  }
+
+  .quote-button{
+    font-size: 11px;
   }
 }
 
@@ -1070,7 +1074,7 @@ body{
     height: 200px;
   }
   .read-more-btn {
-    padding: 5px 10px;
+    padding: 6px 12px;
     font-size: 0.85rem;
     
   }
@@ -1099,8 +1103,8 @@ body{
     height: 180px;
   }
   .read-more-btn {
-    padding: 4px 8px;
-    font-size: 0.8rem;
+    padding: 6px 12px;
+    font-size: 0.7rem;
     
   }
 
@@ -1131,7 +1135,7 @@ body{
     margin: 10px;
   }
   .read-more-btn {
-    padding: 3px 7px;
+    padding: 8px 15px;
     font-size: 0.75rem;
     
   }
