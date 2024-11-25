@@ -2098,9 +2098,9 @@ select{
   }
 
   .pro-box {
-    width: 300px; /* Adjust box width */
-    margin-bottom: 20px;
-    margin-left: 60px;
+    width: 500px;
+        margin-bottom: 20px;
+        margin-left: 45px;
   }
 
   .card-title {
@@ -2131,7 +2131,8 @@ select{
   }
 
   .pro-box{
-    margin-left: 75px;
+    margin-left: 70px;
+        width: 310px;
   }
 
   .pro-row{
@@ -2183,7 +2184,8 @@ select{
 
   .pro-box {
     width: 75%;
-    margin-bottom: 20px;
+        margin-bottom: 20px;
+        margin-left: 80px;
   }
 
   .card-title {
