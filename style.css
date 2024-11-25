@@ -602,7 +602,7 @@ p.lead {
 }
 
 .pro-box{
-  width: 330px;
+  margin-bottom: 20px;
 }
 
 
@@ -2091,198 +2091,139 @@ select{
 
 /*PRODUCTS*/
 
-/* Media queries for large screens (1200px and below) */
+/* Up to 1200px */
 @media (max-width: 1200px) {
-  .service-card img {
-    height: 250px; /* Adjust image height */
+  .pro-title {
+    font-size: 36px;
   }
-
-  .pro-box {
-    width: 500px;
-        margin-bottom: 20px;
-        margin-left: 45px;
+  .product-section {
+    padding: 30px 0;
   }
-
-  .card-title {
-    font-size: 16px; /* Adjust title size */
-  }
-
-  .card-text {
-    font-size: 14px; /* Adjust text size */
-  }
-
-  .pro-para h2 {
-    font-size: 30px;
-  }
-
   p.lead {
-    font-size: 16px;
+    font-size: 15px;
   }
-
-  .products-btn {
-    margin-top: 35px;
-  }
-}
-
-/* Media queries for small laptops (992px and below) */
-@media (max-width: 992px) {
-  .service-card img {
-    height: 220px; /* Adjust image height */
-  }
-
-  .pro-box{
-    margin-left: 70px;
-        width: 310px;
-  }
-
-  .pro-row{
-    margin-left: 50px;
-  }
-
   .card-title {
-    font-size: 15px; /* Adjust title size */
+    font-size: 17px;
   }
-
-  .card-text {
-    font-size: 13px; /* Adjust text size */
+  .service-card img {
+    height: 280px;
   }
-
-  .pro-para h2 {
-    font-size: 25px;
+  .card-img {
+    height: 200px;
   }
-
-  p.lead {
-    font-size: 14px;
-  }
-
   .products-btn {
     margin-top: 30px;
   }
 }
 
-/* Media queries for tablets (768px and below) */
-@media (max-width: 768px) {
+/* Up to 992px */
+@media (max-width: 992px) {
+  .pro-title {
+    font-size: 32px;
+  }
   .product-section {
-    padding: 40px 0; /* Adjust padding */
+    padding: 25px 0;
   }
-
-  .pro-row{
-    margin-left: 0;
+  p.lead {
+    font-size: 14px;
   }
-
-  .pro-para h2 {
-    font-size: 20px; /* Adjust heading size */
-  }
-
-  p.lead{
-    font-size: 12px;
-  }
-
-  .service-card img {
-    height: 200px; /* Adjust image height */
-  }
-
-  .pro-box {
-    width: 75%;
-        margin-bottom: 20px;
-        margin-left: 80px;
-  }
-
   .card-title {
-    font-size: 14px; /* Adjust title size */
+    font-size: 16px;
   }
-
-  .card-text {
-    font-size: 12px; /* Adjust text size */
+  .service-card img {
+    height: 250px;
   }
-
+  .card-img {
+    height: 180px;
+  }
   .products-btn {
     margin-top: 25px;
   }
-}
-
-/* Media queries for mobile screens (576px and below) */
-@media (max-width: 576px) {
-  .product-section {
-    padding: 15px 0; /* Adjust padding */
-  }
-
-  .pro-para h2 {
-    font-size: 14px; /* Adjust heading size */
-    text-align: center; /* Center heading */
-  }
-
-  p.lead{
-    font-size: 12px;
-  }
-
-  .service-card img {
-    height: 180px; /* Adjust image height */
-  }
-
-  .pro-box {
-    width: 100%; /* Full width for mobile */
-    padding: 0 10px; /* Adjust padding */
-    margin-left: -5px;
+  .pro-box{
     margin-bottom: 20px;
   }
+}
 
+/* Up to 768px */
+@media (max-width: 768px) {
+  .pro-title {
+    font-size: 28px;
+  }
+  .product-section {
+    padding: 20px 0;
+  }
+  p.lead {
+    font-size: 13px;
+  }
   .card-title {
-    font-size: 13px; /* Adjust title size */
+    font-size: 15px;
   }
-
-  .card-text {
-    font-size: 14px; /* Adjust text size */
+  .service-card img {
+    height: 220px;
   }
-
+  .card-img {
+    height: 160px;
+  }
   .products-btn {
     margin-top: 20px;
   }
+  .pro-box{
+    margin-bottom: 20px;
+  }
 }
 
-@media (max-width: 480px) {
+/* Up to 576px */
+@media (max-width: 576px) {
   .pro-title {
-    font-size: 28px; /* Smaller title */
+    font-size: 24px;
   }
-
-  .pro-para h2 {
-    font-size: 22px; /* Adjust heading size */
+  .product-section {
+    padding: 15px 0;
   }
-
   p.lead {
-    font-size: 12px; /* Smaller text */
+    font-size: 12px;
   }
-
-  .service-card img {
-    height: 200px; /* Reduce image height */
-  }
-
-  .pro-box {
-    width: 100%; /* Full width */
-  }
-
   .card-title {
-    font-size: 16px; /* Adjust title size */
+    font-size: 14px;
   }
-
-  .card-text {
-    font-size: 14px; /* Adjust text size */
+  .service-card img {
+    height: 200px;
   }
-
   .card-img {
-    height: 180px; /* Adjust image height */
+    height: 140px;
   }
-
-  
-
-  .product-section .service-card {
-    margin-bottom: 20px; /* Add margin between cards */
-    
-  }
-
   .products-btn {
     margin-top: 15px;
   }
+  .pro-box{
+    margin-bottom: 20px;
+  }
+}
+
+/* Up to 480px */
+@media (max-width: 480px) {
+  .pro-title {
+    font-size: 20px;
+  }
+  .product-section {
+    padding: 10px 0;
+  }
+  p.lead {
+    font-size: 11px;
+  }
+  .card-title {
+    font-size: 13px;
+  }
+  .service-card img {
+    height: 180px;
+  }
+  .card-img {
+    height: 120px;
+  }
+  .products-btn {
+    margin-top: 10px;
+  }
+  
 }
 
 
