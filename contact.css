@@ -217,7 +217,7 @@ body{
   display: none;
 }
 
-@media (max-width:1024px){
+@media (max-width:1200px){
   .hamburger{
     display: block;
   }
@@ -719,11 +719,28 @@ select{
     padding: 200px 0 180px 20px;
   }
 
-  
-
-  .navbar-toggler{
+  .navbar-links{
     display: none;
   }
+
+  .quote-button{
+    display: none;
+  }
+
+  .navbar-container .navbar-toggler {
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #6c774f;
+  }
+
+  .navbar-container .navbar-toggler:hover{
+    background-color: #000;
+   }
+
+  
 
 }
 
@@ -762,15 +779,14 @@ select{
 
   .navbar-links{
     margin-right: 35px;
+    display: none;
   }
 
   .navbar-links a{
-    font-size: 12px;
+    font-size: 11px;
   }
 
-  .navbar-toggler{
-    display: none;
-  }
+  
 
   .btn-yellow {
     font-size: 12px;
@@ -779,6 +795,12 @@ select{
   .btn-white {
     font-size: 12px;
   }
+
+  
+
+   .quote-button{
+    display: none;
+   }
 }
 
 /* Media queries for tablets (768px and below) */
@@ -853,7 +875,7 @@ select{
 
   
 
-  .navbar-container .navbar-toggler {
+  /* .navbar-container .navbar-toggler {
     display: block;
     background-color: transparent;
     border: none;
@@ -864,7 +886,7 @@ select{
 
   .navbar-container .navbar-toggler:hover{
     background-color: #000;
-   }
+   } */
 
 
 }
