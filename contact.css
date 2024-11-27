@@ -1045,6 +1045,23 @@ select{
   .info-container p {
     font-size: 15px;
   }
+
+  .location2{
+    display: inline-block;
+    margin-left: 60px;
+  }
+
+  .location3{
+   display: flex;
+  }
+
+  .location4{
+    display: inline-block;
+  }
+
+  
+
+  
 }
 
 /* For screens up to 992px */
