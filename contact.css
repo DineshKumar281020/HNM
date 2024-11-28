@@ -1049,14 +1049,16 @@ select{
   .location2{
     display: inline-block;
     margin-left: 60px;
+    margin-right: 250px;
   }
 
   .location3{
-   display: flex;
+   display: inline-block;
   }
 
   .location4{
     display: inline-block;
+    margin-left: 140px;
   }
 
   
@@ -1089,6 +1091,15 @@ select{
   
   .info-container p {
     font-size: 13px;
+  }
+
+  .location2{
+    margin-left: 0;
+  }
+
+  .location4{
+    display: block;
+    margin-left: 0;
   }
 }
 

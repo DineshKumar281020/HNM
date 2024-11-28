@@ -1757,8 +1757,8 @@ select{
 
   .contact-info {
     font-size: 0.7rem; /* Adjust font size */
-    padding-left: 0;
-
+    padding-left: 10px;
+    margin-top: 16px;
   }
 
   
@@ -1766,6 +1766,7 @@ select{
   .read-about {
     padding-top: 40px; /* Adjust padding */
     padding-left: 15px;
+    display: flex;
   }
 }
 
@@ -1831,7 +1832,7 @@ select{
 
   .contact-info {
     font-size: 0.7rem; /* Adjust font size */
-    padding-left: 0; /* Remove padding */
+    padding-left: 10px; /* Remove padding */
   }
 
   
@@ -1901,7 +1902,7 @@ select{
 
   .contact-info {
     font-size: 14px; /* Smaller text */
-    margin-top: 10px;
+    margin-top: 16px;
     
   }
 
