@@ -1178,6 +1178,13 @@ header a:hover {
   .service-title {
     font-size: 1.5rem;
   }
+  .service-item:nth-child(even) .service-image {
+    order: 2;
+    padding-left: 20px;
+  }
+  .service-item:nth-child(odd) .service-image {
+    padding-right: 20px;
+  }  
 }
 
 /* For screens up to 768px */
@@ -1249,13 +1256,7 @@ header a:hover {
   .service-title {
     font-size: 18px;
   }
-    .service-item:nth-child(even) .service-image {
-  order: 2;
-  padding-left: 20px;
-}
-.service-item:nth-child(odd) .service-image {
-  padding-right: 20px;
-}  
+    
 
 }
 

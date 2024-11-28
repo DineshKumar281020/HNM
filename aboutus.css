@@ -1327,6 +1327,10 @@ header a:hover {
   .feature-box p {
     font-size: 11px;
   }
+
+  .about-diagram{
+    margin-top: 30px;
+  }
 }
 
 /* Extra small screens (480px and down) */
@@ -1362,6 +1366,8 @@ header a:hover {
   .feature-box p {
     font-size: 10px;
   }
+
+  
 }
 
 /*OUR TEAMS*/
