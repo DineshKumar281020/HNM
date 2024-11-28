@@ -4,6 +4,46 @@ body{
   width: 100%;
 }
 
+.head{
+  background-color: #6c774f;
+  color: #fff;
+}
+
+.head-word{
+  font-size: 17px;
+}
+
+.head-icon{
+  float: right;
+  font-size: 18px;
+}
+
+.icons{
+  color: #6c774f;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    padding: 6px 4px 6px 5px;
+    border-radius: 50%;
+}
+
+.icons:hover{
+  color: #99b086;
+
+}
+
+header .bi {
+  margin-right: 5px;
+}
+
+header span {
+  font-size: 14px;
+}
+
+header a:hover {
+  color: black;
+}
+
 /*NAVBAR*/
 
 .owl-carousel .item {
@@ -383,6 +423,10 @@ body{
   font-weight: 500;
 }
 
+.about-content{
+  margin-top: 10px;
+}
+
 .about-description {
   font-size: 16px;
   color: #555;
@@ -417,6 +461,10 @@ body{
 .feature-box p {
   font-size: 14px;
   color: #777;
+}
+
+.about-diagram{
+  margin-top: 85px;
 }
 
 /*TIMELINE*/

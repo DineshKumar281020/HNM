@@ -474,6 +474,11 @@ strong {
   color: #fff;
 }
 
+.button{
+  background-color: #fff;
+  color: black;
+}
+
 .quote-button{
   margin-top: 0;
 }
@@ -526,6 +531,7 @@ strong {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  height: 100%;
 }
 
 .service-box:hover{
@@ -1594,7 +1600,9 @@ select{
   }
 
   .contact-info {
-    font-size: 1rem; /* Adjust font size */
+    font-size: 1rem;
+        margin-top: 18px;
+        padding-left: 10px; /* Adjust font size */
     
   }
 
@@ -1614,6 +1622,7 @@ select{
 
   .read-about {
     padding-top: 80px; /* Adjust padding */
+    display: flex;
   }
 }
 
@@ -1678,7 +1687,7 @@ select{
 
   .contact-info {
     font-size: 0.9rem; /* Adjust font size */
-    
+    margin-top: 15px;
   }
 
   
@@ -1901,7 +1910,7 @@ select{
   }
 
   .contact-info {
-    font-size: 14px; /* Smaller text */
+    font-size: 12px; /* Smaller text */
     margin-top: 16px;
     
   }
