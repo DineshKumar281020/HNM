@@ -552,11 +552,13 @@ header a:hover {
 
 /*HEADER*/
 
+/* Media queries for tablets (768px and below) */
 @media (max-width: 768px) {
   .head {
     background-color: #6c774f;
     color: #fff;
     text-align: center;
+    display: none;
   }
 
   .head-word {
@@ -582,7 +584,7 @@ header a:hover {
 
 /* Media queries for small laptops (992px and below) */
 
-/*HEADER*/
+
 
 @media (max-width: 992px) {
   .head-word {
@@ -602,6 +604,8 @@ header a:hover {
   header span {
     font-size: 13px;
   }
+
+  
 }
 
 /* Media queries for large screens (1200px and below) */
@@ -623,6 +627,10 @@ header a:hover {
   header span {
     font-size: 13px;
   }
+
+  .head{
+    display: none;
+  }
 }
 
 @media (max-width: 576px) {
@@ -637,6 +645,7 @@ header a:hover {
     background-color: #6c774f;
     color: #fff;
     text-align: center;
+    display: none;
   }
 
   .head-word {
@@ -695,7 +704,6 @@ header a:hover {
     float: none; /* Prevent floating on small screens */
     text-align: center;
     margin-right: 95px;
-    
   }
 
   .icons {
@@ -750,6 +758,7 @@ header a:hover {
     font-size: 1.5rem;
     color: #fff;
     background-color: #6c774f;
+    margin-top: 8px;
   }
 
   .navbar-container .navbar-toggler:hover{
@@ -943,6 +952,10 @@ header a:hover {
   .navbar-links li {
     margin-left: 0;
     margin-bottom: 10px; /* Space between links */
+  }
+
+  .navbar-container .navbar-toggler{
+    margin-top: 0;
   }
 
   .navbar-toggler {

@@ -630,9 +630,43 @@ header a:hover {
   }
 }
 
-/* Media queries for small laptops (992px and below) */
+
 
 /*HEADER*/
+
+/* Media queries for tablets (768px and below) */
+@media (max-width: 768px) {
+  .head {
+    background-color: #6c774f;
+    color: #fff;
+    text-align: center;
+    display: none;
+  }
+
+  .head-word {
+    font-size: 15px;
+    }
+
+  .head-icon {
+    float: none;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .icons {
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+  }
+
+  header span {
+    font-size: 12px;
+  }
+}
+
+/* Media queries for small laptops (992px and below) */
+
+
 
 @media (max-width: 992px) {
   .head-word {
@@ -652,6 +686,8 @@ header a:hover {
   header span {
     font-size: 13px;
   }
+
+  
 }
 
 /* Media queries for large screens (1200px and below) */
@@ -673,6 +709,10 @@ header a:hover {
   header span {
     font-size: 13px;
   }
+
+  .head{
+    display: none;
+  }
 }
 
 @media (max-width: 576px) {
@@ -687,6 +727,7 @@ header a:hover {
     background-color: #6c774f;
     color: #fff;
     text-align: center;
+    display: none;
   }
 
   .head-word {
@@ -799,6 +840,7 @@ header a:hover {
     font-size: 1.5rem;
     color: #fff;
     background-color: #6c774f;
+    margin-top: 8px;
   }
 
   .navbar-container .navbar-toggler:hover{
@@ -992,6 +1034,10 @@ header a:hover {
   .navbar-links li {
     margin-left: 0;
     margin-bottom: 10px; /* Space between links */
+  }
+
+  .navbar-container .navbar-toggler{
+    margin-top: 0;
   }
 
   .navbar-toggler {
