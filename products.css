@@ -497,8 +497,6 @@ header a:hover {
   filter: brightness(0) invert(1);
 }
 
-/*FOOTER*/
-
 .footer {
   background-color: #282828;
   color: #fff;
@@ -539,6 +537,20 @@ header a:hover {
   padding-top: 10px;
 }
 
+.symbols{
+  font-size: 14px;
+  padding: 6px 0 0 5px;
+}
+
+.footer .fas {
+  color: #6c774f;
+  padding-right: 5px;
+  background-color: #fff;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
 .footer-content p {
   font-size: 14px;
 }
@@ -570,6 +582,12 @@ header a:hover {
 
 .ic{
   color: #6c774f;
+  background-color: #fff;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  padding: 4px 0 0 3px;
+  margin-left: 10px;
 }
 
 .ic:hover{
@@ -602,11 +620,17 @@ header a:hover {
   .icons {
     height: 25px;
     width: 25px;
-    padding: 5px;
+    padding: 5px 0 0 5px;
   }
+
+  
 
   header span {
     font-size: 12px;
+  }
+
+  .ic{
+    padding: 5px 0 0 0 !important;
   }
 }
 
@@ -626,7 +650,7 @@ header a:hover {
   .icons {
     height: 28px;
     width: 28px;
-    padding: 5px;
+    padding: 5px 0px 0px 5px;
   }
 
   header span {
@@ -650,6 +674,9 @@ header a:hover {
   .icons {
     height: 28px;
     width: 28px;
+    background-color: #6c774f;
+    color: #fff;
+    padding: 5px 0 0 5px;
   }
 
   header span {
@@ -689,7 +716,7 @@ header a:hover {
   .icons {
     height: 25px;
     width: 25px;
-    padding: 4px 3px;
+    padding: 4px 0px 0 4px;
   }
 
   .icons:hover {
@@ -1350,11 +1377,21 @@ header a:hover {
     width: 100px; /* Reduce store icon size */
   }
 
+  .footer .fas {
+    font-size: 15px;
+        padding: 5px 0 0 5px;
+  }
+
   .powered-by {
     padding-left: 75px;
   }
   .copyright {
     padding-right: 75px;
+  }
+
+  .ic{
+    padding: 5px 0 0 5px;
+    font-size: 14px;
   }
 
   
@@ -1376,6 +1413,11 @@ header a:hover {
 
   .footer-logo {
     width: 90px; /* Reduce logo size */
+  }
+
+  .footer .fas {
+    font-size: 14px;
+    padding-right: 3px;
   }
 
   .powered-by {
@@ -1421,6 +1463,11 @@ header a:hover {
     margin: 5px 3px; /* Adjust margins for spacing */
   }
 
+  .footer .fas {
+    font-size: 14px;
+    padding: 5px 1px 0 0px;
+  }
+
   .powered-by {
     text-align: center;
     padding-left: 0;
@@ -1431,6 +1478,8 @@ header a:hover {
     padding-right: 0;
     margin-right: 0;
   }
+
+  
 
   
 }
@@ -1471,14 +1520,16 @@ header a:hover {
     margin: 5px auto; /* Center the store icons */
   }
 
+  .footer .fas {
+    font-size: 14px;
+    
+  }
+
   .powered-by, .copyright {
     text-align: center;
     padding: 0;
   }
 
-  
-
-  
 }
 
 
@@ -1515,6 +1566,11 @@ header a:hover {
     flex-flow: column-reverse;
   }
 
+  .footer .fas {
+    font-size: 14px;
+    padding: 5px 0 0 5px;
+  }
+
   .powered-by{
     text-align: center !important;
     font-size: 10px !important;
@@ -1529,11 +1585,7 @@ header a:hover {
      margin-bottom: 5px; 
      
     padding: 0;
-    
-  
   }
-
-  
 
   .btn-paper {
     padding: 8px 12px; /* Adjust button padding */
@@ -1547,6 +1599,12 @@ header a:hover {
   .footer-div{
     margin-left: 0;
   }
+
+  .ic{
+    padding: 5px 0 0 4px !important;
+  }
+
+  
 
 }
 
