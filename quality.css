@@ -18,7 +18,7 @@ body{
   font-size: 18px;
 }
 
-.icons{
+ .icons{
   color: #6c774f;
     background-color: white;
     height: 30px;
@@ -27,7 +27,7 @@ body{
     border-radius: 50%;
 }
 
-.icons:hover{
+ .icons:hover{
   color: #99b086;
 
 }
@@ -1099,9 +1099,7 @@ header a:hover {
     width: 55px;
     height: 55px;
   }
-  .icons{
-    font-size: 25px !important;
-  }
+  
 }
 
 /* For screens up to 992px */
