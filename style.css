@@ -1106,9 +1106,18 @@ select{
   padding-top: 10px;
 }
 
+.symbols{
+  font-size: 14px;
+  padding: 6px 0 0 5px;
+}
+
 .footer .fas {
-  color: #fff;
+  color: #6c774f;
   padding-right: 5px;
+  background-color: #fff;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
 }
 
 .footer-content p {
@@ -1142,6 +1151,12 @@ select{
 
 .ic{
   color: #6c774f;
+  background-color: #fff;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  padding: 4px 0 0 3px;
+  margin-left: 10px;
 }
 
 .ic:hover{
@@ -1176,11 +1191,17 @@ select{
   .icons {
     height: 25px;
     width: 25px;
-    padding: 5px;
+    padding: 5px 0 0 5px;
   }
+
+  
 
   header span {
     font-size: 12px;
+  }
+
+  .ic{
+    padding: 5px 0 0 0 !important;
   }
 }
 
@@ -1200,7 +1221,7 @@ select{
   .icons {
     height: 28px;
     width: 28px;
-    padding: 5px;
+    padding: 5px 0px 0px 5px;
   }
 
   header span {
@@ -1224,6 +1245,9 @@ select{
   .icons {
     height: 28px;
     width: 28px;
+    background-color: #6c774f;
+    color: #fff;
+    padding: 5px 0 0 5px;
   }
 
   header span {
@@ -1263,7 +1287,7 @@ select{
   .icons {
     height: 25px;
     width: 25px;
-    padding: 4px 3px;
+    padding: 4px 0px 0 4px;
   }
 
   .icons:hover {
@@ -2999,8 +3023,8 @@ select{
   }
 
   .footer .fas {
-    font-size: 18px;
-    padding-right: 4px;
+    font-size: 15px;
+        padding: 5px 0 0 5px;
   }
 
   .powered-by {
@@ -3008,6 +3032,11 @@ select{
   }
   .copyright {
     padding-right: 75px;
+  }
+
+  .ic{
+    padding: 5px 0 0 5px;
+    font-size: 14px;
   }
 
   
@@ -3032,7 +3061,7 @@ select{
   }
 
   .footer .fas {
-    font-size: 16px;
+    font-size: 14px;
     padding-right: 3px;
   }
 
@@ -3080,8 +3109,8 @@ select{
   }
 
   .footer .fas {
-    font-size: 12px;
-    padding-right: 2px;
+    font-size: 14px;
+    padding: 5px 1px 0 0px;
   }
 
   .powered-by {
@@ -3094,6 +3123,8 @@ select{
     padding-right: 0;
     margin-right: 0;
   }
+
+  
 
   
 }
@@ -3135,8 +3166,8 @@ select{
   }
 
   .footer .fas {
-    font-size: 12px;
-    padding-right: 2px;
+    font-size: 14px;
+    
   }
 
   .powered-by, .copyright {
@@ -3181,8 +3212,8 @@ select{
   }
 
   .footer .fas {
-    font-size: 10px;
-    padding-right: 2px;
+    font-size: 14px;
+    padding: 5px 0 0 5px;
   }
 
   .powered-by{
@@ -3214,7 +3245,9 @@ select{
     margin-left: 0;
   }
 
-  
+  .ic{
+    padding: 5px 0 0 4px !important;
+  }
 
   
 
