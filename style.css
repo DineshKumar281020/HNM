@@ -1936,7 +1936,7 @@ select{
   }
 
   .read-more-btn {
-    padding: 8px 15px; /* Adjust button padding */
+    padding: 5px 10px; /* Adjust button padding */
     font-size: 12px; /* Adjust font size */
     margin-bottom: 10px;
     
