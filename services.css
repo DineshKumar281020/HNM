@@ -1371,7 +1371,7 @@ header a:hover {
 
   .process-images{
     padding: 0 45px;
-  }
+    }
 
   .process-images img {
     width: 205px;
@@ -1401,6 +1401,10 @@ header a:hover {
   .step-number {
     font-size: 1.5rem;
   }
+
+  .process-images{
+    padding: 0 100px;
+    }
 
   .process-images img {
     width: 115px;
