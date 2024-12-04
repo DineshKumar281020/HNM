@@ -448,7 +448,9 @@ header a:hover {
   height: 250px;
 }
 
-
+.range{
+  height: 100%;
+}
 
 .quote-button{
   margin-top: 0;
@@ -1132,6 +1134,12 @@ header a:hover {
     padding: 6px 14px;
     font-size: 0.95rem;
   }
+
+  .range{
+    height: 100%;
+  }
+
+  
 }
 
 /* For screens up to 992px */
