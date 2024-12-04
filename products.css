@@ -444,7 +444,7 @@ header a:hover {
 }
 
 .card img{
-  width: 375px;
+  width: 100%;
   height: 250px;
 }
 
@@ -1125,7 +1125,7 @@ header a:hover {
     font-size: 1.05rem;
   }
   .card img {
-    width: 316px;
+    width: 100%;
     height: 230px;
   }
   .read-more-btn {
@@ -1148,7 +1148,7 @@ header a:hover {
     font-size: 1rem;
   }
   .card img {
-    width: 256px;
+    width: 100%;
     height: 210px;
   }
   .read-more-btn {
@@ -1175,7 +1175,7 @@ header a:hover {
     font-size: 0.95rem;
   }
   .card img {
-    width: 175px;
+    width: 100%;
     height: 200px;
   }
   .read-more-btn {
@@ -1183,6 +1183,8 @@ header a:hover {
     font-size: 0.85rem;
     
   }
+
+  
 
   
   .quote-button{
