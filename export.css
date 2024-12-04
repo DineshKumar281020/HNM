@@ -490,6 +490,7 @@ header a:hover {
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
+  text-align: center;
 }
 
 .card:hover {
@@ -605,7 +606,7 @@ header a:hover {
 }
 
 .ic:hover{
-  color: #fff;
+  color: #99b086;
 }
 
 

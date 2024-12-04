@@ -412,7 +412,7 @@ header a:hover {
 .product-range h2 {
   font-size: 40px;
   font-weight: 700;
-  color: #6c774f;
+  color: #212529;
   margin-bottom: 15px;
 }
 
@@ -426,11 +426,12 @@ header a:hover {
   border: none;
   transition: transform 0.3s ease;
   margin: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .product-range .card:hover {
   transform: scale(1.05);
-  background-color: #eaefe6;
+  
  
 }
 
@@ -591,7 +592,7 @@ header a:hover {
 }
 
 .ic:hover{
-  color: #fff;
+  color: #99b086;
 }
 
 /*MEDIA QUERIES*/
