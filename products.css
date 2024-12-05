@@ -1141,7 +1141,7 @@ header a:hover {
     font-size: 1.05rem;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 280px;
+    width: 100%;
     white-space: nowrap;
   }
   .card img {
@@ -1160,7 +1160,7 @@ header a:hover {
   }
   
   .product-range .card-body{
-    width: 316px;
+    width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -1197,7 +1197,7 @@ header a:hover {
   }
 
   .product-range .card-body{
-    width: 256px;
+    width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -1207,7 +1207,7 @@ header a:hover {
     font-size: 1rem;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 230px;
+    width: 100%;
     white-space: nowrap;
   }
 }
@@ -1236,7 +1236,7 @@ header a:hover {
   }
 
   .product-range .card-body{
-    width: 175px;
+    width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -1246,7 +1246,7 @@ header a:hover {
     font-size: 0.95rem;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 160px;
+    width: 100%;
     white-space: nowrap;
   }
 
@@ -1280,7 +1280,7 @@ header a:hover {
   }
 
   .product-range .card-body{
-    width: 476px;
+    width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -1290,7 +1290,7 @@ header a:hover {
     font-size: 0.95rem;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 440px;
+    width: 100%;
     white-space: nowrap;
   }
 
@@ -1327,7 +1327,7 @@ header a:hover {
   }
 
   .product-range .card-body{
-    width: 416px;
+    width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -1337,7 +1337,7 @@ header a:hover {
     font-size: 12px;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 380px;
+    width: 100%;
     white-space: nowrap;
   }
 
