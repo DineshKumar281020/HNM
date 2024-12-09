@@ -11,7 +11,10 @@ body{
 
 .head-word{
   font-size: 17px;
+ 
 }
+
+
 
 .head-icon{
   float: right;
@@ -567,7 +570,7 @@ strong {
 }
 
 .action-buttons {
-  margin-top: 40px;
+  margin-top: 24px;
   text-align: center;
 }
 
@@ -629,7 +632,7 @@ p.lead {
 }
 
 .products-btn{
-  margin-top: 40px;
+  margin-top: 24px;
 }
 
 /*EXPORTS*/

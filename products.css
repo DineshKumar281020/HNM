@@ -468,6 +468,10 @@ header a:hover {
   height: 250px;
 }
 
+.products-link{
+  text-decoration: none;
+}
+
 .quote-button{
   margin-top: 0;
 }
