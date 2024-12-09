@@ -9,9 +9,18 @@ body{
   color: #fff;
 }
 
+.head .fas{
+  color: #fff;
+  padding-right: 0;
+}
+
 .head-word{
   font-size: 17px;
  color: #fff;
+}
+
+.head-word .fas{
+  color: #212529;
 }
 
 .head-word:hover{
@@ -642,6 +651,7 @@ header a:hover {
   .head-word {
     font-size: 16px;
     margin-left: 15px;
+    color: #212529 !important;
   }
 
   .head-icon {
