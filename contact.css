@@ -12,6 +12,15 @@ body{
 
 .head-word{
   font-size: 17px;
+ color: #fff;
+}
+
+.head-word:hover{
+  color: #99b086;
+}
+
+.details-link{
+  text-decoration: none;
 }
 
 .head-icon{
@@ -433,6 +442,12 @@ header a:hover {
 .info-container .info-item {
   margin-bottom: 15px;
 }
+
+.contact-link:hover{
+  color: #6c774f;
+}
+
+
 
 .info-container .info-item i {
   font-size: 20px;

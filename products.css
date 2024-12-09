@@ -11,6 +11,15 @@ body{
 
 .head-word{
   font-size: 17px;
+ color: #fff;
+}
+
+.head-word:hover{
+  color: #99b086;
+}
+
+.details-link{
+  text-decoration: none;
 }
 
 .head-icon{
@@ -451,9 +460,12 @@ header a:hover {
   color: #666666;
   margin-bottom: 20px;
   overflow: hidden;
-    text-overflow: ellipsis;
-    width: 340px;
-    white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 340px;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .product-range .card-title {

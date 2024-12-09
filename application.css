@@ -11,6 +11,15 @@ body{
 
 .head-word{
   font-size: 17px;
+ color: #fff;
+}
+
+.head-word:hover{
+  color: #99b086;
+}
+
+.details-link{
+  text-decoration: none;
 }
 
 .head-icon{
