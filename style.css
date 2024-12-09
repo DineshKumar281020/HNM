@@ -624,7 +624,6 @@ p.lead {
 }
 
 .card-img{
-  border-bottom: 5px solid #6c774f;
   height: 220px;
   object-fit: cover;
 }
@@ -684,13 +683,13 @@ p.lead {
 }
 
 .card-text {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .export-stats {
   font-size: 18px;
   font-weight: bold;
-
+  margin-bottom: 15px;
 }
 
 /*APPLICATIONS*/

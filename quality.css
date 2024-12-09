@@ -402,7 +402,6 @@ header a:hover {
 
 
 .quality-section {
-  background-color: #f3f4f6;
   padding: 40px 0;
 }
 
@@ -421,7 +420,7 @@ header a:hover {
 
 
 .quality-card {
-  background-color: #e8f5e9;
+  background-color: #f3f4f6;
   border-radius: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   padding: 20px;
