@@ -481,7 +481,6 @@ header a:hover {
 
 
 /*FOOTER*/
-
 .footer {
   background-color: #282828;
   color: #fff;
@@ -524,12 +523,13 @@ header a:hover {
 
 .symbols{
   font-size: 14px;
-  padding: 6px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer .fas {
   color: #6c774f;
-  padding-right: 5px;
   background-color: #fff;
   height: 25px;
   width: 25px;
@@ -571,12 +571,30 @@ header a:hover {
   height: 25px;
   width: 25px;
   border-radius: 50%;
-  padding: 5px 0 0 3px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
   margin-right: 10px;
 }
 
 .ic:hover{
   color: #99b086;
+}
+
+.social-media 
+{
+  display: flex;
+  gap:4px;
+}
+
+p.quick-contact
+{
+  display: flex;
+  gap:10px;
+}
+p.quick-contact i 
+{
+  min-width: 25px;
 }
 
 
