@@ -4,6 +4,10 @@ body{
   width: 100%;
 }
 
+a{
+  text-decoration: none;
+}
+
 .head{
   background-color: #6c774f;
   color: #fff;
@@ -23,6 +27,7 @@ body{
   color: #212529;
 }
 
+
 .head-word:hover{
   color: #99b086;
 }
@@ -31,22 +36,24 @@ body{
   text-decoration: none;
 }
 
+
 .head-icon{
   float: right;
   font-size: 18px;
 }
 
-.head-icon .icons{
+.icons{
   color: #6c774f;
-      background-color: white;  
+    background-color: white;
     height: 30px;
     width: 30px;
-     padding: 6px 4px 6px 5px; 
-     border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 6px;
     
 }
 
-.head-icon .icons:hover{
+.icons:hover{
   color: #99b086;
 
 }
@@ -621,7 +628,7 @@ p.quick-contact i
     margin-top: 10px;
   }
 
-  .head-icon .icons {
+  .icons {
     height: 25px;
     width: 25px;
     padding: 5px 0 0 5px;
@@ -633,9 +640,7 @@ p.quick-contact i
     font-size: 12px;
   }
 
-  .ic{
-    padding: 5px 0 0 0 !important;
-  }
+  
 }
 
 /* Media queries for small laptops (992px and below) */
@@ -651,7 +656,7 @@ p.quick-contact i
     font-size: 17px;
   }
 
-  .head-icon .icons {
+  .icons {
     height: 28px;
     width: 28px;
     padding: 5px 0px 0px 5px;
@@ -676,13 +681,12 @@ p.quick-contact i
     font-size: 17px;
   }
 
-  .head-icon .icons {
+  .icons {
     height: 28px;
     width: 28px;
     background-color: #6c774f;
     color: #fff;
-    padding: 5px 0 0 5px;
-    border-radius: 50%;
+    
   }
 
   header span {
@@ -719,7 +723,7 @@ p.quick-contact i
     margin-top: 10px;
   }
 
-  .head-icon .icons {
+  .icons {
     height: 25px;
     width: 25px;
     padding: 4px 0px 0 4px;
@@ -767,7 +771,7 @@ p.quick-contact i
     margin-right: 95px;
   }
 
-  .head-icon .icons {
+  .icons {
     height: 25px;
     width: 25px;
     padding: 4px 0 0 0;

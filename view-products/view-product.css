@@ -3,6 +3,10 @@ body{
   overflow-x: hidden;
   width: 100%;
 }
+a{
+  text-decoration: none;
+}
+
 .head{
   background-color: #6c774f;
   color: #fff;
@@ -22,6 +26,7 @@ body{
   color: #212529;
 }
 
+
 .head-word:hover{
   color: #99b086;
 }
@@ -29,6 +34,7 @@ body{
 .details-link{
   text-decoration: none;
 }
+
 
 .head-icon{
   float: right;
@@ -40,8 +46,10 @@ body{
     background-color: white;
     height: 30px;
     width: 30px;
-    padding: 6px 4px 6px 5px;
     border-radius: 50%;
+    text-align: center;
+    padding-top: 6px;
+    
 }
 
 .icons:hover{
@@ -620,9 +628,7 @@ p.quick-contact i
     font-size: 12px;
   }
 
-  .ic{
-    padding: 5px 0 0 0 !important;
-  }
+  
 }
 
 /* Media queries for small laptops (992px and below) */
@@ -668,7 +674,7 @@ p.quick-contact i
     width: 28px;
     background-color: #6c774f;
     color: #fff;
-    padding: 5px 0 0 5px;
+    
   }
 
   header span {
