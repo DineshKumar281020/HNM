@@ -1827,7 +1827,7 @@ p.quick-contact i
 /* Media queries for large screens (1200px and below) */
 @media (max-width: 1200px) {
   .footer p {
-    font-size: 13px; /* Slightly reduce paragraph text size */
+    font-size: 15px; /* Slightly reduce paragraph text size */
   }
 
   .footer h5 {
@@ -1865,7 +1865,7 @@ p.quick-contact i
 /* Media queries for tablets (992px and below) */
 @media (max-width: 992px) {
   .footer p {
-    font-size: 12px; /* Further reduce paragraph text size */
+    font-size: 14px; /* Further reduce paragraph text size */
   }
 
   .footer .store-icon {
@@ -1953,8 +1953,6 @@ p.quick-contact i
   }
 
   
-
-  
 }
 
 /* Media queries for mobile screens (576px and below) */
@@ -2023,7 +2021,7 @@ p.quick-contact i
   }
 
   .footer p {
-    font-size: 14px; /* Decrease paragraph font size */
+    font-size: 16px; /* Decrease paragraph font size */
     line-height: 1.4; /* Adjust line height */
     text-align: left;
   }
@@ -2080,8 +2078,6 @@ p.quick-contact i
   p.quick-contact{
     gap: 5px;
   }
-
-  
 
   
 
