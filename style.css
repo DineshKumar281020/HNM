@@ -3083,6 +3083,10 @@ p.quick-contact i
     font-size: 14px;
   }
 
+  p.quick-contact{
+    gap: 8px;
+  }
+
   
 }
 
@@ -3114,6 +3118,10 @@ p.quick-contact i
   }
   .copyright {
     padding-right: 55px;
+  }
+
+  p.quick-contact{
+    gap: 6px;
   }
 
   
@@ -3168,7 +3176,9 @@ p.quick-contact i
     margin-right: 0;
   }
 
-  
+  p.quick-contact{
+    gap: 5px;
+  }
 
   
 }
@@ -3217,6 +3227,10 @@ p.quick-contact i
   .powered-by, .copyright {
     text-align: center;
     padding: 0;
+  }
+
+  p.quick-contact{
+    gap: 5px;
   }
 
 }
@@ -3289,7 +3303,9 @@ p.quick-contact i
     margin-left: 0;
   }
 
-  
+  p.quick-contact{
+    gap: 5px;
+  }
 
   
 
