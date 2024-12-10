@@ -473,7 +473,7 @@ header a:hover {
 
 .quality-section .icons{
   color: #fff;
-  background-color: #6abd6e;
+  background: linear-gradient(45deg, #4caf50, #81c784);
   display: flex;
     align-items: center;
     justify-content: center;
