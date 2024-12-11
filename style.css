@@ -23,9 +23,7 @@ a{
  color: #fff;
 }
 
-.head-word .fas{
-  color: #212529;
-}
+
 
 
 .head-word:hover{
@@ -367,6 +365,7 @@ header a:hover {
   bottom: 60px;
   padding-left: 25px;
   line-height: 30px;
+  gap: 5px;
 }
 
 
@@ -1291,8 +1290,12 @@ p.quick-contact i
     height: 28px;
     width: 28px;
     background-color: #6c774f;
-    color: #fff;
-    
+    color: #fff !important;
+    font-size: 16px;
+  }
+
+  .icons:hover{
+    color:#99b086 !important;
   }
 
   header span {
@@ -1437,7 +1440,9 @@ p.quick-contact i
     background-color: #000;
    }
 
-  
+   .owl-carousel .item{
+    height: 70vh;
+  }
 
 }
 
@@ -1483,7 +1488,9 @@ p.quick-contact i
     font-size: 11px;
   }
 
-  
+  .owl-carousel .item{
+    height: 65vh;
+  }
 
   .btn-yellow {
     font-size: 12px;
@@ -1528,7 +1535,9 @@ p.quick-contact i
     height: 35px;
   }
 
-  
+  .owl-carousel .item{
+    height: 60vh;
+  }
 
   .navbar-container .navbar-toggler {
     display: block;
@@ -1568,6 +1577,10 @@ p.quick-contact i
   .navbar-logo img {
     height: 30px;
     padding-left: 5px;
+  }
+
+  .owl-carousel .item{
+    height: 60vh;
   }
 
   
@@ -1634,7 +1647,9 @@ p.quick-contact i
     display: block; /* Show toggler on smaller screens */
   }
 
-  
+  .owl-carousel .item{
+    height: 60vh;
+  }
 
   .overlay {
     flex-direction: column;

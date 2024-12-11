@@ -1309,6 +1309,8 @@ p.quick-contact i
   .contacts-section .quote-box {
     padding: 30px;
   }
+
+  
 }
 
 /* Up to 768px */
@@ -1344,6 +1346,13 @@ p.quick-contact i
   .contacts-section .quote-box {
     padding: 20px;
   }
+  .enquiry-img:nth-child(even) .enquiry-image {
+    order: 2;
+    padding-left: 20px;
+  }
+  .enquiry-img:nth-child(odd) .enquiry-image {
+    padding-right: 20px;
+  }  
 }
 
 /* Up to 480px */
