@@ -513,7 +513,7 @@ strong {
   font-weight: bold;
   font-size: 1.2rem;
   margin-top: 20px;
-  
+  padding-left: 10px;
     
 }
 
@@ -530,6 +530,7 @@ strong {
 .read-about{
   padding-top: 25px;
   padding-left: 15px;
+  display: flex;
 }
 
 
