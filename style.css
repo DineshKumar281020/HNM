@@ -1335,12 +1335,10 @@ p.quick-contact i
   .icons {
     height: 25px;
     width: 25px;
-   
+    font-size: 14px;
   }
 
-  .icons:hover {
-    color: #99b086;
-  }
+  
 
   header .bi {
     margin-right: 2px;
