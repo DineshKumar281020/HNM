@@ -383,6 +383,7 @@ header a:hover {
   color: #212529;
   padding-left: 25px;
   line-height: 30px;
+  gap: 5px;
 }
 
 .icons{
