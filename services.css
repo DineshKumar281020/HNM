@@ -384,7 +384,7 @@ header a:hover {
   color: #212529;
   padding-left: 25px;
   line-height: 30px;
-  gap: 5px;
+  gap: 7px;
 }
 
 .icons{
@@ -1209,7 +1209,7 @@ p.quick-contact i
     font-size: 32px;
   }
   .service-item {
-    padding: 15px;
+    padding: 15px 15px 25px 15px;
     flex-direction: column;
     margin: 15px;
   }
@@ -1263,7 +1263,7 @@ p.quick-contact i
     font-size: 0.9rem;
   }
   .service-item {
-    padding: 10px;
+    padding: 10px 10px 25px 10px;
     margin: 15px;
   }
   .service-image img {
@@ -1288,7 +1288,7 @@ p.quick-contact i
     font-size: 12px;
   }
   .service-item {
-    padding: 8px;
+    padding: 8px 8px 25px 8px;
     margin: 15px;
   }
   .service-image img {

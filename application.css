@@ -384,7 +384,7 @@ header a:hover {
   color: #212529;
   padding-left: 25px;
   line-height: 30px;
-  gap: 5px;
+  gap: 7px;
 }
 
 .icons{
@@ -498,7 +498,8 @@ header a:hover {
 
 .related-applications .card-img-top {
   height: 200px;
-  
+  border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 /* .date {
@@ -529,6 +530,8 @@ header a:hover {
 .related-applications .card-body {
   padding: 1rem 1rem 0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ;
   background-color: #f8f9fa;
+  border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 
 
