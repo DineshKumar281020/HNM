@@ -842,7 +842,9 @@ p.quick-contact i
     background-color: #000;
    }
 
-  
+   .words{
+    padding-left: 3px;
+  }
 
 }
 
