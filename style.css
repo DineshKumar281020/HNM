@@ -1049,7 +1049,7 @@ select{
 
 .clients-section .owl-carousel .item{
   height: unset;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 /* .clients-slider {
@@ -2475,6 +2475,7 @@ p.quick-contact i
 
   .card-body {
     padding: 15px; /* Adjust padding */
+    height: 100%;
   }
 
   .card-title {
@@ -3057,6 +3058,7 @@ p.quick-contact i
   }
   .section-subtitle {
     font-size: 12px;
+    margin-bottom: 0;
   }
   .slide {
     min-width: 100px;

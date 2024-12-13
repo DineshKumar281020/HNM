@@ -1150,7 +1150,6 @@ p.quick-contact i
   }
   .infrastructure-card .card-image {
     flex: 0 0 160px;
-    padding: 18px;
     border-radius: 25px 0 0 25px;
   }
   .infrastructure-card .card-content {
@@ -1172,6 +1171,7 @@ p.quick-contact i
   }
   .infrastructure-section p {
     font-size: 0.95rem;
+    margin-bottom: 0 !important;
   }
   .infrastructure-card {
     flex-direction: column;
@@ -1180,16 +1180,23 @@ p.quick-contact i
   }
   .infrastructure-card .card-image {
     flex: 0 0 auto;
-    padding: 15px;
     border-radius: 50%;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    padding: 0;
+    width: 100%;
   }
   .infrastructure-card .card-content {
     padding: 20px;
   }
   .infrastructure-card .card-content h5 {
     font-size: 1.2rem;
+  }
+
+  .infrastructure-card .card-image img{
+     width: 100%;
+  }
+
+  .infrastructure-section .infrastructure-subtitle{
+    margin-bottom: 20px !important;
   }
   
 }
@@ -1207,9 +1214,8 @@ p.quick-contact i
   }
   .infrastructure-card .card-image {
     flex: 0 0 auto;
-    padding: 12px;
     border-radius: 50%;
-    margin-top: 10px;
+    
   }
   .infrastructure-card .card-content {
     padding: 18px;
@@ -1219,7 +1225,10 @@ p.quick-contact i
   }
   .infrastructure-card .card-content p {
     font-size: 0.9rem;
+    margin-bottom: 0;
   }
+
+  
   
 }
 
@@ -1235,7 +1244,7 @@ p.quick-contact i
     font-size: 0.85rem;
   }
   .infrastructure-card {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .infrastructure-card .card-content {
     padding: 15px;
@@ -1245,6 +1254,7 @@ p.quick-contact i
   }
   .infrastructure-card .card-content p {
     font-size: 0.85rem;
+    margin-bottom: 0;
   }
   
 }
@@ -1261,12 +1271,11 @@ p.quick-contact i
     font-size: 12px;
   }
   .infrastructure-card {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
   .infrastructure-card .card-image {
     flex: 0 0 120px;
-    padding: 10px;
-    margin-top: 20px;
+    
   }
   .infrastructure-card .card-content {
     padding: 10px;
@@ -1277,6 +1286,7 @@ p.quick-contact i
   .infrastructure-card .card-content p {
     font-size: 12px;
     text-align: center;
+    margin-bottom: 0;
   }
   
 }
