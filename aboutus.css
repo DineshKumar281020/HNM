@@ -494,6 +494,10 @@ header a:hover {
   margin-top: 85px;
 }
 
+.about-company .box-word{
+  margin-bottom: 0;
+}
+
 /*TIMELINE*/
 
 .timeline-section{

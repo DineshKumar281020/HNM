@@ -658,6 +658,10 @@ p.lead {
   margin-top: 24px;
 }
 
+.card-products{
+  padding: 16px 16px 0;
+}
+
 /*EXPORTS*/
 
 .exports-section {
@@ -708,7 +712,7 @@ p.lead {
 
 }
 
-.card-text {
+.exports-section .card-text {
   margin-bottom: 15px;
 }
 
@@ -2607,9 +2611,7 @@ p.quick-contact i
     font-size: 16px; /* Adjust font size */
   }
 
-  .service-card {
-    margin-bottom: 20px; /* Add margin between cards */
-  }
+  
 
   .card-img-top {
     height: 180px; /* Reduce image height */
