@@ -1591,6 +1591,9 @@ p.quick-contact i
   .timeline {
     max-width: 650px;
   }
+  .timeline-item::before{
+    left:17px;
+  }
 }
 
 /* For screens up to 992px */
@@ -1612,6 +1615,9 @@ p.quick-contact i
   .timeline-content {
     padding: 8px 18px;
   }
+  .timeline-item::before{
+    left: 15px;
+  }
 }
 
 /* For screens up to 768px */
@@ -1632,6 +1638,9 @@ p.quick-contact i
   }
   .timeline-content {
     padding: 6px 15px;
+  }
+  .timeline-item::before{
+    left: 12px;
   }
 }
 
@@ -1657,6 +1666,9 @@ p.quick-contact i
   .timeline-content {
     padding: 5px 10px;
     font-size: 14px;
+  }
+  .timeline-item::before{
+    left: 10px;
   }
 }
 
@@ -1688,6 +1700,10 @@ p.quick-contact i
 
   .timeline-subtitle{
     font-size: 12px;
+  }
+
+  .timeline-item::before{
+    left: 9px;
   }
 }
 
